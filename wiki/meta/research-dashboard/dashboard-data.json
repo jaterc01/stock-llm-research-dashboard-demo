@@ -1,19 +1,463 @@
 {
-  "generated_at": "2026-05-12T23:24:03+00:00",
+  "generated_at": "2026-05-12T23:53:04+00:00",
   "as_of_timezone": "Asia/Taipei",
   "point_in_time_boundary": "這個看板整理的是研究進度，不是投資建議；分數、題材、事件與報價只代表需要追蹤或查證的線索，不代表現在可以買。",
   "summary": {
-    "company_count": 32,
+    "company_count": 84,
+    "candidate_count": 84,
+    "dashboard_record_count": 84,
     "company_file_count": 32,
-    "needs_refresh_count": 13,
-    "unable_to_classify_price_count": 31,
+    "needs_refresh_count": 66,
+    "unable_to_classify_price_count": 83,
     "buy_now_gate_tickers": []
   },
   "companies": [
     {
+      "ticker": "0050.TW",
+      "company_name": "元大台灣50",
+      "source_company_name": "元大台灣50",
+      "asset_type": "ETF",
+      "market": "TW",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "0050.TW is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "official TER",
+        "official sector exposure",
+        "bid-ask spread",
+        "formal DCA/sell sizing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "0050.TW 元大台灣50 official TER",
+        "0050.TW 元大台灣50 official sector exposure",
+        "0050.TW 元大台灣50 bid-ask spread",
+        "0050.TW 元大台灣50 formal DCA/sell sizing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
+      "ticker": "0056.TW",
+      "company_name": "元大高股息",
+      "source_company_name": "元大高股息",
+      "asset_type": "ETF",
+      "market": "TW",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "0056.TW is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "ETF research page",
+        "tracking index",
+        "holdings",
+        "expense ratio"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "0056.TW 元大高股息 ETF research page",
+        "0056.TW 元大高股息 tracking index",
+        "0056.TW 元大高股息 holdings",
+        "0056.TW 元大高股息 expense ratio"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
+      "ticker": "006208.TW",
+      "company_name": "富邦台50",
+      "source_company_name": "富邦台50",
+      "asset_type": "ETF",
+      "market": "TW",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "006208.TW is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "official TER",
+        "official sector exposure",
+        "bid-ask spread",
+        "formal DCA/sell sizing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "006208.TW 富邦台50 official TER",
+        "006208.TW 富邦台50 official sector exposure",
+        "006208.TW 富邦台50 bid-ask spread",
+        "006208.TW 富邦台50 formal DCA/sell sizing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
+      "ticker": "00692.TW",
+      "company_name": "富邦公司治理",
+      "source_company_name": "富邦公司治理",
+      "asset_type": "ETF",
+      "market": "TW",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "00692.TW is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "ETF research page",
+        "tracking index",
+        "holdings",
+        "expense ratio"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "00692.TW 富邦公司治理 ETF research page",
+        "00692.TW 富邦公司治理 tracking index",
+        "00692.TW 富邦公司治理 holdings",
+        "00692.TW 富邦公司治理 expense ratio"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
+      "ticker": "00713.TW",
+      "company_name": "元大台灣高息低波",
+      "source_company_name": "元大台灣高息低波",
+      "asset_type": "ETF",
+      "market": "TW",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "00713.TW is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "ETF research page",
+        "tracking index",
+        "holdings",
+        "expense ratio"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "00713.TW 元大台灣高息低波 ETF research page",
+        "00713.TW 元大台灣高息低波 tracking index",
+        "00713.TW 元大台灣高息低波 holdings",
+        "00713.TW 元大台灣高息低波 expense ratio"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
+      "ticker": "00878.TW",
+      "company_name": "國泰永續高股息",
+      "source_company_name": "國泰永續高股息",
+      "asset_type": "ETF",
+      "market": "TW",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "00878.TW is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "ETF research page",
+        "tracking index",
+        "holdings",
+        "expense ratio"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "00878.TW 國泰永續高股息 ETF research page",
+        "00878.TW 國泰永續高股息 tracking index",
+        "00878.TW 國泰永續高股息 holdings",
+        "00878.TW 國泰永續高股息 expense ratio"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
+      "ticker": "00919.TW",
+      "company_name": "群益台灣精選高息",
+      "source_company_name": "群益台灣精選高息",
+      "asset_type": "ETF",
+      "market": "TW",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "00919.TW is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "ETF research page",
+        "tracking index",
+        "holdings",
+        "expense ratio"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "00919.TW 群益台灣精選高息 ETF research page",
+        "00919.TW 群益台灣精選高息 tracking index",
+        "00919.TW 群益台灣精選高息 holdings",
+        "00919.TW 群益台灣精選高息 expense ratio"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
+      "ticker": "00929.TW",
+      "company_name": "復華台灣科技優息",
+      "source_company_name": "復華台灣科技優息",
+      "asset_type": "ETF",
+      "market": "TW",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "00929.TW is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "ETF research page",
+        "tracking index",
+        "holdings",
+        "expense ratio"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "00929.TW 復華台灣科技優息 ETF research page",
+        "00929.TW 復華台灣科技優息 tracking index",
+        "00929.TW 復華台灣科技優息 holdings",
+        "00929.TW 復華台灣科技優息 expense ratio"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
+      "ticker": "00981A.TW",
+      "company_name": "主動統一台股增長",
+      "source_company_name": "主動統一台股增長",
+      "asset_type": "ETF",
+      "market": "TW",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "00981A.TW is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "official issuer holdings effective date",
+        "official total expense ratio",
+        "bid-ask spread",
+        "active-manager risk review"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "00981A.TW 主動統一台股增長 official issuer holdings effective date",
+        "00981A.TW 主動統一台股增長 official total expense ratio",
+        "00981A.TW 主動統一台股增長 bid-ask spread",
+        "00981A.TW 主動統一台股增長 active-manager risk review"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
       "ticker": "2308.TW",
       "company_name": "台達電 / Delta Electronics",
       "source_company_name": "台達電 / Delta Electronics",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [],
       "wiki_path": "wiki/companies/2308-tw-delta-electronics.md",
@@ -29,7 +473,9 @@
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [],
+      "display_warnings": [
+        "同一 ticker 有多個公司頁；公開看板合併顯示，來源頁包含 wiki/companies/2308-tw-delta.md。"
+      ],
       "deepsearch_tasks": [
         "2308.TW 台達電 / Delta Electronics latest official filing revenue valuation investor presentation"
       ],
@@ -38,6 +484,10 @@
         {
           "label": "Company page",
           "path": "wiki/companies/2308-tw-delta-electronics.md"
+        },
+        {
+          "label": "Duplicate company page",
+          "path": "wiki/companies/2308-tw-delta.md"
         }
       ],
       "buy_value_score": 24,
@@ -51,73 +501,10 @@
       }
     },
     {
-      "ticker": "2308.TW",
-      "company_name": "台達電 / Delta Electronics",
-      "source_company_name": "台達電 / Delta Electronics",
-      "market": "TW",
-      "themes": [],
-      "wiki_path": "wiki/companies/2308-tw-delta.md",
-      "as_of": "2026-05-08",
-      "data_status": "partial",
-      "decision_gate": "needs_refresh_before_decision",
-      "actionability": "wait_for_buy_zone",
-      "decision_usefulness": "watch",
-      "research_summary": "This is the canonical company page for 2308.TW. This page is research-only and not a buy recommendation.",
-      "evidence_summary": [
-        "[2308-delta-refresh-20260508-march-revenue] TWSE monthly revenue open data reports Delta 2026-03 monthly revenue at NT$59,779,988 thousand, +37.60% YoY and +19.81% MoM.",
-        "[2308-delta-refresh-20260508-q1-revenue] MOPS 115Q1 consolidated statement reports Delta 2026Q1 revenue at NT$159,352,652 thousand.",
-        "[2308-delta-refresh-20260508-q1-gpm] Delta 2026Q1 gross margin calculates to 37.0% from MOPS revenue and gross profit.",
-        "[2308-delta-refresh-20260508-q1-opm] Delta 2026Q1 operating margin calculates to 17.83% from MOPS revenue and operating income.",
-        "[2308-delta-refresh-20260508-q1-eps] MOPS 115Q1 consolidated statement reports Delta 2026Q1 basic EPS at NT$7.91."
-      ],
-      "risk_summary": [],
-      "valuation": {
-        "buy_zone_high": null,
-        "valid": false
-      },
-      "technical": {},
-      "chip": {},
-      "data_gaps": [
-        "[2308-delta-refresh-20260508-gap-01] data center power / HVDC revenue contribution unknown",
-        "[2308-delta-refresh-20260508-gap-02] AI data center order / backlog unknown",
-        "[2308-delta-refresh-20260508-gap-03] customer concentration unknown",
-        "[2308-delta-refresh-20260508-gap-04] segment margin for data center power / infrastructure unknown",
-        "[2308-delta-refresh-20260508-gap-05] inventory / working capital detailed trend requires balance sheet / cash-flow deeper parsing",
-        "[2308-delta-refresh-20260508-gap-06] forward EPS source unknown / unreliable without model provenance",
-        "[2308-delta-refresh-20260508-gap-07] buy zone / sell plan incomplete",
-        "[2308-delta-refresh-20260508-gap-08] risk-budget-derived position sizing incomplete",
-        "[2308-delta-refresh-20260508-gap-09] multi-day chip / margin / short-selling trend incomplete",
-        "[2308-delta-refresh-20260508-gap-10] 2026-04 monthly revenue remains unconfirmed after 2026-05-08 recheck; TWSE open data still returns 11503 / 2026-03 as latest row"
-      ],
-      "display_warnings": [],
-      "deepsearch_tasks": [
-        "2308.TW 台達電 / Delta Electronics [2308-delta-refresh-20260508-gap-01] data center power / HVDC revenue contribution unknown",
-        "2308.TW 台達電 / Delta Electronics [2308-delta-refresh-20260508-gap-02] AI data center order / backlog unknown",
-        "2308.TW 台達電 / Delta Electronics [2308-delta-refresh-20260508-gap-03] customer concentration unknown",
-        "2308.TW 台達電 / Delta Electronics [2308-delta-refresh-20260508-gap-04] segment margin for data center power / infrastructure unknown",
-        "2308.TW 台達電 / Delta Electronics [2308-delta-refresh-20260508-gap-05] inventory / working capital detailed trend requires balance sheet / cash-flow deeper parsing"
-      ],
-      "next_review_triggers": [],
-      "linked_documents": [
-        {
-          "label": "Company page",
-          "path": "wiki/companies/2308-tw-delta.md"
-        }
-      ],
-      "buy_value_score": 19,
-      "score_confidence": "low",
-      "price_position_snapshot": "unable_to_classify_price",
-      "score_components": {
-        "research_quality": 45,
-        "freshness": 4,
-        "valuation_attractiveness": 0,
-        "risk_penalty": 30
-      }
-    },
-    {
       "ticker": "2317.TW",
       "company_name": "2317.TW",
       "source_company_name": "2317.TW",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [],
       "wiki_path": "wiki/companies/2317-tw-hon-hai.md",
@@ -167,6 +554,7 @@
       "ticker": "2324.TW",
       "company_name": "2324.TW 仁寶",
       "source_company_name": "2324.TW 仁寶",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [
         "stock-llm-wiki",
@@ -227,9 +615,56 @@
       }
     },
     {
+      "ticker": "2327.TW",
+      "company_name": "國巨",
+      "source_company_name": "國巨",
+      "asset_type": "stock",
+      "market": "TW",
+      "themes": [
+        "passive components, MLCC"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "watch",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "2327.TW is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "2327.TW 國巨 company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 30,
+      "buy_value_score": 30,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
       "ticker": "2330.TW",
       "company_name": "台積電 / Taiwan Semiconductor Manufacturing Company",
       "source_company_name": "台積電 / Taiwan Semiconductor Manufacturing Company",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [
         "stock-llm-wiki",
@@ -286,6 +721,7 @@
       "ticker": "2337.TW",
       "company_name": "2337.TW 旺宏",
       "source_company_name": "2337.TW 旺宏",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [
         "stock-llm-wiki",
@@ -330,6 +766,7 @@
       "ticker": "2344.TW",
       "company_name": "2344.TW 華邦電",
       "source_company_name": "2344.TW 華邦電",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [
         "stock-llm-wiki",
@@ -371,9 +808,102 @@
       }
     },
     {
+      "ticker": "2345.TW",
+      "company_name": "智邦",
+      "source_company_name": "智邦",
+      "asset_type": "stock",
+      "market": "TW",
+      "themes": [
+        "networking"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "2345.TW is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "2345.TW 智邦 company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 36,
+      "buy_value_score": 36,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "2379.TW",
+      "company_name": "瑞昱",
+      "source_company_name": "瑞昱",
+      "asset_type": "stock",
+      "market": "TW",
+      "themes": [
+        "consumer IC, PC / networking IC, IC design"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "watch",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "2379.TW is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "2379.TW 瑞昱 company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 29,
+      "buy_value_score": 29,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
       "ticker": "2382.TW",
       "company_name": "廣達 / Quanta Computer",
       "source_company_name": "廣達 / Quanta Computer",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [
         "stock-llm-wiki",
@@ -420,9 +950,56 @@
       }
     },
     {
+      "ticker": "2401.TW",
+      "company_name": "凌陽",
+      "source_company_name": "凌陽",
+      "asset_type": "stock",
+      "market": "TW",
+      "themes": [
+        "consumer IC, IC design"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "watch",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "2401.TW is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "2401.TW 凌陽 company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 29,
+      "buy_value_score": 29,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
       "ticker": "2408.TW",
       "company_name": "2408.TW 南亞科",
       "source_company_name": "2408.TW 南亞科",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [
         "stock-llm-wiki",
@@ -467,6 +1044,7 @@
       "ticker": "2412.TW",
       "company_name": "中華電信 / Chunghwa Telecom",
       "source_company_name": "中華電信 / Chunghwa Telecom",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [],
       "wiki_path": "wiki/companies/2412-tw-chunghwa-telecom.md",
@@ -532,6 +1110,7 @@
       "ticker": "2421.TW",
       "company_name": "建準 SUNON",
       "source_company_name": "建準 SUNON",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [
         "stock",
@@ -588,6 +1167,7 @@
       "ticker": "2454.TW",
       "company_name": "2454.TW 聯發科 MediaTek",
       "source_company_name": "2454.TW 聯發科 MediaTek",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [
         "stock-llm-wiki",
@@ -649,9 +1229,102 @@
       }
     },
     {
+      "ticker": "2472.TW",
+      "company_name": "立隆電",
+      "source_company_name": "立隆電",
+      "asset_type": "stock",
+      "market": "TW",
+      "themes": [
+        "passive components, aluminum capacitor"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "watch",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "2472.TW is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "2472.TW 立隆電 company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 30,
+      "buy_value_score": 30,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "2492.TW",
+      "company_name": "華新科",
+      "source_company_name": "華新科",
+      "asset_type": "stock",
+      "market": "TW",
+      "themes": [
+        "passive components, MLCC"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "watch",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "2492.TW is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "2492.TW 華新科 company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 30,
+      "buy_value_score": 30,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
       "ticker": "2548.TW",
       "company_name": "2548.TW 華固",
       "source_company_name": "2548.TW 華固",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [],
       "wiki_path": "wiki/companies/2548-tw-huaku.md",
@@ -695,9 +1368,286 @@
       }
     },
     {
+      "ticker": "2881.TW",
+      "company_name": "富邦金 / Fubon Financial",
+      "source_company_name": "富邦金 / Fubon Financial",
+      "asset_type": "stock",
+      "market": "TW",
+      "themes": [
+        "financials, insurance, banking"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "2881.TW is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "2881.TW 富邦金 / Fubon Financial company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 25,
+      "buy_value_score": 25,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "2882.TW",
+      "company_name": "國泰金 / Cathay Financial",
+      "source_company_name": "國泰金 / Cathay Financial",
+      "asset_type": "stock",
+      "market": "TW",
+      "themes": [
+        "financials, insurance, banking"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "2882.TW is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "2882.TW 國泰金 / Cathay Financial company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 25,
+      "buy_value_score": 25,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "2884.TW",
+      "company_name": "玉山金 / E.SUN Financial",
+      "source_company_name": "玉山金 / E.SUN Financial",
+      "asset_type": "stock",
+      "market": "TW",
+      "themes": [
+        "financials, banking"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "2884.TW is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "2884.TW 玉山金 / E.SUN Financial company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 25,
+      "buy_value_score": 25,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "2885.TW",
+      "company_name": "元大金 / Yuanta Financial",
+      "source_company_name": "元大金 / Yuanta Financial",
+      "asset_type": "stock",
+      "market": "TW",
+      "themes": [
+        "financials, securities, banking"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "2885.TW is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "2885.TW 元大金 / Yuanta Financial company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 25,
+      "buy_value_score": 25,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "2886.TW",
+      "company_name": "兆豐金 / Mega Financial",
+      "source_company_name": "兆豐金 / Mega Financial",
+      "asset_type": "stock",
+      "market": "TW",
+      "themes": [
+        "financials, banking"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "2886.TW is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "2886.TW 兆豐金 / Mega Financial company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 25,
+      "buy_value_score": 25,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "2891.TW",
+      "company_name": "中信金 / CTBC Financial",
+      "source_company_name": "中信金 / CTBC Financial",
+      "asset_type": "stock",
+      "market": "TW",
+      "themes": [
+        "financials, banking, insurance"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "2891.TW is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "2891.TW 中信金 / CTBC Financial company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 25,
+      "buy_value_score": 25,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
       "ticker": "3017.TW",
       "company_name": "3017.TW 奇鋐 / AVC",
       "source_company_name": "3017.TW 奇鋐 / AVC",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [
         "stock-llm-wiki",
@@ -770,6 +1720,7 @@
       "ticker": "3231.TW",
       "company_name": "3231.TW 緯創",
       "source_company_name": "3231.TW 緯創",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [
         "stock-llm-wiki",
@@ -814,6 +1765,7 @@
       "ticker": "3260.TW",
       "company_name": "3260.TW 威剛",
       "source_company_name": "3260.TW 威剛",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [
         "stock-llm-wiki",
@@ -858,6 +1810,7 @@
       "ticker": "3324.TW",
       "company_name": "Auras / 雙鴻",
       "source_company_name": "Auras / 雙鴻",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [],
       "wiki_path": "wiki/companies/3324-tw-auras.md",
@@ -922,9 +1875,56 @@
       }
     },
     {
+      "ticker": "3711.TW",
+      "company_name": "日月光投控",
+      "source_company_name": "日月光投控",
+      "asset_type": "stock",
+      "market": "TW",
+      "themes": [
+        "advanced packaging"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "3711.TW is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "3711.TW 日月光投控 company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 36,
+      "buy_value_score": 36,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
       "ticker": "4967.TW",
       "company_name": "4967.TW 十銓",
       "source_company_name": "4967.TW 十銓",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [
         "stock-llm-wiki",
@@ -966,9 +1966,194 @@
       }
     },
     {
+      "ticker": "5347.TWO",
+      "company_name": "世界先進",
+      "source_company_name": "世界先進",
+      "asset_type": "stock",
+      "market": "TW",
+      "themes": [
+        "mature node, semiconductor foundry, consumer / industrial / auto"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "watch",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "5347.TWO is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "5347.TWO 世界先進 company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 40,
+      "buy_value_score": 40,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "5880.TW",
+      "company_name": "合庫金 / Taiwan Cooperative Financial",
+      "source_company_name": "合庫金 / Taiwan Cooperative Financial",
+      "asset_type": "stock",
+      "market": "TW",
+      "themes": [
+        "financials, banking"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "5880.TW is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "5880.TW 合庫金 / Taiwan Cooperative Financial company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 25,
+      "buy_value_score": 25,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "6449.TW",
+      "company_name": "鈺邦",
+      "source_company_name": "鈺邦",
+      "asset_type": "stock",
+      "market": "TW",
+      "themes": [
+        "passive components, capacitor"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "watch",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "6449.TW is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "6449.TW 鈺邦 company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 30,
+      "buy_value_score": 30,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "6488.TWO",
+      "company_name": "環球晶",
+      "source_company_name": "環球晶",
+      "asset_type": "stock",
+      "market": "TW",
+      "themes": [
+        "silicon wafer, mature node, semiconductor materials"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "watch",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "6488.TWO is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "6488.TWO 環球晶 company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 40,
+      "buy_value_score": 40,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
       "ticker": "6669.TW",
       "company_name": "Wiwynn / 緯穎",
       "source_company_name": "Wiwynn / 緯穎",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [
         "stock-llm-wiki",
@@ -1052,6 +2237,7 @@
       "ticker": "6770.TW",
       "company_name": "力積電 / Powerchip Semiconductor Manufacturing Corp.",
       "source_company_name": "力積電 / Powerchip Semiconductor Manufacturing Corp.",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [
         "stock-llm-wiki",
@@ -1096,9 +2282,102 @@
       }
     },
     {
+      "ticker": "6996.T",
+      "company_name": "Nichicon",
+      "source_company_name": "Nichicon",
+      "asset_type": "stock",
+      "market": "JP",
+      "themes": [
+        "passive components, capacitor, Japan electronics"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "watch",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "6996.T is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "6996.T Nichicon company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 30,
+      "buy_value_score": 30,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "6997.T",
+      "company_name": "Nippon Chemi-Con",
+      "source_company_name": "Nippon Chemi-Con",
+      "asset_type": "stock",
+      "market": "JP",
+      "themes": [
+        "passive components, aluminum capacitor, Japan electronics"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "watch",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "6997.T is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "6997.T Nippon Chemi-Con company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 30,
+      "buy_value_score": 30,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
       "ticker": "8299.TW",
       "company_name": "8299.TW 群聯",
       "source_company_name": "8299.TW 群聯",
+      "asset_type": "stock",
       "market": "TW",
       "themes": [
         "stock-llm-wiki",
@@ -1143,6 +2422,7 @@
       "ticker": "AAPL",
       "company_name": "AAPL Apple",
       "source_company_name": "AAPL Apple",
+      "asset_type": "stock",
       "market": "US",
       "themes": [],
       "wiki_path": "wiki/companies/AAPL-us-apple.md",
@@ -1189,6 +2469,7 @@
       "ticker": "AEP",
       "company_name": "American Electric Power",
       "source_company_name": "American Electric Power",
+      "asset_type": "stock",
       "market": "US",
       "themes": [
         "stock",
@@ -1233,6 +2514,7 @@
       "ticker": "AMD",
       "company_name": "AMD Advanced Micro Devices",
       "source_company_name": "AMD Advanced Micro Devices",
+      "asset_type": "stock",
       "market": "US",
       "themes": [],
       "wiki_path": "wiki/companies/AMD-us-advanced-micro-devices.md",
@@ -1276,9 +2558,56 @@
       }
     },
     {
+      "ticker": "ANET",
+      "company_name": "Arista Networks",
+      "source_company_name": "Arista Networks",
+      "asset_type": "stock",
+      "market": "US",
+      "themes": [
+        "AI networking"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "ANET is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "ANET Arista Networks company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 51,
+      "buy_value_score": 51,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
       "ticker": "ARM",
       "company_name": "ARM Arm Holdings",
       "source_company_name": "ARM Arm Holdings",
+      "asset_type": "stock",
       "market": "US",
       "themes": [],
       "wiki_path": "wiki/companies/ARM-us-arm-holdings.md",
@@ -1325,6 +2654,7 @@
       "ticker": "AVGO",
       "company_name": "AVGO Broadcom",
       "source_company_name": "AVGO Broadcom",
+      "asset_type": "stock",
       "market": "US",
       "themes": [],
       "wiki_path": "wiki/companies/AVGO-us-broadcom.md",
@@ -1368,9 +2698,194 @@
       }
     },
     {
+      "ticker": "DELL",
+      "company_name": "Dell",
+      "source_company_name": "Dell",
+      "asset_type": "stock",
+      "market": "US",
+      "themes": [
+        "AI server"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "DELL is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "DELL Dell company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 51,
+      "buy_value_score": 51,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "ETN",
+      "company_name": "Eaton",
+      "source_company_name": "Eaton",
+      "asset_type": "stock",
+      "market": "US",
+      "themes": [
+        "power equipment"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "ETN is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "ETN Eaton company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 46,
+      "buy_value_score": 46,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "GFS",
+      "company_name": "GlobalFoundries",
+      "source_company_name": "GlobalFoundries",
+      "asset_type": "stock",
+      "market": "US",
+      "themes": [
+        "mature node, semiconductor foundry, consumer / industrial / auto"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "watch",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "GFS is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "GFS GlobalFoundries company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 40,
+      "buy_value_score": 40,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "GLW",
+      "company_name": "Corning",
+      "source_company_name": "Corning",
+      "asset_type": "stock",
+      "market": "US",
+      "themes": [
+        "fiber/optical"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "GLW is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "GLW Corning company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 36,
+      "buy_value_score": 36,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
       "ticker": "GOOGL",
       "company_name": "GOOGL Alphabet",
       "source_company_name": "GOOGL Alphabet",
+      "asset_type": "stock",
       "market": "US",
       "themes": [],
       "wiki_path": "wiki/companies/GOOGL-us-alphabet.md",
@@ -1417,6 +2932,7 @@
       "ticker": "HUT",
       "company_name": "Hut 8 Corp.",
       "source_company_name": "Hut 8 Corp.",
+      "asset_type": "stock",
       "market": "US",
       "themes": [
         "stock",
@@ -1458,9 +2974,151 @@
       }
     },
     {
+      "ticker": "INTC",
+      "company_name": "Intel",
+      "source_company_name": "Intel",
+      "asset_type": "stock",
+      "market": "US",
+      "themes": [
+        "CPU, semiconductor, AI infrastructure second-order"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "INTC is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "INTC Intel company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 45,
+      "buy_value_score": 45,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "IREN",
+      "company_name": "IREN",
+      "source_company_name": "IREN",
+      "asset_type": "stock",
+      "market": "US",
+      "themes": [
+        "AI data center"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "IREN is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "IREN IREN company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 54,
+      "buy_value_score": 54,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "IVV",
+      "company_name": "iShares Core S&P 500 ETF",
+      "source_company_name": "iShares Core S&P 500 ETF",
+      "asset_type": "ETF",
+      "market": "US",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "IVV is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "ETF research page",
+        "tracking index",
+        "holdings",
+        "expense ratio"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "IVV iShares Core S&P 500 ETF ETF research page",
+        "IVV iShares Core S&P 500 ETF tracking index",
+        "IVV iShares Core S&P 500 ETF holdings",
+        "IVV iShares Core S&P 500 ETF expense ratio"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
       "ticker": "J",
       "company_name": "Jacobs Solutions",
       "source_company_name": "Jacobs Solutions",
+      "asset_type": "stock",
       "market": "US",
       "themes": [
         "stock",
@@ -1502,9 +3160,56 @@
       }
     },
     {
+      "ticker": "MRVL",
+      "company_name": "Marvell",
+      "source_company_name": "Marvell",
+      "asset_type": "stock",
+      "market": "US",
+      "themes": [
+        "AI networking/ASIC"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "MRVL is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "MRVL Marvell company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 51,
+      "buy_value_score": 51,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
       "ticker": "MSFT",
       "company_name": "MSFT Microsoft",
       "source_company_name": "MSFT Microsoft",
+      "asset_type": "stock",
       "market": "US",
       "themes": [],
       "wiki_path": "wiki/companies/MSFT-us-microsoft.md",
@@ -1548,9 +3253,102 @@
       }
     },
     {
+      "ticker": "MU",
+      "company_name": "Micron",
+      "source_company_name": "Micron",
+      "asset_type": "stock",
+      "market": "US",
+      "themes": [
+        "HBM/memory"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "MU is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "MU Micron company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 36,
+      "buy_value_score": 36,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "NET",
+      "company_name": "Cloudflare",
+      "source_company_name": "Cloudflare",
+      "asset_type": "stock",
+      "market": "US",
+      "themes": [
+        "software, AI infrastructure edge, high-multiple selloff"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "watch",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "NET is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "NET Cloudflare company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 45,
+      "buy_value_score": 45,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
       "ticker": "NVDA",
       "company_name": "NVIDIA",
       "source_company_name": "NVIDIA",
+      "asset_type": "stock",
       "market": "US",
       "themes": [
         "stock",
@@ -1616,9 +3414,540 @@
       }
     },
     {
+      "ticker": "PWR",
+      "company_name": "Quanta Services",
+      "source_company_name": "Quanta Services",
+      "asset_type": "stock",
+      "market": "US",
+      "themes": [
+        "grid construction"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "PWR is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "PWR Quanta Services company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 36,
+      "buy_value_score": 36,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "QQQ",
+      "company_name": "Invesco QQQ Trust",
+      "source_company_name": "Invesco QQQ Trust",
+      "asset_type": "ETF",
+      "market": "US",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "QQQ is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "ETF research page",
+        "tracking index",
+        "holdings",
+        "expense ratio"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "QQQ Invesco QQQ Trust ETF research page",
+        "QQQ Invesco QQQ Trust tracking index",
+        "QQQ Invesco QQQ Trust holdings",
+        "QQQ Invesco QQQ Trust expense ratio"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
+      "ticker": "QQQM",
+      "company_name": "Invesco NASDAQ 100 ETF",
+      "source_company_name": "Invesco NASDAQ 100 ETF",
+      "asset_type": "ETF",
+      "market": "US",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "QQQM is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "ETF research page",
+        "tracking index",
+        "holdings",
+        "expense ratio"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "QQQM Invesco NASDAQ 100 ETF ETF research page",
+        "QQQM Invesco NASDAQ 100 ETF tracking index",
+        "QQQM Invesco NASDAQ 100 ETF holdings",
+        "QQQM Invesco NASDAQ 100 ETF expense ratio"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
+      "ticker": "SCHD",
+      "company_name": "Schwab US Dividend Equity ETF",
+      "source_company_name": "Schwab US Dividend Equity ETF",
+      "asset_type": "ETF",
+      "market": "US",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "SCHD is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "ETF research page",
+        "tracking index",
+        "holdings",
+        "expense ratio"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "SCHD Schwab US Dividend Equity ETF ETF research page",
+        "SCHD Schwab US Dividend Equity ETF tracking index",
+        "SCHD Schwab US Dividend Equity ETF holdings",
+        "SCHD Schwab US Dividend Equity ETF expense ratio"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
+      "ticker": "SMCI",
+      "company_name": "Super Micro Computer",
+      "source_company_name": "Super Micro Computer",
+      "asset_type": "stock",
+      "market": "US",
+      "themes": [
+        "AI server"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "SMCI is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "SMCI Super Micro Computer company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 51,
+      "buy_value_score": 51,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "SMH",
+      "company_name": "VanEck Semiconductor ETF",
+      "source_company_name": "VanEck Semiconductor ETF",
+      "asset_type": "ETF",
+      "market": "US",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "SMH is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "ETF research page",
+        "tracking index",
+        "holdings",
+        "expense ratio"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "SMH VanEck Semiconductor ETF ETF research page",
+        "SMH VanEck Semiconductor ETF tracking index",
+        "SMH VanEck Semiconductor ETF holdings",
+        "SMH VanEck Semiconductor ETF expense ratio"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
+      "ticker": "SOXX",
+      "company_name": "iShares Semiconductor ETF",
+      "source_company_name": "iShares Semiconductor ETF",
+      "asset_type": "ETF",
+      "market": "US",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "SOXX is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "ETF research page",
+        "tracking index",
+        "holdings",
+        "expense ratio"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "SOXX iShares Semiconductor ETF ETF research page",
+        "SOXX iShares Semiconductor ETF tracking index",
+        "SOXX iShares Semiconductor ETF holdings",
+        "SOXX iShares Semiconductor ETF expense ratio"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
+      "ticker": "SPY",
+      "company_name": "SPDR S&P 500 ETF",
+      "source_company_name": "SPDR S&P 500 ETF",
+      "asset_type": "ETF",
+      "market": "US",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "SPY is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "ETF research page",
+        "tracking index",
+        "holdings",
+        "expense ratio"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "SPY SPDR S&P 500 ETF ETF research page",
+        "SPY SPDR S&P 500 ETF tracking index",
+        "SPY SPDR S&P 500 ETF holdings",
+        "SPY SPDR S&P 500 ETF expense ratio"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
+      "ticker": "VGT",
+      "company_name": "Vanguard Information Technology ETF",
+      "source_company_name": "Vanguard Information Technology ETF",
+      "asset_type": "ETF",
+      "market": "US",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "VGT is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "ETF research page",
+        "tracking index",
+        "holdings",
+        "expense ratio"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "VGT Vanguard Information Technology ETF ETF research page",
+        "VGT Vanguard Information Technology ETF tracking index",
+        "VGT Vanguard Information Technology ETF holdings",
+        "VGT Vanguard Information Technology ETF expense ratio"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
+      "ticker": "VOO",
+      "company_name": "Vanguard S&P 500 ETF",
+      "source_company_name": "Vanguard S&P 500 ETF",
+      "asset_type": "ETF",
+      "market": "US",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "VOO is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "ETF research page",
+        "tracking index",
+        "holdings",
+        "expense ratio"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "VOO Vanguard S&P 500 ETF ETF research page",
+        "VOO Vanguard S&P 500 ETF tracking index",
+        "VOO Vanguard S&P 500 ETF holdings",
+        "VOO Vanguard S&P 500 ETF expense ratio"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
+      "ticker": "VPG",
+      "company_name": "Vishay Precision Group",
+      "source_company_name": "Vishay Precision Group",
+      "asset_type": "stock",
+      "market": "US",
+      "themes": [
+        "passive components adjacent, precision sensors, resistive foil technology"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "watch",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "VPG is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "VPG Vishay Precision Group company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 30,
+      "buy_value_score": 30,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
       "ticker": "VRT",
       "company_name": "Vertiv Holdings Co",
       "source_company_name": "Vertiv Holdings Co",
+      "asset_type": "stock",
       "market": "US",
       "themes": [
         "stock",
@@ -1684,6 +4013,150 @@
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 30
+      }
+    },
+    {
+      "ticker": "VSH",
+      "company_name": "Vishay Intertechnology",
+      "source_company_name": "Vishay Intertechnology",
+      "asset_type": "stock",
+      "market": "US",
+      "themes": [
+        "passive components, resistor / capacitor / discrete components"
+      ],
+      "wiki_path": "wiki/universe/stock-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "watch",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "VSH is present in the candidate universe as stock; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "company-level research page missing"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "VSH Vishay Intertechnology company-level research page missing"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/stock-universe-dashboard.md"
+        }
+      ],
+      "candidate_score": 30,
+      "buy_value_score": 30,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 6
+      }
+    },
+    {
+      "ticker": "VTI",
+      "company_name": "Vanguard Total Stock Market ETF",
+      "source_company_name": "Vanguard Total Stock Market ETF",
+      "asset_type": "ETF",
+      "market": "US",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "VTI is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "ETF research page",
+        "tracking index",
+        "holdings",
+        "expense ratio"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "VTI Vanguard Total Stock Market ETF ETF research page",
+        "VTI Vanguard Total Stock Market ETF tracking index",
+        "VTI Vanguard Total Stock Market ETF holdings",
+        "VTI Vanguard Total Stock Market ETF expense ratio"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
+      }
+    },
+    {
+      "ticker": "XLK",
+      "company_name": "Technology Select Sector SPDR Fund",
+      "source_company_name": "Technology Select Sector SPDR Fund",
+      "asset_type": "ETF",
+      "market": "US",
+      "themes": [],
+      "wiki_path": "wiki/universe/candidate-universe-dashboard.md",
+      "as_of": "",
+      "data_status": "needs_refresh",
+      "decision_gate": "needs_refresh_before_decision",
+      "actionability": "needs_refresh_before_decision",
+      "decision_usefulness": "universe_input_only",
+      "research_summary": "XLK is present in the candidate universe as ETF; this is a research queue item, not a buy signal.",
+      "evidence_summary": [],
+      "risk_summary": [],
+      "valuation": {},
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "ETF research page",
+        "tracking index",
+        "holdings",
+        "expense ratio"
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "XLK Technology Select Sector SPDR Fund ETF research page",
+        "XLK Technology Select Sector SPDR Fund tracking index",
+        "XLK Technology Select Sector SPDR Fund holdings",
+        "XLK Technology Select Sector SPDR Fund expense ratio"
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Candidate universe source",
+          "path": "wiki/universe/candidate-universe-dashboard.md"
+        }
+      ],
+      "buy_value_score": 6,
+      "score_confidence": "low",
+      "price_position_snapshot": "unable_to_classify_price",
+      "score_components": {
+        "research_quality": 20,
+        "freshness": 10,
+        "valuation_attractiveness": 0,
+        "risk_penalty": 24
       }
     }
   ]
