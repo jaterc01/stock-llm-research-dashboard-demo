@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-12T23:01:38+00:00",
+  "generated_at": "2026-05-12T23:06:56+00:00",
   "as_of_timezone": "Asia/Taipei",
-  "point_in_time_boundary": "Quote helper 僅是瀏覽器 overlay；dashboard-data.json 是 point-in-time Wiki/claims view，不回寫來源事實。",
+  "point_in_time_boundary": "這個看板整理的是研究進度，不是投資建議；分數、題材、事件與報價只代表需要追蹤或查證的線索，不代表現在可以買。",
   "summary": {
     "company_count": 32,
     "company_file_count": 32,
