@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-13T13:41:55+00:00",
+  "generated_at": "2026-05-13T14:22:15+00:00",
   "as_of_timezone": "Asia/Taipei",
   "point_in_time_boundary": "本看板是 point-in-time 研究快照；候選標的不等於買進清單。Yahoo chart 只支撐價格位置，營收基礎估價必須另有官方營收與股數來源。",
   "summary": {
@@ -15,8 +15,8 @@
     "missing_candidate_page_tickers": [],
     "needs_refresh_count": 20,
     "market_position_count": 64,
-    "revenue_valuation_available_count": 45,
-    "revenue_valuation_unavailable_count": 19,
+    "revenue_valuation_available_count": 64,
+    "revenue_valuation_unavailable_count": 0,
     "range_only_valuation_points_count": 0,
     "range_only_valuation_points_tickers": [],
     "unable_to_classify_price_count": 20,
@@ -853,7 +853,7 @@
       "wiki_path": "wiki/companies/2317-tw-hon-hai.md",
       "as_of": "2026-05-09",
       "data_status": "company_level_refresh_partial",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "universe_input_only",
       "research_summary": "2317 已補成 company-level refresh 的初版：AI server / cloud networking exposure 有官方管理層證據，營收與 FY2025 財務也已補齊；但 2026Q1 financials、AI server backlog、正式 buy zone、sell plan 與 chip / flow 仍不足，所以不能從 AI server 題材直接升級成 `buy_now`。",
@@ -868,10 +868,17 @@
       "valuation": {
         "buy_zone_low": 5.0,
         "buy_zone_high": 2026.0,
-        "price_as_of": "2026-05-12",
+        "price_as_of": "2026-05-08",
         "valid": true,
-        "as_of": "2026-05-09",
-        "valid_until": "2026-05-15",
+        "revenue_value": 8885065317000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 14003403199.0,
+        "as_of": "2026-04-30",
+        "revenue_as_of": "2026-04-30",
+        "valid_until": "2026-06-12",
+        "ps_low": 2.265,
+        "ps_high": 3.775,
         "base_low": 210.0,
         "base_high": 288.0,
         "current_price": 250.0,
@@ -879,12 +886,28 @@
         "price_range_high": 262.0,
         "basis_type": "formal_valuation_model",
         "basis": [
+          "TWSE/TPEX open data supports 2317.TW latest YTD monthly revenue and issued shares for public-dashboard revenue-based valuation. Revenue is annualized from official 2026-04 cumulative monthly revenue; this is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Electronics (General): sector P/S 3.02; display band is 0.75x-1.25x of the benchmark, or 2.265-3.775. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "2317 closed at NT$250.00 with trailing P/E 18.44, P/B 1.97, and dividend yield 2.88% on 2026-05-08.",
-          "Hon Hai reported FY2025 EPS of NT$13.61 and operating margin of 3.20%.",
-          "Preliminary scenario frame indicates bear NT$144-182, base NT$210-288, and bull NT$324-484, but no approved buy zone is established.",
-          "Recent close price range basis: current price TWD 250 on 2026-05-12; one-year close price range is TWD 151.5-262; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
+          "Hon Hai reported FY2025 EPS of NT$13.61 and operating margin of 3.20%."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2317-tw-twse-tpex-monthly-ytd-revenue-shares",
+            "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+            "source_type": "official_exchange_monthly_revenue_open_data",
+            "source_name": "TWSE/TPEX monthly revenue open data",
+            "as_of": "2026-04-30",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2317-tw-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "2317-valuation-20260509-price-pe-pb",
             "source_url": "https://www.twse.com.tw/exchangeReport/BWIBBU_d?response=json&date=20260508&selectType=ALL",
@@ -949,7 +972,7 @@
       "market_price": {
         "price": 250.0,
         "currency": "TWD",
-        "price_as_of": "2026-05-12",
+        "price_as_of": "2026-05-08",
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
@@ -959,30 +982,38 @@
         "range_low": 151.5,
         "range_high": 262.0,
         "range_start": "",
-        "range_end": "2026-05-12",
-        "price_as_of": "2026-05-12",
+        "range_end": "2026-05-08",
+        "price_as_of": "2026-05-08",
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart",
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間"
-        ],
-        "as_of": "2026-05-09"
+        "available": true,
+        "status": "available",
+        "revenue_value": 8885065317000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 14003403199.0,
+        "revenue_per_share": 634.4932864344357,
+        "current_price": 250.0,
+        "price_to_sales": 0.39401520133473206,
+        "ps_low": 2.265,
+        "ps_high": 3.775,
+        "fair_value_low": 1437.127293773997,
+        "fair_value_high": 2395.2121562899947,
+        "currency": "TWD",
+        "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+        "source_type": "official_exchange_monthly_revenue_open_data",
+        "as_of": "2026-04-30"
       },
       "buy_value_score": 54,
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 39,
+        "research_quality": 45,
         "freshness": 4,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 25,
         "risk_penalty": 0
       },
       "candidate_score": 54
@@ -1003,7 +1034,7 @@
       "wiki_path": "wiki/companies/2324-tw-compal.md",
       "as_of": "2026-05-07",
       "data_status": "needs_refresh",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "watch",
       "research_summary": "Relationship graph does not upgrade actionability. Current actionability: `needs_refresh_before_decision`.",
@@ -1017,17 +1048,42 @@
         "buy_zone_low": 5.0,
         "buy_zone_high": 2026.0,
         "valid": false,
-        "current_price": 29.9,
+        "revenue_value": 819848391000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 4407146625.0,
+        "as_of": "2026-04-30",
         "price_as_of": "2026-05-12",
+        "revenue_as_of": "2026-04-30",
+        "valid_until": "2026-06-12",
+        "ps_low": 4.8225,
+        "ps_high": 8.0375,
+        "current_price": 29.9,
         "price_range_low": 26.8,
         "price_range_high": 36.4,
         "basis_type": "market_position_snapshot",
-        "as_of": "2026-05-12",
-        "valid_until": "2026-05-20",
         "basis": [
+          "TWSE/TPEX open data supports 2324.TW latest YTD monthly revenue and issued shares for public-dashboard revenue-based valuation. Revenue is annualized from official 2026-04 cumulative monthly revenue; this is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Computers/Peripherals: sector P/S 6.43; display band is 0.75x-1.25x of the benchmark, or 4.8225-8.0375. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "Recent close price range basis: current price TWD 29.9 on 2026-05-12; one-year close price range is TWD 26.8-36.4; price position is low_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2324-tw-twse-tpex-monthly-ytd-revenue-shares",
+            "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+            "source_type": "official_exchange_monthly_revenue_open_data",
+            "source_name": "TWSE/TPEX monthly revenue open data",
+            "as_of": "2026-04-30",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2324-tw-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "research-dashboard-price-range-20260513-2324-tw",
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/2324.TW?range=1y&interval=1d",
@@ -1099,24 +1155,31 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間",
-          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
-        ],
-        "as_of": "2026-05-07"
+        "available": true,
+        "status": "available",
+        "revenue_value": 819848391000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 4407146625.0,
+        "revenue_per_share": 186.02702854253232,
+        "current_price": 29.9,
+        "price_to_sales": 0.16072933183020663,
+        "ps_low": 4.8225,
+        "ps_high": 8.0375,
+        "fair_value_low": 897.1153451463621,
+        "fair_value_high": 1495.1922419106036,
+        "currency": "TWD",
+        "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+        "source_type": "official_exchange_monthly_revenue_open_data",
+        "as_of": "2026-04-30"
       },
       "buy_value_score": 72,
       "score_confidence": "medium",
       "price_position_snapshot": "market_low",
       "score_components": {
-        "research_quality": 36,
+        "research_quality": 42,
         "freshness": 10,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 25,
         "risk_penalty": 30
       },
       "candidate_score": 72
@@ -1138,7 +1201,7 @@
       "wiki_path": "wiki/companies/2327-tw-research-page.md",
       "as_of": "2026-05-13",
       "data_status": "not_started",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
       "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
@@ -1152,16 +1215,41 @@
       "valuation": {
         "price_as_of": "2026-05-12",
         "valid": false,
+        "revenue_value": 156614238000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 2071465484.0,
+        "as_of": "2026-04-30",
+        "revenue_as_of": "2026-04-30",
+        "valid_until": "2026-06-12",
+        "ps_low": 2.265,
+        "ps_high": 3.775,
         "current_price": 419.5,
         "price_range_low": 113.6,
         "price_range_high": 419.5,
         "basis_type": "market_position_snapshot",
-        "as_of": "2026-05-12",
-        "valid_until": "2026-05-20",
         "basis": [
+          "TWSE/TPEX open data supports 2327.TW latest YTD monthly revenue and issued shares for public-dashboard revenue-based valuation. Revenue is annualized from official 2026-04 cumulative monthly revenue; this is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Electronics (General): sector P/S 3.02; display band is 0.75x-1.25x of the benchmark, or 2.265-3.775. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "Recent close price range basis: current price TWD 419.5 on 2026-05-12; one-year close price range is TWD 113.6-419.5; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2327-tw-twse-tpex-monthly-ytd-revenue-shares",
+            "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+            "source_type": "official_exchange_monthly_revenue_open_data",
+            "source_name": "TWSE/TPEX monthly revenue open data",
+            "as_of": "2026-04-30",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2327-tw-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "research-dashboard-price-range-20260513-2327-tw",
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/2327.TW?range=1y&interval=1d",
@@ -1221,24 +1309,31 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間",
-          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
-        ],
-        "as_of": "2026-05-13"
+        "available": true,
+        "status": "available",
+        "revenue_value": 156614238000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 2071465484.0,
+        "revenue_per_share": 75.60552623719218,
+        "current_price": 419.5,
+        "price_to_sales": 5.548536209958127,
+        "ps_low": 2.265,
+        "ps_high": 3.775,
+        "fair_value_low": 171.2465169272403,
+        "fair_value_high": 285.41086154540045,
+        "currency": "TWD",
+        "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+        "source_type": "official_exchange_monthly_revenue_open_data",
+        "as_of": "2026-04-30"
       },
       "buy_value_score": 30,
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 39,
+        "research_quality": 45,
         "freshness": 4,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 4,
         "risk_penalty": 0
       },
       "candidate_score": 30
@@ -1261,7 +1356,7 @@
       "wiki_path": "wiki/companies/2330-tw-tsmc.md",
       "as_of": "2026-05-10",
       "data_status": "company_level_financials_current_decision_inputs_missing",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "watch",
       "research_summary": "2026-05-10 upgraded from stub. Official Q1 and April revenue data are now captured at summary level, but this is still not a buy decision page. Holdings-linked status only means it needs maintenance; it is not a buy recommendation.",
@@ -1274,17 +1369,42 @@
       ],
       "risk_summary": [],
       "valuation": {
-        "current_price": 2255.0,
+        "revenue_value": 4536400000000.0,
+        "revenue_period": "2026Q1 annualized",
+        "revenue_method": "latest_quarter_annualized",
+        "shares_used": 25932524521.0,
+        "as_of": "2026-05-10",
         "price_as_of": "2026-05-12",
+        "revenue_as_of": "2026-05-10",
+        "valid_until": "2026-06-12",
+        "ps_low": 11.595,
+        "ps_high": 19.325,
+        "current_price": 2255.0,
         "price_range_low": 946.0,
         "price_range_high": 2310.0,
         "basis_type": "market_position_snapshot",
-        "as_of": "2026-05-12",
-        "valid_until": "2026-05-20",
         "basis": [
+          "Company page captures TSMC official 2026Q1 consolidated revenue of NT$1,134.10bn; public dashboard annualizes that quarter for revenue-based valuation display only. This is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Semiconductor: sector P/S 15.46; display band is 0.75x-1.25x of the benchmark, or 11.595-19.325. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "Recent close price range basis: current price TWD 2255 on 2026-05-12; one-year close price range is TWD 946-2310; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2330-tw-source-backed-revenue-shares",
+            "source_url": "wiki/companies/2330-tw-tsmc.md",
+            "source_type": "source_backed_company_page",
+            "source_name": "TSMC official Q1 2026 result captured in company page",
+            "as_of": "2026-05-10",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2330-tw-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "research-dashboard-price-range-20260513-2330-tw",
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/2330.TW?range=1y&interval=1d",
@@ -1343,24 +1463,31 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間",
-          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
-        ],
+        "available": true,
+        "status": "available",
+        "revenue_value": 4536400000000.0,
+        "revenue_period": "2026Q1 annualized",
+        "revenue_method": "latest_quarter_annualized",
+        "shares_used": 25932524521.0,
+        "revenue_per_share": 174.93090564038417,
+        "current_price": 2255.0,
+        "price_to_sales": 12.89080389622939,
+        "ps_low": 11.595,
+        "ps_high": 19.325,
+        "fair_value_low": 2028.3238509002545,
+        "fair_value_high": 3380.539751500424,
+        "currency": "TWD",
+        "source_url": "wiki/companies/2330-tw-tsmc.md",
+        "source_type": "source_backed_company_page",
         "as_of": "2026-05-10"
       },
       "buy_value_score": 46,
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 39,
+        "research_quality": 45,
         "freshness": 4,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 14,
         "risk_penalty": 0
       },
       "candidate_score": 46
@@ -1829,7 +1956,7 @@
       "wiki_path": "wiki/companies/2379-tw-research-page.md",
       "as_of": "2026-05-13",
       "data_status": "not_started",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
       "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
@@ -1843,16 +1970,41 @@
       "valuation": {
         "price_as_of": "2026-05-12",
         "valid": false,
+        "revenue_value": 147424989000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 515512641.0,
+        "as_of": "2026-04-30",
+        "revenue_as_of": "2026-04-30",
+        "valid_until": "2026-06-12",
+        "ps_low": 11.595,
+        "ps_high": 19.325,
         "current_price": 555.0,
         "price_range_low": 445.0,
         "price_range_high": 592.0,
         "basis_type": "market_position_snapshot",
-        "as_of": "2026-05-12",
-        "valid_until": "2026-05-20",
         "basis": [
+          "TWSE/TPEX open data supports 2379.TW latest YTD monthly revenue and issued shares for public-dashboard revenue-based valuation. Revenue is annualized from official 2026-04 cumulative monthly revenue; this is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Semiconductor: sector P/S 15.46; display band is 0.75x-1.25x of the benchmark, or 11.595-19.325. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "Recent close price range basis: current price TWD 555 on 2026-05-12; one-year close price range is TWD 445-592; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2379-tw-twse-tpex-monthly-ytd-revenue-shares",
+            "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+            "source_type": "official_exchange_monthly_revenue_open_data",
+            "source_name": "TWSE/TPEX monthly revenue open data",
+            "as_of": "2026-04-30",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2379-tw-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "research-dashboard-price-range-20260513-2379-tw",
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/2379.TW?range=1y&interval=1d",
@@ -1912,24 +2064,31 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間",
-          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
-        ],
-        "as_of": "2026-05-13"
+        "available": true,
+        "status": "available",
+        "revenue_value": 147424989000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 515512641.0,
+        "revenue_per_share": 285.9774470593438,
+        "current_price": 555.0,
+        "price_to_sales": 1.9407124782285046,
+        "ps_low": 11.595,
+        "ps_high": 19.325,
+        "fair_value_low": 3315.908498653091,
+        "fair_value_high": 5526.514164421818,
+        "currency": "TWD",
+        "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+        "source_type": "official_exchange_monthly_revenue_open_data",
+        "as_of": "2026-04-30"
       },
       "buy_value_score": 29,
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 39,
+        "research_quality": 45,
         "freshness": 4,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 25,
         "risk_penalty": 0
       },
       "candidate_score": 29
@@ -1951,29 +2110,54 @@
       "wiki_path": "wiki/companies/2382-tw-quanta.md",
       "as_of": "2026-05-10",
       "data_status": "company_page_upgraded_needs_official_cross_check",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "watch",
       "research_summary": "2026-05-10 upgraded from relationship stub. This page is research-only and not actionable. April revenue checks are currently secondary-media checks until official TWSE/MOPS/company source is captured.",
       "evidence_summary": [
-        "近一年收盤價格區間已建立；參考價格 340，資料日期 2026-05-12。"
+        "近一年收盤價格區間已建立；參考價格 340，資料日期 2026-04-30。"
       ],
       "risk_summary": [],
       "valuation": {
         "buy_zone_low": 5.0,
         "buy_zone_high": 2026.0,
         "valid": false,
-        "current_price": 340.0,
+        "revenue_value": 3447427110000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 3862627432.0,
+        "as_of": "2026-04-30",
         "price_as_of": "2026-05-12",
+        "revenue_as_of": "2026-04-30",
+        "valid_until": "2026-06-12",
+        "ps_low": 4.8225,
+        "ps_high": 8.0375,
+        "current_price": 340.0,
         "price_range_low": 253.5,
         "price_range_high": 346.5,
         "basis_type": "market_position_snapshot",
-        "as_of": "2026-05-12",
-        "valid_until": "2026-05-20",
         "basis": [
+          "TWSE/TPEX open data supports 2382.TW latest YTD monthly revenue and issued shares for public-dashboard revenue-based valuation. Revenue is annualized from official 2026-04 cumulative monthly revenue; this is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Computers/Peripherals: sector P/S 6.43; display band is 0.75x-1.25x of the benchmark, or 4.8225-8.0375. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "Recent close price range basis: current price TWD 340 on 2026-05-12; one-year close price range is TWD 253.5-346.5; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2382-tw-twse-tpex-monthly-ytd-revenue-shares",
+            "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+            "source_type": "official_exchange_monthly_revenue_open_data",
+            "source_name": "TWSE/TPEX monthly revenue open data",
+            "as_of": "2026-04-30",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2382-tw-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "research-dashboard-price-range-20260513-2382-tw",
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/2382.TW?range=1y&interval=1d",
@@ -2031,24 +2215,31 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間",
-          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
-        ],
-        "as_of": "2026-05-10"
+        "available": true,
+        "status": "available",
+        "revenue_value": 3447427110000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 3862627432.0,
+        "revenue_per_share": 892.5083173799611,
+        "current_price": 340.0,
+        "price_to_sales": 0.3809488308166144,
+        "ps_low": 4.8225,
+        "ps_high": 8.0375,
+        "fair_value_low": 4304.121360564863,
+        "fair_value_high": 7173.535600941437,
+        "currency": "TWD",
+        "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+        "source_type": "official_exchange_monthly_revenue_open_data",
+        "as_of": "2026-04-30"
       },
       "buy_value_score": 51,
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 28,
+        "research_quality": 34,
         "freshness": 4,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 25,
         "risk_penalty": 0
       },
       "candidate_score": 51
@@ -2768,7 +2959,7 @@
       "wiki_path": "wiki/companies/2454-tw-mediatek.md",
       "as_of": "2026-05-07",
       "data_status": "needs_refresh",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "watch",
       "research_summary": "Relationship graph does not upgrade actionability. Current actionability: `needs_refresh_before_decision`.",
@@ -2784,17 +2975,42 @@
         "buy_zone_low": 5.0,
         "buy_zone_high": 2026.0,
         "valid": false,
-        "current_price": 3700.0,
+        "revenue_value": 587661522000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 1603904290.0,
+        "as_of": "2026-04-30",
         "price_as_of": "2026-05-12",
+        "revenue_as_of": "2026-04-30",
+        "valid_until": "2026-06-12",
+        "ps_low": 11.595,
+        "ps_high": 19.325,
+        "current_price": 3700.0,
         "price_range_low": 1145.0,
         "price_range_high": 3880.0,
         "basis_type": "market_position_snapshot",
-        "as_of": "2026-05-12",
-        "valid_until": "2026-05-20",
         "basis": [
+          "TWSE/TPEX open data supports 2454.TW latest YTD monthly revenue and issued shares for public-dashboard revenue-based valuation. Revenue is annualized from official 2026-04 cumulative monthly revenue; this is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Semiconductor: sector P/S 15.46; display band is 0.75x-1.25x of the benchmark, or 11.595-19.325. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "Recent close price range basis: current price TWD 3700 on 2026-05-12; one-year close price range is TWD 1145-3880; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2454-tw-twse-tpex-monthly-ytd-revenue-shares",
+            "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+            "source_type": "official_exchange_monthly_revenue_open_data",
+            "source_name": "TWSE/TPEX monthly revenue open data",
+            "as_of": "2026-04-30",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2454-tw-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "research-dashboard-price-range-20260513-2454-tw",
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/2454.TW?range=1y&interval=1d",
@@ -2865,24 +3081,31 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間",
-          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
-        ],
-        "as_of": "2026-05-07"
+        "available": true,
+        "status": "available",
+        "revenue_value": 587661522000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 1603904290.0,
+        "revenue_per_share": 366.394382547602,
+        "current_price": 3700.0,
+        "price_to_sales": 10.098408098599316,
+        "ps_low": 11.595,
+        "ps_high": 19.325,
+        "fair_value_low": 4248.342865639445,
+        "fair_value_high": 7080.571442732408,
+        "currency": "TWD",
+        "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+        "source_type": "official_exchange_monthly_revenue_open_data",
+        "as_of": "2026-04-30"
       },
       "buy_value_score": 72,
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 39,
+        "research_quality": 45,
         "freshness": 10,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 25,
         "risk_penalty": 30
       },
       "candidate_score": 72
@@ -2904,7 +3127,7 @@
       "wiki_path": "wiki/companies/2472-tw-research-page.md",
       "as_of": "2026-05-13",
       "data_status": "not_started",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
       "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
@@ -2918,16 +3141,41 @@
       "valuation": {
         "price_as_of": "2026-05-12",
         "valid": false,
+        "revenue_value": 12416544000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 164735137.0,
+        "as_of": "2026-04-30",
+        "revenue_as_of": "2026-04-30",
+        "valid_until": "2026-06-12",
+        "ps_low": 3.0675,
+        "ps_high": 5.1125,
         "current_price": 223.0,
         "price_range_low": 72.8,
         "price_range_high": 225.0,
         "basis_type": "market_position_snapshot",
-        "as_of": "2026-05-12",
-        "valid_until": "2026-05-20",
         "basis": [
+          "TWSE/TPEX open data supports 2472.TW latest YTD monthly revenue and issued shares for public-dashboard revenue-based valuation. Revenue is annualized from official 2026-04 cumulative monthly revenue; this is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Electrical Equipment: sector P/S 4.09; display band is 0.75x-1.25x of the benchmark, or 3.0675-5.1125. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "Recent close price range basis: current price TWD 223 on 2026-05-12; one-year close price range is TWD 72.8-225; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2472-tw-twse-tpex-monthly-ytd-revenue-shares",
+            "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+            "source_type": "official_exchange_monthly_revenue_open_data",
+            "source_name": "TWSE/TPEX monthly revenue open data",
+            "as_of": "2026-04-30",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2472-tw-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "research-dashboard-price-range-20260513-2472-tw",
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/2472.TW?range=1y&interval=1d",
@@ -2987,24 +3235,31 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間",
-          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
-        ],
-        "as_of": "2026-05-13"
+        "available": true,
+        "status": "available",
+        "revenue_value": 12416544000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 164735137.0,
+        "revenue_per_share": 75.37277247658464,
+        "current_price": 223.0,
+        "price_to_sales": 2.958628065184644,
+        "ps_low": 3.0675,
+        "ps_high": 5.1125,
+        "fair_value_low": 231.2059795719234,
+        "fair_value_high": 385.343299286539,
+        "currency": "TWD",
+        "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+        "source_type": "official_exchange_monthly_revenue_open_data",
+        "as_of": "2026-04-30"
       },
       "buy_value_score": 30,
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 39,
+        "research_quality": 45,
         "freshness": 4,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 25,
         "risk_penalty": 0
       },
       "candidate_score": 30
@@ -3319,7 +3574,7 @@
       "wiki_path": "wiki/companies/2881-tw-fubon-financial.md",
       "as_of": "2026-05-10",
       "data_status": "needs_refresh",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "watch",
       "research_summary": "富邦金在金融股清單中屬於「品質/壽險權重/大型金控」觀察：營收年增與累計年增非常強，且外資單日買超很大，但價格已接近 52 週高點、RSI 超過 80，這比較像強勢高位股，不是低位防守股。這裡只完成 company-level refresh，不升級 actionability。",
@@ -3335,16 +3590,41 @@
         "buy_zone_high": 3.0,
         "price_as_of": "2026-05-12",
         "valid": false,
+        "revenue_value": 265968888000.0,
+        "revenue_period": "2026Q1 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 14007364952.0,
+        "as_of": "2026-05-10",
+        "revenue_as_of": "2026-05-10",
+        "valid_until": "2026-06-12",
+        "ps_low": 3.915,
+        "ps_high": 6.525,
         "current_price": 93.7,
         "price_range_low": 76.2,
         "price_range_high": 98.2,
         "basis_type": "market_position_snapshot",
-        "as_of": "2026-05-12",
-        "valid_until": "2026-05-20",
         "basis": [
+          "Company page captures TWSE monthly revenue data: 2881.TW 2026 Jan-Mar cumulative revenue was NT$66,492,222 thousand; public dashboard annualizes the YTD amount for revenue-based valuation display only. This is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Financial Svcs. (Non-bank & Insurance): sector P/S 5.22; display band is 0.75x-1.25x of the benchmark, or 3.915-6.525. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "Recent close price range basis: current price TWD 93.7 on 2026-05-12; one-year close price range is TWD 76.2-98.2; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2881-tw-source-backed-revenue-shares",
+            "source_url": "wiki/companies/2881-tw-fubon-financial.md",
+            "source_type": "source_backed_company_page",
+            "source_name": "TWSE monthly revenue captured in company page",
+            "as_of": "2026-05-10",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2881-tw-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "research-dashboard-price-range-20260513-2881-tw",
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/2881.TW?range=1y&interval=1d",
@@ -3412,24 +3692,31 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間",
-          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
-        ],
+        "available": true,
+        "status": "available",
+        "revenue_value": 265968888000.0,
+        "revenue_period": "2026Q1 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 14007364952.0,
+        "revenue_per_share": 18.98778884618298,
+        "current_price": 93.7,
+        "price_to_sales": 4.934750473530573,
+        "ps_low": 3.915,
+        "ps_high": 6.525,
+        "fair_value_low": 74.33719333280636,
+        "fair_value_high": 123.89532222134395,
+        "currency": "TWD",
+        "source_url": "wiki/companies/2881-tw-fubon-financial.md",
+        "source_type": "source_backed_company_page",
         "as_of": "2026-05-10"
       },
       "buy_value_score": 25,
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 39,
+        "research_quality": 45,
         "freshness": 10,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 14,
         "risk_penalty": 30
       },
       "candidate_score": 25
@@ -3446,7 +3733,7 @@
       "wiki_path": "wiki/companies/2882-tw-cathay-financial.md",
       "as_of": "2026-05-10",
       "data_status": "needs_refresh",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "watch",
       "research_summary": "國泰金在金融股清單中屬於「品質/壽險權重觀察」：它比合庫金更有景氣與資產評價彈性，月營收年增與累計年增很亮眼，但 52 週位置已在高檔、RSI 接近偏熱，不能把「金融股品質好」直接翻譯成「現在可以追」。這裡只完成 company-level refresh，不升級 actionability。",
@@ -3462,16 +3749,41 @@
         "buy_zone_high": 3.0,
         "price_as_of": "2026-05-12",
         "valid": false,
+        "revenue_value": 288094736000.0,
+        "revenue_period": "2026Q1 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 14669210128.0,
+        "as_of": "2026-05-10",
+        "revenue_as_of": "2026-05-10",
+        "valid_until": "2026-06-12",
+        "ps_low": 3.915,
+        "ps_high": 6.525,
         "current_price": 76.4,
         "price_range_low": 56.1,
         "price_range_high": 80.0,
         "basis_type": "market_position_snapshot",
-        "as_of": "2026-05-12",
-        "valid_until": "2026-05-20",
         "basis": [
+          "Company page captures TWSE monthly revenue data: 2882.TW 2026 Jan-Mar cumulative revenue was NT$72,023,684 thousand; public dashboard annualizes the YTD amount for revenue-based valuation display only. This is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Financial Svcs. (Non-bank & Insurance): sector P/S 5.22; display band is 0.75x-1.25x of the benchmark, or 3.915-6.525. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "Recent close price range basis: current price TWD 76.4 on 2026-05-12; one-year close price range is TWD 56.1-80; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2882-tw-source-backed-revenue-shares",
+            "source_url": "wiki/companies/2882-tw-cathay-financial.md",
+            "source_type": "source_backed_company_page",
+            "source_name": "TWSE monthly revenue captured in company page",
+            "as_of": "2026-05-10",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2882-tw-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "research-dashboard-price-range-20260513-2882-tw",
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/2882.TW?range=1y&interval=1d",
@@ -3539,24 +3851,31 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間",
-          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
-        ],
+        "available": true,
+        "status": "available",
+        "revenue_value": 288094736000.0,
+        "revenue_period": "2026Q1 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 14669210128.0,
+        "revenue_per_share": 19.639417084229798,
+        "current_price": 76.4,
+        "price_to_sales": 3.8901358259430334,
+        "ps_low": 3.915,
+        "ps_high": 6.525,
+        "fair_value_low": 76.88831788475966,
+        "fair_value_high": 128.14719647459944,
+        "currency": "TWD",
+        "source_url": "wiki/companies/2882-tw-cathay-financial.md",
+        "source_type": "source_backed_company_page",
         "as_of": "2026-05-10"
       },
       "buy_value_score": 25,
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 39,
+        "research_quality": 45,
         "freshness": 10,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 25,
         "risk_penalty": 30
       },
       "candidate_score": 25
@@ -3573,7 +3892,7 @@
       "wiki_path": "wiki/companies/2884-tw-esun-financial.md",
       "as_of": "2026-05-10",
       "data_status": "needs_refresh",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "watch",
       "research_summary": "玉山金在金融股清單中屬於「品質但等拉回」：市場通常給比較好的品質敘事與 PB，但 Stock-LLM 不能把品質敘事等同於便宜。這裡只完成 company-level refresh，不升級 actionability。",
@@ -3589,16 +3908,41 @@
         "buy_zone_high": 3.0,
         "price_as_of": "2026-05-12",
         "valid": false,
+        "revenue_value": 105637704000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 16174000000.0,
+        "as_of": "2026-04-30",
+        "revenue_as_of": "2026-04-30",
+        "valid_until": "2026-06-12",
+        "ps_low": 3.915,
+        "ps_high": 6.525,
         "current_price": 31.8,
         "price_range_low": 29.21,
         "price_range_high": 35.1,
         "basis_type": "market_position_snapshot",
-        "as_of": "2026-05-12",
-        "valid_until": "2026-05-20",
         "basis": [
+          "TWSE/TPEX open data supports 2884.TW latest YTD monthly revenue and issued shares for public-dashboard revenue-based valuation. Revenue is annualized from official 2026-04 cumulative monthly revenue; this is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Financial Svcs. (Non-bank & Insurance): sector P/S 5.22; display band is 0.75x-1.25x of the benchmark, or 3.915-6.525. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "Recent close price range basis: current price TWD 31.8 on 2026-05-12; one-year close price range is TWD 29.21-35.1; price position is middle_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2884-tw-twse-tpex-monthly-ytd-revenue-shares",
+            "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+            "source_type": "official_exchange_monthly_revenue_open_data",
+            "source_name": "TWSE/TPEX monthly revenue open data",
+            "as_of": "2026-04-30",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2884-tw-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "research-dashboard-price-range-20260513-2884-tw",
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/2884.TW?range=1y&interval=1d",
@@ -3666,24 +4010,31 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間",
-          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
-        ],
-        "as_of": "2026-05-10"
+        "available": true,
+        "status": "available",
+        "revenue_value": 105637704000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 16174000000.0,
+        "revenue_per_share": 6.531328304686534,
+        "current_price": 31.8,
+        "price_to_sales": 4.8688411478538,
+        "ps_low": 3.915,
+        "ps_high": 6.525,
+        "fair_value_low": 25.57015031284778,
+        "fair_value_high": 42.61691718807964,
+        "currency": "TWD",
+        "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+        "source_type": "official_exchange_monthly_revenue_open_data",
+        "as_of": "2026-04-30"
       },
       "buy_value_score": 25,
       "score_confidence": "medium",
       "price_position_snapshot": "market_middle",
       "score_components": {
-        "research_quality": 39,
+        "research_quality": 45,
         "freshness": 10,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 14,
         "risk_penalty": 30
       },
       "candidate_score": 25
@@ -3700,7 +4051,7 @@
       "wiki_path": "wiki/companies/2885-tw-yuanta-financial.md",
       "as_of": "2026-05-10",
       "data_status": "needs_refresh",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "watch",
       "research_summary": "元大金在金融股清單中屬於「券商 / 投信 / ETF 生態系」觀察：營收年增與累計年增強，且官方備註直接指向手續費及佣金淨損益增加；這代表它跟台股成交量、ETF/投信資產規模、券商景氣循環連動更高。但價格已在 52 週高點、RSI 超過 80、PB 約 2.21，這裡只完成 company-level refresh，不升級 actionability。",
@@ -3716,16 +4067,41 @@
         "buy_zone_high": 5.0,
         "price_as_of": "2026-05-12",
         "valid": false,
+        "revenue_value": 174034476000.0,
+        "revenue_period": "2026Q1 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 13331149946.0,
+        "as_of": "2026-05-10",
+        "revenue_as_of": "2026-05-10",
+        "valid_until": "2026-06-12",
+        "ps_low": 3.915,
+        "ps_high": 6.525,
         "current_price": 54.6,
         "price_range_low": 30.29,
         "price_range_high": 56.5,
         "basis_type": "market_position_snapshot",
-        "as_of": "2026-05-12",
-        "valid_until": "2026-05-20",
         "basis": [
+          "Company page captures TWSE monthly revenue data: 2885.TW 2026 Jan-Mar cumulative revenue was NT$43,508,619 thousand; public dashboard annualizes the YTD amount for revenue-based valuation display only. This is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Financial Svcs. (Non-bank & Insurance): sector P/S 5.22; display band is 0.75x-1.25x of the benchmark, or 3.915-6.525. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "Recent close price range basis: current price TWD 54.6 on 2026-05-12; one-year close price range is TWD 30.29-56.5; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2885-tw-source-backed-revenue-shares",
+            "source_url": "wiki/companies/2885-tw-yuanta-financial.md",
+            "source_type": "source_backed_company_page",
+            "source_name": "TWSE monthly revenue captured in company page",
+            "as_of": "2026-05-10",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2885-tw-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "research-dashboard-price-range-20260513-2885-tw",
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/2885.TW?range=1y&interval=1d",
@@ -3793,24 +4169,31 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間",
-          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
-        ],
+        "available": true,
+        "status": "available",
+        "revenue_value": 174034476000.0,
+        "revenue_period": "2026Q1 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 13331149946.0,
+        "revenue_per_share": 13.054723463838833,
+        "current_price": 54.6,
+        "price_to_sales": 4.182394223151509,
+        "ps_low": 3.915,
+        "ps_high": 6.525,
+        "fair_value_low": 51.10924236092903,
+        "fair_value_high": 85.18207060154839,
+        "currency": "TWD",
+        "source_url": "wiki/companies/2885-tw-yuanta-financial.md",
+        "source_type": "source_backed_company_page",
         "as_of": "2026-05-10"
       },
       "buy_value_score": 25,
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 39,
+        "research_quality": 45,
         "freshness": 10,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 14,
         "risk_penalty": 30
       },
       "candidate_score": 25
@@ -3827,7 +4210,7 @@
       "wiki_path": "wiki/companies/2886-tw-mega-financial.md",
       "as_of": "2026-05-10",
       "data_status": "needs_refresh",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "watch",
       "research_summary": "兆豐金目前被放在金融股防守觀察名單，不是因為它已經被證明便宜，而是因為相對高位的壽險/券商 beta 金融股之外，兆豐金的價格位置與銀行屬性比較適合先做 company-level refresh。這個 sector selection 不會自動升級 actionability。",
@@ -3843,16 +4226,41 @@
         "buy_zone_high": 3.0,
         "price_as_of": "2026-05-12",
         "valid": false,
+        "revenue_value": 83073768000.0,
+        "revenue_period": "2026Q1 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 14833378282.0,
+        "as_of": "2026-05-10",
+        "revenue_as_of": "2026-05-10",
+        "valid_until": "2026-06-12",
+        "ps_low": 3.915,
+        "ps_high": 6.525,
         "current_price": 39.2,
         "price_range_low": 38.35,
         "price_range_high": 43.0,
         "basis_type": "market_position_snapshot",
-        "as_of": "2026-05-12",
-        "valid_until": "2026-05-20",
         "basis": [
+          "Company page captures TWSE monthly revenue data: 2886.TW 2026 Jan-Mar cumulative revenue was NT$20,768,442 thousand; public dashboard annualizes the YTD amount for revenue-based valuation display only. This is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Financial Svcs. (Non-bank & Insurance): sector P/S 5.22; display band is 0.75x-1.25x of the benchmark, or 3.915-6.525. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "Recent close price range basis: current price TWD 39.2 on 2026-05-12; one-year close price range is TWD 38.35-43; price position is low_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2886-tw-source-backed-revenue-shares",
+            "source_url": "wiki/companies/2886-tw-mega-financial.md",
+            "source_type": "source_backed_company_page",
+            "source_name": "TWSE monthly revenue captured in company page",
+            "as_of": "2026-05-10",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2886-tw-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "research-dashboard-price-range-20260513-2886-tw",
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/2886.TW?range=1y&interval=1d",
@@ -3920,24 +4328,31 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間",
-          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
-        ],
+        "available": true,
+        "status": "available",
+        "revenue_value": 83073768000.0,
+        "revenue_period": "2026Q1 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 14833378282.0,
+        "revenue_per_share": 5.600461770789485,
+        "current_price": 39.2,
+        "price_to_sales": 6.999422834105707,
+        "ps_low": 3.915,
+        "ps_high": 6.525,
+        "fair_value_low": 21.92580783264083,
+        "fair_value_high": 36.54301305440139,
+        "currency": "TWD",
+        "source_url": "wiki/companies/2886-tw-mega-financial.md",
+        "source_type": "source_backed_company_page",
         "as_of": "2026-05-10"
       },
       "buy_value_score": 25,
       "score_confidence": "medium",
       "price_position_snapshot": "market_low",
       "score_components": {
-        "research_quality": 39,
+        "research_quality": 45,
         "freshness": 10,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 4,
         "risk_penalty": 30
       },
       "candidate_score": 25
@@ -3954,7 +4369,7 @@
       "wiki_path": "wiki/companies/2891-tw-ctbc-financial.md",
       "as_of": "2026-05-10",
       "data_status": "needs_refresh",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "watch",
       "research_summary": "中信金在金融股清單中屬於「銀行主體 + 壽險/消金彈性」觀察：營收年增與累計年增穩健，外資單日買超，但 PB 約 2.27、價格接近 52 週高點，市場已經給它相當高的品質溢價。這裡只完成 company-level refresh，不升級 actionability。",
@@ -3970,16 +4385,41 @@
         "buy_zone_high": 5.0,
         "price_as_of": "2026-05-12",
         "valid": false,
+        "revenue_value": 239437912000.0,
+        "revenue_period": "2026Q1 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 19677816903.0,
+        "as_of": "2026-05-10",
+        "revenue_as_of": "2026-05-10",
+        "valid_until": "2026-06-12",
+        "ps_low": 3.915,
+        "ps_high": 6.525,
         "current_price": 53.5,
         "price_range_low": 40.1,
         "price_range_high": 56.5,
         "basis_type": "market_position_snapshot",
-        "as_of": "2026-05-12",
-        "valid_until": "2026-05-20",
         "basis": [
+          "Company page captures TWSE monthly revenue data: 2891.TW 2026 Jan-Mar cumulative revenue was NT$59,859,478 thousand; public dashboard annualizes the YTD amount for revenue-based valuation display only. This is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Financial Svcs. (Non-bank & Insurance): sector P/S 5.22; display band is 0.75x-1.25x of the benchmark, or 3.915-6.525. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "Recent close price range basis: current price TWD 53.5 on 2026-05-12; one-year close price range is TWD 40.1-56.5; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2891-tw-source-backed-revenue-shares",
+            "source_url": "wiki/companies/2891-tw-ctbc-financial.md",
+            "source_type": "source_backed_company_page",
+            "source_name": "TWSE monthly revenue captured in company page",
+            "as_of": "2026-05-10",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-2891-tw-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "research-dashboard-price-range-20260513-2891-tw",
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/2891.TW?range=1y&interval=1d",
@@ -4047,24 +4487,31 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間",
-          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
-        ],
+        "available": true,
+        "status": "available",
+        "revenue_value": 239437912000.0,
+        "revenue_period": "2026Q1 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 19677816903.0,
+        "revenue_per_share": 12.16791035206229,
+        "current_price": 53.5,
+        "price_to_sales": 4.396810828815196,
+        "ps_low": 3.915,
+        "ps_high": 6.525,
+        "fair_value_low": 47.63736902832387,
+        "fair_value_high": 79.39561504720645,
+        "currency": "TWD",
+        "source_url": "wiki/companies/2891-tw-ctbc-financial.md",
+        "source_type": "source_backed_company_page",
         "as_of": "2026-05-10"
       },
       "buy_value_score": 25,
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 39,
+        "research_quality": 45,
         "freshness": 10,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 14,
         "risk_penalty": 30
       },
       "candidate_score": 25
@@ -4087,7 +4534,7 @@
       "wiki_path": "wiki/companies/3017-tw-avc.md",
       "as_of": "2026-05-08",
       "data_status": "needs_refresh",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "wait_for_buy_zone / needs_refresh",
       "decision_usefulness": "active_watch",
       "research_summary": "Company-level source-backed refresh for AI server thermal / liquid cooling discovery candidate. Boundary: product / theme exposure is not order, revenue, margin, valuation, or buy actionability.",
@@ -4104,20 +4551,43 @@
         "buy_zone_high": 2400.0,
         "price_as_of": "2026-05-08",
         "valid": true,
-        "as_of": "2026-05-08",
-        "valid_until": "2026-05-15",
+        "revenue_value": 194008185000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 392178807.0,
+        "as_of": "2026-04-30",
+        "revenue_as_of": "2026-04-30",
+        "valid_until": "2026-06-12",
+        "ps_low": 3.0675,
+        "ps_high": 5.1125,
         "base_low": 1820.0,
         "base_high": 2975.0,
         "price_range_low": 541.0,
         "price_range_high": 2945.0,
         "basis_type": "formal_valuation_model",
         "basis": [
+          "TWSE/TPEX open data supports 3017.TW latest YTD monthly revenue and issued shares for public-dashboard revenue-based valuation. Revenue is annualized from official 2026-04 cumulative monthly revenue; this is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Electrical Equipment: sector P/S 4.09; display band is 0.75x-1.25x of the benchmark, or 3.0675-5.1125. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "3017 market snapshot: price NT$2,410, trailing PE 49.90, forward PE 18.29 source_needs_confirmation, PB 21.11, market cap NT$945,150,951,424 as of 2026-05-08.",
-          "Forward PE 18.29 and forward EPS NT$131.76 are market-data estimates with provenance not sufficient for actionable decisions.",
-          "Bear case fair value range is NT$990–1,680 using NT$45–60 EPS and 22–28x PE; return from current price is about -59% to -30%.",
-          "Base case fair value range is NT$1,820–2,975 using NT$65–85 EPS and 28–35x PE; current price is slightly above the base midpoint."
+          "Forward PE 18.29 and forward EPS NT$131.76 are market-data estimates with provenance not sufficient for actionable decisions."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-3017-tw-twse-tpex-monthly-ytd-revenue-shares",
+            "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+            "source_type": "official_exchange_monthly_revenue_open_data",
+            "source_name": "TWSE/TPEX monthly revenue open data",
+            "as_of": "2026-04-30",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-3017-tw-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "3017-avc-valuation-20260508-snapshot-v2",
             "source_url": "market_data:yfinance:3017.TW",
@@ -4335,23 +4805,31 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間"
-        ],
-        "as_of": "2026-05-08"
+        "available": true,
+        "status": "available",
+        "revenue_value": 194008185000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 392178807.0,
+        "revenue_per_share": 494.6931897826901,
+        "current_price": 2410.0,
+        "price_to_sales": 4.871706443055483,
+        "ps_low": 3.0675,
+        "ps_high": 5.1125,
+        "fair_value_low": 1517.471359658402,
+        "fair_value_high": 2529.118932764003,
+        "currency": "TWD",
+        "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+        "source_type": "official_exchange_monthly_revenue_open_data",
+        "as_of": "2026-04-30"
       },
       "buy_value_score": 67,
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 39,
+        "research_quality": 45,
         "freshness": 10,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 14,
         "risk_penalty": 30
       },
       "candidate_score": 67
@@ -5348,7 +5826,7 @@
       "wiki_path": "wiki/companies/5880-tw-taiwan-cooperative-financial.md",
       "as_of": "2026-05-10",
       "data_status": "needs_refresh",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "watch",
       "research_summary": "合庫金在金融股清單中屬於「防守觀察」：估值倍數相對玉山金低、價格位置較低，但它的核心問題不是故事性感，而是 ROE、股利、授信品質與官股銀行防守屬性是否足以支撐報酬。這裡只完成 company-level refresh，不升級 actionability。",
@@ -5364,16 +5842,41 @@
         "buy_zone_high": 3.0,
         "price_as_of": "2026-05-12",
         "valid": false,
+        "revenue_value": 63657248000.0,
+        "revenue_period": "2026Q1 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 15680936914.0,
+        "as_of": "2026-05-10",
+        "revenue_as_of": "2026-05-10",
+        "valid_until": "2026-06-12",
+        "ps_low": 3.915,
+        "ps_high": 6.525,
         "current_price": 22.8,
         "price_range_low": 22.55,
         "price_range_high": 25.58,
         "basis_type": "market_position_snapshot",
-        "as_of": "2026-05-12",
-        "valid_until": "2026-05-20",
         "basis": [
+          "Company page captures TWSE monthly revenue data: 5880.TW 2026 Jan-Mar cumulative revenue was NT$15,914,312 thousand; public dashboard annualizes the YTD amount for revenue-based valuation display only. This is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Financial Svcs. (Non-bank & Insurance): sector P/S 5.22; display band is 0.75x-1.25x of the benchmark, or 3.915-6.525. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "Recent close price range basis: current price TWD 22.8 on 2026-05-12; one-year close price range is TWD 22.55-25.58; price position is low_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-5880-tw-source-backed-revenue-shares",
+            "source_url": "wiki/companies/5880-tw-taiwan-cooperative-financial.md",
+            "source_type": "source_backed_company_page",
+            "source_name": "TWSE monthly revenue captured in company page",
+            "as_of": "2026-05-10",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-5880-tw-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "research-dashboard-price-range-20260513-5880-tw",
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/5880.TW?range=1y&interval=1d",
@@ -5441,24 +5944,31 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間",
-          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
-        ],
+        "available": true,
+        "status": "available",
+        "revenue_value": 63657248000.0,
+        "revenue_period": "2026Q1 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 15680936914.0,
+        "revenue_per_share": 4.05953090361371,
+        "current_price": 22.8,
+        "price_to_sales": 5.616412472609561,
+        "ps_low": 3.915,
+        "ps_high": 6.525,
+        "fair_value_low": 15.893063487647673,
+        "fair_value_high": 26.488439146079457,
+        "currency": "TWD",
+        "source_url": "wiki/companies/5880-tw-taiwan-cooperative-financial.md",
+        "source_type": "source_backed_company_page",
         "as_of": "2026-05-10"
       },
       "buy_value_score": 25,
       "score_confidence": "medium",
       "price_position_snapshot": "market_low",
       "score_components": {
-        "research_quality": 39,
+        "research_quality": 45,
         "freshness": 10,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 14,
         "risk_penalty": 30
       },
       "candidate_score": 25
@@ -5480,7 +5990,7 @@
       "wiki_path": "wiki/companies/6449-tw-research-page.md",
       "as_of": "2026-05-13",
       "data_status": "not_started",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
       "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
@@ -5494,16 +6004,41 @@
       "valuation": {
         "price_as_of": "2026-05-12",
         "valid": false,
+        "revenue_value": 4775481000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 91898514.0,
+        "as_of": "2026-04-30",
+        "revenue_as_of": "2026-04-30",
+        "valid_until": "2026-06-12",
+        "ps_low": 2.265,
+        "ps_high": 3.775,
         "current_price": 198.5,
         "price_range_low": 100.0,
         "price_range_high": 221.0,
         "basis_type": "market_position_snapshot",
-        "as_of": "2026-05-12",
-        "valid_until": "2026-05-20",
         "basis": [
+          "TWSE/TPEX open data supports 6449.TW latest YTD monthly revenue and issued shares for public-dashboard revenue-based valuation. Revenue is annualized from official 2026-04 cumulative monthly revenue; this is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Electronics (General): sector P/S 3.02; display band is 0.75x-1.25x of the benchmark, or 2.265-3.775. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "Recent close price range basis: current price TWD 198.5 on 2026-05-12; one-year close price range is TWD 100-221; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-6449-tw-twse-tpex-monthly-ytd-revenue-shares",
+            "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+            "source_type": "official_exchange_monthly_revenue_open_data",
+            "source_name": "TWSE/TPEX monthly revenue open data",
+            "as_of": "2026-04-30",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-6449-tw-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "research-dashboard-price-range-20260513-6449-tw",
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/6449.TW?range=1y&interval=1d",
@@ -5563,24 +6098,31 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間",
-          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
-        ],
-        "as_of": "2026-05-13"
+        "available": true,
+        "status": "available",
+        "revenue_value": 4775481000.0,
+        "revenue_period": "2026-04 YTD annualized",
+        "revenue_method": "latest_ytd_annualized",
+        "shares_used": 91898514.0,
+        "revenue_per_share": 51.96472491383267,
+        "current_price": 198.5,
+        "price_to_sales": 3.8198989858822596,
+        "ps_low": 2.265,
+        "ps_high": 3.775,
+        "fair_value_low": 117.700101929831,
+        "fair_value_high": 196.1668365497183,
+        "currency": "TWD",
+        "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+        "source_type": "official_exchange_monthly_revenue_open_data",
+        "as_of": "2026-04-30"
       },
       "buy_value_score": 30,
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 39,
+        "research_quality": 45,
         "freshness": 4,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 4,
         "risk_penalty": 0
       },
       "candidate_score": 30
@@ -6108,7 +6650,7 @@
       "wiki_path": "wiki/companies/6996-t-nichicon.md",
       "as_of": "2026-05-13",
       "data_status": "not_started",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
       "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
@@ -6122,16 +6664,41 @@
       "valuation": {
         "price_as_of": "2026-05-13",
         "valid": false,
+        "revenue_value": 175751000000.0,
+        "revenue_period": "FY2025",
+        "revenue_method": "TTM",
+        "shares_used": 67159245.0,
+        "as_of": "2026-05-13",
+        "revenue_as_of": "2026-05-13",
+        "valid_until": "2026-06-12",
+        "ps_low": 2.265,
+        "ps_high": 3.775,
         "current_price": 2781.0,
         "price_range_low": 1122.0,
         "price_range_high": 2781.0,
         "basis_type": "market_position_snapshot",
-        "as_of": "2026-05-13",
-        "valid_until": "2026-05-20",
         "basis": [
+          "Nichicon official IR materials support FY2025 net sales and public share-count evidence for public-dashboard revenue-based valuation display only. This is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Electronics (General): sector P/S 3.02; display band is 0.75x-1.25x of the benchmark, or 2.265-3.775. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "Recent close price range basis: current price JPY 2781 on 2026-05-13; one-year close price range is JPY 1122-2781; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-6996-t-source-backed-revenue-shares",
+            "source_url": "https://www.nichicon.co.jp/english/ir/library/presentation_materials.html",
+            "source_type": "company_ir",
+            "source_name": "Nichicon official IR materials",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-6996-t-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "research-dashboard-price-range-20260513-6996-t",
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/6996.T?range=1y&interval=1d",
@@ -6191,24 +6758,31 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間",
-          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
-        ],
+        "available": true,
+        "status": "available",
+        "revenue_value": 175751000000.0,
+        "revenue_period": "FY2025",
+        "revenue_method": "TTM",
+        "shares_used": 67159245.0,
+        "revenue_per_share": 2616.9293594649553,
+        "current_price": 2781.0,
+        "price_to_sales": 1.0626958614460231,
+        "ps_low": 2.265,
+        "ps_high": 3.775,
+        "fair_value_low": 5927.344999188124,
+        "fair_value_high": 9878.908331980207,
+        "currency": "JPY",
+        "source_url": "https://www.nichicon.co.jp/english/ir/library/presentation_materials.html",
+        "source_type": "company_ir",
         "as_of": "2026-05-13"
       },
       "buy_value_score": 30,
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 39,
+        "research_quality": 45,
         "freshness": 4,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 25,
         "risk_penalty": 0
       },
       "candidate_score": 30
@@ -6231,7 +6805,7 @@
       "wiki_path": "wiki/companies/6997-t-nippon-chemi-con.md",
       "as_of": "2026-05-13",
       "data_status": "not_started",
-      "decision_gate": "needs_refresh_before_decision",
+      "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
       "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
@@ -6245,16 +6819,41 @@
       "valuation": {
         "price_as_of": "2026-05-13",
         "valid": false,
+        "revenue_value": 122684000000.0,
+        "revenue_period": "FY2025",
+        "revenue_method": "TTM",
+        "shares_used": 21350000.0,
+        "as_of": "2026-05-13",
+        "revenue_as_of": "2026-05-13",
+        "valid_until": "2026-06-12",
+        "ps_low": 2.265,
+        "ps_high": 3.775,
         "current_price": 3200.0,
         "price_range_low": 1008.0,
         "price_range_high": 3200.0,
         "basis_type": "market_position_snapshot",
-        "as_of": "2026-05-13",
-        "valid_until": "2026-05-20",
         "basis": [
+          "Nippon Chemi-Con annual financial report supports FY2025 net sales and shares used for public-dashboard revenue-based valuation display only. This is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Electronics (General): sector P/S 3.02; display band is 0.75x-1.25x of the benchmark, or 2.265-3.775. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
           "Recent close price range basis: current price JPY 3200 on 2026-05-13; one-year close price range is JPY 1008-3200; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
         "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-6997-t-source-backed-revenue-shares",
+            "source_url": "https://www.chemi-con.co.jp/en/company/ir/library/annual/pdf/AnnualFinancialReport_202503.pdf",
+            "source_type": "company_ir",
+            "source_name": "Nippon Chemi-Con annual financial report",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-6997-t-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
           {
             "claim_id": "research-dashboard-price-range-20260513-6997-t",
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/6997.T?range=1y&interval=1d",
@@ -6314,24 +6913,31 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": false,
-        "status": "revenue_based_valuation_unavailable",
-        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
-        "missing_inputs": [
-          "官方 TTM 營收或最近一季年化營收",
-          "稀釋股數或可解釋的流通股數",
-          "可解釋的 P/S 區間",
-          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
-        ],
+        "available": true,
+        "status": "available",
+        "revenue_value": 122684000000.0,
+        "revenue_period": "FY2025",
+        "revenue_method": "TTM",
+        "shares_used": 21350000.0,
+        "revenue_per_share": 5746.32318501171,
+        "current_price": 3200.0,
+        "price_to_sales": 0.556877832480193,
+        "ps_low": 2.265,
+        "ps_high": 3.775,
+        "fair_value_low": 13015.422014051524,
+        "fair_value_high": 21692.370023419204,
+        "currency": "JPY",
+        "source_url": "https://www.chemi-con.co.jp/en/company/ir/library/annual/pdf/AnnualFinancialReport_202503.pdf",
+        "source_type": "company_ir",
         "as_of": "2026-05-13"
       },
       "buy_value_score": 30,
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 39,
+        "research_quality": 45,
         "freshness": 4,
-        "valuation_attractiveness": 0,
+        "valuation_attractiveness": 25,
         "risk_penalty": 0
       },
       "candidate_score": 30
