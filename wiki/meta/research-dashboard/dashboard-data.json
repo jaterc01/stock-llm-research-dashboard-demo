@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-05-13T09:28:01+00:00",
+  "generated_at": "2026-05-13T10:06:37+00:00",
   "as_of_timezone": "Asia/Taipei",
-  "point_in_time_boundary": "本看板是 point-in-time 研究快照；候選標的不等於買進清單，價格資料必須保留 as_of / retrieved_at / freshness 邊界。",
+  "point_in_time_boundary": "本看板是 point-in-time 研究快照；候選標的不等於買進清單。Yahoo chart 只支撐價格位置，營收基礎估價必須另有官方營收與股數來源。",
   "summary": {
     "company_count": 84,
     "stock_count": 64,
@@ -14,6 +14,11 @@
     "missing_candidate_page_count": 0,
     "missing_candidate_page_tickers": [],
     "needs_refresh_count": 20,
+    "market_position_count": 64,
+    "revenue_valuation_available_count": 0,
+    "revenue_valuation_unavailable_count": 64,
+    "range_only_valuation_points_count": 0,
+    "range_only_valuation_points_tickers": [],
     "unable_to_classify_price_count": 20,
     "stock_unable_to_classify_price_count": 0,
     "stock_low_confidence_count": 0,
@@ -67,11 +72,11 @@
           "path": "wiki/universe/candidate-universe-dashboard.md"
         }
       ],
-      "buy_value_score": 10,
+      "buy_value_score": 1,
       "score_confidence": "low",
       "price_position_snapshot": "unable_to_classify_price",
       "score_components": {
-        "research_quality": 30,
+        "research_quality": 20,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 24
@@ -136,11 +141,11 @@
           "path": "wiki/universe/candidate-universe-dashboard.md"
         }
       ],
-      "buy_value_score": 19,
+      "buy_value_score": 9,
       "score_confidence": "low",
       "price_position_snapshot": "unable_to_classify_price",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 35,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 30
@@ -192,11 +197,11 @@
           "path": "wiki/universe/candidate-universe-dashboard.md"
         }
       ],
-      "buy_value_score": 10,
+      "buy_value_score": 1,
       "score_confidence": "low",
       "price_position_snapshot": "unable_to_classify_price",
       "score_components": {
-        "research_quality": 30,
+        "research_quality": 20,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 24
@@ -261,11 +266,11 @@
           "path": "wiki/universe/candidate-universe-dashboard.md"
         }
       ],
-      "buy_value_score": 19,
+      "buy_value_score": 9,
       "score_confidence": "low",
       "price_position_snapshot": "unable_to_classify_price",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 35,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 30
@@ -330,11 +335,11 @@
           "path": "wiki/universe/candidate-universe-dashboard.md"
         }
       ],
-      "buy_value_score": 19,
+      "buy_value_score": 9,
       "score_confidence": "low",
       "price_position_snapshot": "unable_to_classify_price",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 35,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 30
@@ -399,11 +404,11 @@
           "path": "wiki/universe/candidate-universe-dashboard.md"
         }
       ],
-      "buy_value_score": 19,
+      "buy_value_score": 9,
       "score_confidence": "low",
       "price_position_snapshot": "unable_to_classify_price",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 35,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 30
@@ -450,11 +455,11 @@
           "path": "wiki/universe/candidate-universe-dashboard.md"
         }
       ],
-      "buy_value_score": 42,
+      "buy_value_score": 32,
       "score_confidence": "low",
       "price_position_snapshot": "unable_to_classify_price",
       "score_components": {
-        "research_quality": 38,
+        "research_quality": 28,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 0
@@ -519,11 +524,11 @@
           "path": "wiki/universe/candidate-universe-dashboard.md"
         }
       ],
-      "buy_value_score": 19,
+      "buy_value_score": 9,
       "score_confidence": "low",
       "price_position_snapshot": "unable_to_classify_price",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 35,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 30
@@ -600,15 +605,15 @@
       "decision_gate": "needs_refresh_before_decision",
       "actionability": "alias_do_not_use_for_research",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "2308.TW 已納入公開展示看板；目前可展示的是 source-backed 的近一年收盤價格區間，用途是說明價格位置與研究邊界，不是買進清單。",
+      "research_summary": "2308.TW 已納入公開展示看板；目前可展示的是 source-backed 的正式估值模型，用途是說明價格位置與研究邊界，不是買進清單。",
       "evidence_summary": [
-        "近一年收盤價格區間已建立；參考價格 2280，資料日期 2026-05-08。"
+        "正式估值模型已建立；參考價格 2280，資料日期 2026-05-08。"
       ],
       "risk_summary": [],
       "valuation": {
-        "current_price": 2195.0,
+        "current_price": 2280.0,
         "as_of": "2026-05-08",
-        "price_as_of": "2026-05-12",
+        "price_as_of": "2026-05-08",
         "valid_until": "2026-05-15",
         "base_low": 1350.0,
         "base_high": 1925.0,
@@ -616,18 +621,42 @@
         "buy_zone_high": 1850.0,
         "price_range_low": 363.0,
         "price_range_high": 2280.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "formal_valuation_model",
         "basis": [
           "2308.TW market snapshot shows current price NT$2,280, trailing PE about 99.0x, forward PE about 35.9x market-data estimate, PB about 19.8x, and market cap about NT$5.92tn.",
-          "Base-case fair value range is NT$1,350-1,925 using EPS NT$45-55 and 30-35x PE; implied return from NT$2,280 is about -41% to -16%.",
-          "Preliminary zones: aggressive watch NT$1,900-2,050; reasonable buy zone NT$1,600-1,850; margin-of-safety buy zone NT$1,200-1,550; do-not-chase above NT$2,050.",
-          "Recent close price range basis: current price TWD 2195 on 2026-05-12; one-year close price range is TWD 363-2280; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
+          "MOPS 115Q1 basic EPS for Delta is NT$7.91; simple annualized Q1 EPS anchor is NT$31.64.",
+          "2026-04 monthly revenue was rechecked, but TWSE open data still returned 11503 / 2026-03 as the latest row for 2308.TW.",
+          "Bear-case fair value range is NT$700-1,120 using EPS NT$32-40 and 22-28x PE; implied return from NT$2,280 is about -69% to -51%."
         ],
         "sources": [
           {
             "claim_id": "2308-delta-valuation-20260508-market-snapshot",
             "source_url": "https://finance.yahoo.com/quote/2308.TW",
             "source_type": "internal_market_snapshot",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "2308-delta-valuation-20260508-q1-eps-anchor",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t164sb04",
+            "source_type": "official_filing",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-06-21"
+          },
+          {
+            "claim_id": "2308-delta-valuation-20260508-monthly-revenue-gap",
+            "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap05_L",
+            "source_type": "official_exchange_open_data",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-06-21"
+          },
+          {
+            "claim_id": "2308-delta-valuation-20260508-bear-fv",
+            "source_url": "wiki/valuations/2308-tw-delta-valuation-2026-05-08.md",
+            "source_type": "internal_valuation_model",
             "source_name": "",
             "as_of": "2026-05-08",
             "valid_until": "2026-05-15"
@@ -641,12 +670,60 @@
             "valid_until": "2026-05-15"
           },
           {
+            "claim_id": "2308-delta-valuation-20260508-bull-fv",
+            "source_url": "wiki/valuations/2308-tw-delta-valuation-2026-05-08.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "2308-delta-valuation-20260508-cheapness",
+            "source_url": "wiki/valuations/2308-tw-delta-valuation-2026-05-08.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-05-15"
+          },
+          {
             "claim_id": "2308-delta-valuation-20260508-buy-zone",
             "source_url": "wiki/valuations/2308-tw-delta-valuation-2026-05-08.md",
             "source_type": "internal_valuation_model",
             "source_name": "",
             "as_of": "2026-05-08",
             "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "2308-delta-valuation-20260508-sell-plan-gap",
+            "source_url": "unknown",
+            "source_type": "unknown",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-06-21"
+          },
+          {
+            "claim_id": "2308-delta-valuation-20260508-macro-overlay",
+            "source_url": "wiki/macro/regime-snapshots/2026-05-08-current-macro-regime-snapshot.md",
+            "source_type": "internal_macro_snapshot",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-06-21"
+          },
+          {
+            "claim_id": "2308-delta-valuation-20260508-technical",
+            "source_url": "https://finance.yahoo.com/quote/2308.TW/history",
+            "source_type": "internal_market_snapshot",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "2308-delta-valuation-20260508-chip",
+            "source_url": "https://www.twse.com.tw/rwd/zh/fund/T86?date=20260507&selectType=ALLBUT0999&response=json",
+            "source_type": "official_exchange_flow",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-06-21"
           },
           {
             "claim_id": "research-dashboard-price-range-20260513-2308-tw",
@@ -663,7 +740,7 @@
       "chip": {},
       "data_gaps": [],
       "display_warnings": [
-        "同一個 ticker 有多個研究頁；已合併呈現，請複查來源頁：wiki/companies/2308-tw-delta.md。"
+        "同一 ticker 有多個研究頁，已保留此頁作為補充來源：wiki/companies/2308-tw-delta.md"
       ],
       "deepsearch_tasks": [
         "2308.TW 台達電 / Delta Electronics 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
@@ -693,19 +770,42 @@
         "近一年價格區間只能說明市場位置，不能替代內在價值估算或買賣建議。"
       ],
       "market_price": {
-        "price": 2195.0,
+        "price": 2280.0,
         "currency": "TWD",
-        "price_as_of": "2026-05-12",
+        "price_as_of": "2026-05-08",
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 2280.0,
+        "range_low": 363.0,
+        "range_high": 2280.0,
+        "range_start": "",
+        "range_end": "2026-05-08",
+        "price_as_of": "2026-05-08",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 72,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 72
@@ -746,9 +846,10 @@
         "current_price": 250.0,
         "price_range_low": 151.5,
         "price_range_high": 262.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "formal_valuation_model",
         "basis": [
           "2317 closed at NT$250.00 with trailing P/E 18.44, P/B 1.97, and dividend yield 2.88% on 2026-05-08.",
+          "Hon Hai reported FY2025 EPS of NT$13.61 and operating margin of 3.20%.",
           "Preliminary scenario frame indicates bear NT$144-182, base NT$210-288, and bull NT$324-484, but no approved buy zone is established.",
           "Recent close price range basis: current price TWD 250 on 2026-05-12; one-year close price range is TWD 151.5-262; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
@@ -760,6 +861,14 @@
             "source_name": "",
             "as_of": "2026-05-09",
             "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "2317-valuation-20260509-fy2025-eps",
+            "source_url": "https://image.honhai.com/upload/202603/financy_by_quarterly/2025Q4_consolidared_report%28c%29_20260316_8056.pdf",
+            "source_type": "company_ir",
+            "source_name": "",
+            "as_of": "2026-05-09",
+            "valid_until": "2026-05-14"
           },
           {
             "claim_id": "2317-valuation-20260509-preliminary-frame",
@@ -813,13 +922,36 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 250.0,
+        "range_low": 151.5,
+        "range_high": 262.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間"
+        ],
+        "as_of": "2026-05-09"
+      },
       "buy_value_score": 54,
       "score_confidence": "medium",
-      "price_position_snapshot": "undervalued",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 25,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 54
@@ -853,12 +985,12 @@
       "valuation": {
         "buy_zone_low": 5.0,
         "buy_zone_high": 2026.0,
-        "valid": true,
+        "valid": false,
         "current_price": 29.9,
         "price_as_of": "2026-05-12",
         "price_range_low": 26.8,
         "price_range_high": 36.4,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -923,13 +1055,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_low",
+        "current_price": 29.9,
+        "range_low": 26.8,
+        "range_high": 36.4,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-07"
+      },
       "buy_value_score": 72,
       "score_confidence": "medium",
-      "price_position_snapshot": "undervalued",
+      "price_position_snapshot": "market_low",
       "score_components": {
-        "research_quality": 42,
+        "research_quality": 36,
         "freshness": 10,
-        "valuation_attractiveness": 25,
+        "valuation_attractiveness": 0,
         "risk_penalty": 30
       },
       "candidate_score": 72
@@ -964,11 +1120,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 419.5,
         "price_range_low": 113.6,
         "price_range_high": 419.5,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -1021,13 +1177,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 419.5,
+        "range_low": 113.6,
+        "range_high": 419.5,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 30,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 30
@@ -1067,7 +1247,7 @@
         "price_as_of": "2026-05-12",
         "price_range_low": 946.0,
         "price_range_high": 2310.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -1083,7 +1263,7 @@
             "valid_until": "2026-05-20"
           }
         ],
-        "valid": true
+        "valid": false
       },
       "technical": {},
       "chip": {},
@@ -1119,13 +1299,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 2255.0,
+        "range_low": 946.0,
+        "range_high": 2310.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-10"
+      },
       "buy_value_score": 46,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 46
@@ -1158,7 +1362,7 @@
         "price_as_of": "2026-05-12",
         "price_range_low": 18.3,
         "price_range_high": 172.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -1174,7 +1378,7 @@
             "valid_until": "2026-05-20"
           }
         ],
-        "valid": true
+        "valid": false
       },
       "technical": {},
       "chip": {},
@@ -1210,13 +1414,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 153.0,
+        "range_low": 18.3,
+        "range_high": 172.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 36,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 10,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 36
@@ -1249,7 +1477,7 @@
         "price_as_of": "2026-05-12",
         "price_range_low": 16.5,
         "price_range_high": 130.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -1265,7 +1493,7 @@
             "valid_until": "2026-05-20"
           }
         ],
-        "valid": true
+        "valid": false
       },
       "technical": {},
       "chip": {},
@@ -1301,13 +1529,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 121.5,
+        "range_low": 16.5,
+        "range_high": 130.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 36,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 10,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 36
@@ -1340,11 +1592,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 2525.0,
         "price_range_low": 674.0,
         "price_range_high": 2590.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -1397,13 +1649,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 2525.0,
+        "range_low": 674.0,
+        "range_high": 2590.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 36,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 36
@@ -1439,11 +1715,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 555.0,
         "price_range_low": 445.0,
         "price_range_high": 592.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -1496,13 +1772,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 555.0,
+        "range_low": 445.0,
+        "range_high": 592.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 29,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 29
@@ -1535,12 +1835,12 @@
       "valuation": {
         "buy_zone_low": 5.0,
         "buy_zone_high": 2026.0,
-        "valid": true,
+        "valid": false,
         "current_price": 340.0,
         "price_as_of": "2026-05-12",
         "price_range_low": 253.5,
         "price_range_high": 346.5,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -1591,13 +1891,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 340.0,
+        "range_low": 253.5,
+        "range_high": 346.5,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-10"
+      },
       "buy_value_score": 51,
       "score_confidence": "medium",
-      "price_position_snapshot": "undervalued",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 4,
-        "valuation_attractiveness": 25,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 51
@@ -1632,11 +1956,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 25.95,
         "price_range_low": 17.9,
         "price_range_high": 25.95,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -1689,13 +2013,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 25.95,
+        "range_low": 17.9,
+        "range_high": 25.95,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 29,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 29
@@ -1728,7 +2076,7 @@
         "price_as_of": "2026-05-12",
         "price_range_low": 37.2,
         "price_range_high": 326.5,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -1744,7 +2092,7 @@
             "valid_until": "2026-05-20"
           }
         ],
-        "valid": true
+        "valid": false
       },
       "technical": {},
       "chip": {},
@@ -1780,13 +2128,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 321.0,
+        "range_low": 37.2,
+        "range_high": 326.5,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 36,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 10,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 36
@@ -1816,23 +2188,89 @@
       ],
       "risk_summary": [],
       "valuation": {
-        "current_price": 135.5,
-        "price_as_of": "2026-05-12",
+        "current_price": 136.5,
+        "price_as_of": "2026-03-31",
         "valid": true,
-        "base_low": 125.0,
-        "base_high": 140.0,
         "as_of": "2026-05-09",
         "valid_until": "2026-05-15",
+        "base_low": 125.0,
+        "base_high": 140.0,
         "price_range_low": 128.0,
         "price_range_high": 138.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "formal_valuation_model",
         "basis": [
+          "2412 market snapshot: TWSE 2026-05-08 close NT$136.50, dividend yield 3.81%, PE 27.35, PB 2.74 and estimated market cap about NT$1.059tn.",
+          "Bear case fair value range is NT$105-118 using EPS NT$4.60-4.90, 22-24x PE or a higher dividend-yield requirement under rate pressure.",
           "Base case fair value range is NT$125-140 using EPS NT$5.00-5.20, stable dividend NT$5.20 and 25-27x PE or 3.8-4.1% fair yield; current price is above the base midpoint.",
-          "Recent close price range basis: current price TWD 135.5 on 2026-05-12; one-year close price range is TWD 128-138; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
+          "Bull case fair value range is NT$150-170 using EPS NT$5.40-5.80, stable dividend and 28-30x PE, but confidence is low-medium because it depends on ICT/cloud/security/IDC growth and rate rerating."
         ],
         "sources": [
           {
+            "claim_id": "2412-chunghwa-valuation-20260509-snapshot",
+            "source_url": "https://www.twse.com.tw/rwd/zh/afterTrading/BWIBBU_d?date=20260508&selectType=ALL&response=json",
+            "source_type": "official_exchange_market_snapshot",
+            "source_name": "",
+            "as_of": "2026-05-09",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "2412-chunghwa-valuation-20260509-bear-case",
+            "source_url": "wiki/valuations/2412-tw-chunghwa-telecom-valuation-2026-05-09.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-09",
+            "valid_until": "2026-05-15"
+          },
+          {
             "claim_id": "2412-chunghwa-valuation-20260509-base-case",
+            "source_url": "wiki/valuations/2412-tw-chunghwa-telecom-valuation-2026-05-09.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-09",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "2412-chunghwa-valuation-20260509-bull-case",
+            "source_url": "wiki/valuations/2412-tw-chunghwa-telecom-valuation-2026-05-09.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-09",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "2412-chunghwa-valuation-20260509-cheapness",
+            "source_url": "wiki/valuations/2412-tw-chunghwa-telecom-valuation-2026-05-09.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-09",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "2412-chunghwa-valuation-20260509-buy-zone-watch",
+            "source_url": "wiki/valuations/2412-tw-chunghwa-telecom-valuation-2026-05-09.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-09",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "2412-chunghwa-valuation-20260509-buy-zone-income-reset",
+            "source_url": "wiki/valuations/2412-tw-chunghwa-telecom-valuation-2026-05-09.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-09",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "2412-chunghwa-valuation-20260509-buy-zone-reasonable",
+            "source_url": "wiki/valuations/2412-tw-chunghwa-telecom-valuation-2026-05-09.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-09",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "2412-chunghwa-valuation-20260509-sell-plan-readiness",
             "source_url": "wiki/valuations/2412-tw-chunghwa-telecom-valuation-2026-05-09.md",
             "source_type": "internal_valuation_model",
             "source_name": "",
@@ -1893,19 +2331,42 @@
         "近一年價格區間只能說明市場位置，不能替代內在價值估算或買賣建議。"
       ],
       "market_price": {
-        "price": 135.5,
+        "price": 136.5,
         "currency": "TWD",
-        "price_as_of": "2026-05-12",
+        "price_as_of": "2026-03-31",
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 136.5,
+        "range_low": 128.0,
+        "range_high": 138.0,
+        "range_start": "",
+        "range_end": "2026-03-31",
+        "price_as_of": "2026-03-31",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間"
+        ],
+        "as_of": "2026-05-09"
+      },
       "buy_value_score": 19,
       "score_confidence": "medium",
-      "price_position_snapshot": "reasonable",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 14,
+        "valuation_attractiveness": 0,
         "risk_penalty": 30
       },
       "candidate_score": 19
@@ -1935,7 +2396,7 @@
         "[claim_id: 2421-20260507-001] 2026-05-07 盤中曾衝到 150 以上，日高約 152.5，後回到約 146。",
         "[claim_id: 2421-20260507-002] 技術位置：146 附近約在 MA20 之上約 1%，MA20 約 144.5，MA60 約 142.1。",
         "[claim_id: 2421-20260507-003] yfinance 快篩資料顯示：Forward P/E 約 12.3、Trailing P/E 約 18.6、Revenue Growth 約 +27.5%、Gross Margin 約 31.1%、Operating Margin 約 16.5%。",
-        "[claim_id: 2421-20260507-001; derived_calculation] 以 20,000 TWD、146–147 附近試算，可買約 135–136 股，含手續費約 19,862–19,873 TWD；僅為 point-in-time sizing context，非 Current Facts 決策依據。"
+        "[claim_id: 2421-20260507-001; derived_calculation] 以 20,000 TWD、146–147 附近試算，可換算約 135–136 股，含手續費約 19,862–19,873 TWD；僅為 point-in-time sizing context，非 Current Facts 決策依據。"
       ],
       "risk_summary": [
         "散熱零組件可能被 ODM / CSP cost down。",
@@ -1946,12 +2407,12 @@
       "valuation": {
         "buy_zone_low": 5.0,
         "buy_zone_high": 2026.0,
-        "valid": true,
+        "valid": false,
         "current_price": 149.0,
         "price_as_of": "2026-05-12",
         "price_range_low": 94.9,
         "price_range_high": 189.5,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -2002,13 +2463,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_middle",
+        "current_price": 149.0,
+        "range_low": 94.9,
+        "range_high": 189.5,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-07T12:48:00+08:00"
+      },
       "buy_value_score": 36,
       "score_confidence": "medium",
-      "price_position_snapshot": "undervalued",
+      "price_position_snapshot": "market_middle",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 25,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 36
@@ -2044,12 +2529,12 @@
       "valuation": {
         "buy_zone_low": 5.0,
         "buy_zone_high": 2026.0,
-        "valid": true,
+        "valid": false,
         "current_price": 3700.0,
         "price_as_of": "2026-05-12",
         "price_range_low": 1145.0,
         "price_range_high": 3880.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -2113,13 +2598,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 3700.0,
+        "range_low": 1145.0,
+        "range_high": 3880.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-07"
+      },
       "buy_value_score": 72,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 10,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 30
       },
       "candidate_score": 72
@@ -2154,11 +2663,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 223.0,
         "price_range_low": 72.8,
         "price_range_high": 225.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -2211,13 +2720,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 223.0,
+        "range_low": 72.8,
+        "range_high": 225.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 30,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 30
@@ -2252,11 +2785,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 188.5,
         "price_range_low": 77.8,
         "price_range_high": 188.5,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -2309,13 +2842,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 188.5,
+        "range_low": 77.8,
+        "range_high": 188.5,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 30,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 30
@@ -2342,11 +2899,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 123.5,
         "price_range_low": 94.4,
         "price_range_high": 132.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -2397,13 +2954,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 123.5,
+        "range_low": 94.4,
+        "range_high": 132.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-08"
+      },
       "buy_value_score": 6,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 6
@@ -2435,11 +3016,11 @@
       "valuation": {
         "buy_zone_high": 3.0,
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 93.7,
         "price_range_low": 76.2,
         "price_range_high": 98.2,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -2500,13 +3081,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 93.7,
+        "range_low": 76.2,
+        "range_high": 98.2,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-10"
+      },
       "buy_value_score": 25,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 10,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 30
       },
       "candidate_score": 25
@@ -2538,11 +3143,11 @@
       "valuation": {
         "buy_zone_high": 3.0,
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 76.4,
         "price_range_low": 56.1,
         "price_range_high": 80.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -2603,13 +3208,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 76.4,
+        "range_low": 56.1,
+        "range_high": 80.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-10"
+      },
       "buy_value_score": 25,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 10,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 30
       },
       "candidate_score": 25
@@ -2641,11 +3270,11 @@
       "valuation": {
         "buy_zone_high": 3.0,
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 31.8,
         "price_range_low": 29.21,
         "price_range_high": 35.1,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -2706,13 +3335,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_middle",
+        "current_price": 31.8,
+        "range_low": 29.21,
+        "range_high": 35.1,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-10"
+      },
       "buy_value_score": 25,
       "score_confidence": "medium",
-      "price_position_snapshot": "reasonable",
+      "price_position_snapshot": "market_middle",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 10,
-        "valuation_attractiveness": 14,
+        "valuation_attractiveness": 0,
         "risk_penalty": 30
       },
       "candidate_score": 25
@@ -2744,11 +3397,11 @@
       "valuation": {
         "buy_zone_high": 5.0,
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 54.6,
         "price_range_low": 30.29,
         "price_range_high": 56.5,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -2809,13 +3462,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 54.6,
+        "range_low": 30.29,
+        "range_high": 56.5,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-10"
+      },
       "buy_value_score": 25,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 10,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 30
       },
       "candidate_score": 25
@@ -2847,11 +3524,11 @@
       "valuation": {
         "buy_zone_high": 3.0,
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 39.2,
         "price_range_low": 38.35,
         "price_range_high": 43.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -2912,13 +3589,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_low",
+        "current_price": 39.2,
+        "range_low": 38.35,
+        "range_high": 43.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-10"
+      },
       "buy_value_score": 25,
       "score_confidence": "medium",
-      "price_position_snapshot": "undervalued",
+      "price_position_snapshot": "market_low",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 10,
-        "valuation_attractiveness": 25,
+        "valuation_attractiveness": 0,
         "risk_penalty": 30
       },
       "candidate_score": 25
@@ -2950,11 +3651,11 @@
       "valuation": {
         "buy_zone_high": 5.0,
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 53.5,
         "price_range_low": 40.1,
         "price_range_high": 56.5,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -3015,13 +3716,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 53.5,
+        "range_low": 40.1,
+        "range_high": 56.5,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-10"
+      },
       "buy_value_score": 25,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 10,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 30
       },
       "candidate_score": 25
@@ -3067,12 +3792,12 @@
         "base_high": 2975.0,
         "price_range_low": 541.0,
         "price_range_high": 2945.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "formal_valuation_model",
         "basis": [
           "3017 market snapshot: price NT$2,410, trailing PE 49.90, forward PE 18.29 source_needs_confirmation, PB 21.11, market cap NT$945,150,951,424 as of 2026-05-08.",
-          "Base case fair value range is NT$1,820–2,975 using NT$65–85 EPS and 28–35x PE; current price is slightly above the base midpoint.",
-          "Reasonable buy zone is NT$1,700–2,050; action wait_for_pullback / prepare_refresh only.",
-          "Margin-of-safety buy zone is NT$1,200–1,650; requires source-backed thesis still valid and no technical/chip breakdown."
+          "Forward PE 18.29 and forward EPS NT$131.76 are market-data estimates with provenance not sufficient for actionable decisions.",
+          "Bear case fair value range is NT$990–1,680 using NT$45–60 EPS and 22–28x PE; return from current price is about -59% to -30%.",
+          "Base case fair value range is NT$1,820–2,975 using NT$65–85 EPS and 28–35x PE; current price is slightly above the base midpoint."
         ],
         "sources": [
           {
@@ -3084,7 +3809,47 @@
             "valid_until": "2026-05-15"
           },
           {
+            "claim_id": "3017-avc-valuation-20260508-forward-estimate-boundary",
+            "source_url": "market_data:yfinance:3017.TW",
+            "source_type": "market_data",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "3017-avc-valuation-20260508-bear-case",
+            "source_url": "wiki/valuations/3017-tw-avc-valuation-2026-05-08.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-05-15"
+          },
+          {
             "claim_id": "3017-avc-valuation-20260508-base-case",
+            "source_url": "wiki/valuations/3017-tw-avc-valuation-2026-05-08.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "3017-avc-valuation-20260508-bull-case",
+            "source_url": "wiki/valuations/3017-tw-avc-valuation-2026-05-08.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "3017-avc-valuation-20260508-cheapness",
+            "source_url": "wiki/valuations/3017-tw-avc-valuation-2026-05-08.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "3017-avc-valuation-20260508-buy-zone-aggressive",
             "source_url": "wiki/valuations/3017-tw-avc-valuation-2026-05-08.md",
             "source_type": "internal_valuation_model",
             "source_name": "",
@@ -3108,12 +3873,76 @@
             "valid_until": "2026-05-15"
           },
           {
+            "claim_id": "3017-avc-valuation-20260508-do-not-chase",
+            "source_url": "wiki/valuations/3017-tw-avc-valuation-2026-05-08.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-05-15"
+          },
+          {
             "claim_id": "3017-avc-valuation-20260508-macro-overlay",
             "source_url": "wiki/valuations/3017-tw-avc-valuation-2026-05-08.md",
             "source_type": "internal_valuation_model",
             "source_name": "",
             "as_of": "2026-05-08",
             "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "3017-avc-valuation-20260508-technical-boundary",
+            "source_url": "wiki/valuations/3017-tw-avc-valuation-2026-05-08.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "3017-avc-valuation-20260508-chip-boundary",
+            "source_url": "wiki/valuations/3017-tw-avc-valuation-2026-05-08.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "3017-avc-valuation-20260508-gap-202604-revenue",
+            "source_url": "unknown",
+            "source_type": "unknown",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": ""
+          },
+          {
+            "claim_id": "3017-avc-valuation-20260508-gap-2026q1-eps",
+            "source_url": "unknown",
+            "source_type": "unknown",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": ""
+          },
+          {
+            "claim_id": "3017-avc-valuation-20260508-gap-ai-liquid-revenue",
+            "source_url": "unknown",
+            "source_type": "unknown",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": ""
+          },
+          {
+            "claim_id": "3017-avc-valuation-20260508-gap-sell-plan",
+            "source_url": "unknown",
+            "source_type": "unknown",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": ""
+          },
+          {
+            "claim_id": "3017-avc-valuation-20260508-gap-multiday-chip",
+            "source_url": "unknown",
+            "source_type": "unknown",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": ""
           },
           {
             "claim_id": "research-dashboard-price-range-20260513-3017-tw",
@@ -3175,13 +4004,36 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 2410.0,
+        "range_low": 541.0,
+        "range_high": 2945.0,
+        "range_start": "",
+        "range_end": "2026-05-08",
+        "price_as_of": "2026-05-08",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間"
+        ],
+        "as_of": "2026-05-08"
+      },
       "buy_value_score": 67,
       "score_confidence": "medium",
-      "price_position_snapshot": "reasonable",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 10,
-        "valuation_attractiveness": 14,
+        "valuation_attractiveness": 0,
         "risk_penalty": 30
       },
       "candidate_score": 67
@@ -3214,7 +4066,7 @@
         "price_as_of": "2026-05-12",
         "price_range_low": 108.5,
         "price_range_high": 158.5,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -3230,7 +4082,7 @@
             "valid_until": "2026-05-20"
           }
         ],
-        "valid": true
+        "valid": false
       },
       "technical": {},
       "chip": {},
@@ -3266,13 +4118,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_middle",
+        "current_price": 141.5,
+        "range_low": 108.5,
+        "range_high": 158.5,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 51,
       "score_confidence": "medium",
-      "price_position_snapshot": "reasonable",
+      "price_position_snapshot": "market_middle",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 10,
-        "valuation_attractiveness": 14,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 51
@@ -3305,7 +4181,7 @@
         "price_as_of": "2026-05-12",
         "price_range_low": 87.1,
         "price_range_high": 525.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -3321,7 +4197,7 @@
             "valid_until": "2026-05-20"
           }
         ],
-        "valid": true
+        "valid": false
       },
       "technical": {},
       "chip": {},
@@ -3357,13 +4233,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 445.5,
+        "range_low": 87.1,
+        "range_high": 525.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 36,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 10,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 36
@@ -3393,24 +4293,82 @@
       ],
       "risk_summary": [],
       "valuation": {
-        "current_price": 1060.0,
+        "current_price": 1065.0,
         "buy_zone_low": 5.0,
         "buy_zone_high": 2026.0,
-        "price_as_of": "2026-05-12",
-        "valid": true,
+        "price_as_of": "2026-05-08",
+        "valid": false,
         "as_of": "2026-05-08",
         "price_range_low": 533.0,
         "price_range_high": 1215.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "valid_until": "2026-05-20",
         "basis": [
           "Current price NT$1,065 on 2026-05-08; market cap about NT$97.06bn; Yahoo trailing PE 38.57, forward PE 14.68, PB 8.84; TPEX 2026-05-07 close-based PE 30.88, PB 7.42.",
-          "Recent close price range basis: current price TWD 1060 on 2026-05-12; one-year close price range is TWD 533-1215; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
+          "MOPS 2026Q1 EPS NT$12.61 and FY2025 EPS NT$28.26 are available as earnings bases, but no fair-value model is complete.",
+          "Formal fair value model incomplete.",
+          "Buy zone missing."
         ],
         "sources": [
           {
             "claim_id": "3324-val-20260508-c001",
             "source_url": "https://www.tpex.org.tw/openapi/v1/tpex_mainboard_peratio_analysis",
+            "source_type": "",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": ""
+          },
+          {
+            "claim_id": "3324-val-20260508-c002",
+            "source_url": "https://mopsov.twse.com.tw/mops/web/ajax_t164sb04?co_id=3324&year=115&season=1",
+            "source_type": "",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": ""
+          },
+          {
+            "claim_id": "3324-val-20260508-g001",
+            "source_url": "unknown",
+            "source_type": "",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": ""
+          },
+          {
+            "claim_id": "3324-val-20260508-g002",
+            "source_url": "unknown",
+            "source_type": "",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": ""
+          },
+          {
+            "claim_id": "3324-val-20260508-g003",
+            "source_url": "unknown",
+            "source_type": "",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": ""
+          },
+          {
+            "claim_id": "3324-val-20260508-g004",
+            "source_url": "unknown",
+            "source_type": "",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": ""
+          },
+          {
+            "claim_id": "3324-val-20260508-g005",
+            "source_url": "unknown",
+            "source_type": "",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": ""
+          },
+          {
+            "claim_id": "3324-val-20260508-g006",
+            "source_url": "unknown",
             "source_type": "",
             "source_name": "",
             "as_of": "2026-05-08",
@@ -3471,19 +4429,42 @@
         "近一年價格區間只能說明市場位置，不能替代內在價值估算或買賣建議。"
       ],
       "market_price": {
-        "price": 1060.0,
+        "price": 1065.0,
         "currency": "TWD",
-        "price_as_of": "2026-05-12",
+        "price_as_of": "2026-05-08",
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 1065.0,
+        "range_low": 533.0,
+        "range_high": 1215.0,
+        "range_start": "",
+        "range_end": "2026-05-08",
+        "price_as_of": "2026-05-08",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間"
+        ],
+        "as_of": "2026-05-08"
+      },
       "buy_value_score": 67,
       "score_confidence": "medium",
-      "price_position_snapshot": "undervalued",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 10,
-        "valuation_attractiveness": 25,
+        "valuation_attractiveness": 0,
         "risk_penalty": 30
       },
       "candidate_score": 67
@@ -3516,11 +4497,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 555.0,
         "price_range_low": 133.5,
         "price_range_high": 555.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -3573,13 +4554,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 555.0,
+        "range_low": 133.5,
+        "range_high": 555.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 36,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 36
@@ -3612,7 +4617,7 @@
         "price_as_of": "2026-05-12",
         "price_range_low": 69.9,
         "price_range_high": 303.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -3628,7 +4633,7 @@
             "valid_until": "2026-05-20"
           }
         ],
-        "valid": true
+        "valid": false
       },
       "technical": {},
       "chip": {},
@@ -3664,13 +4669,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 285.5,
+        "range_low": 69.9,
+        "range_high": 303.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 30,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 10,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 30
@@ -3706,11 +4735,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 170.0,
         "price_range_low": 80.4,
         "price_range_high": 185.5,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -3763,13 +4792,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 170.0,
+        "range_low": 80.4,
+        "range_high": 185.5,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 40,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 40
@@ -3801,11 +4854,11 @@
       "valuation": {
         "buy_zone_high": 3.0,
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 22.8,
         "price_range_low": 22.55,
         "price_range_high": 25.58,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -3866,13 +4919,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_low",
+        "current_price": 22.8,
+        "range_low": 22.55,
+        "range_high": 25.58,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-10"
+      },
       "buy_value_score": 25,
       "score_confidence": "medium",
-      "price_position_snapshot": "undervalued",
+      "price_position_snapshot": "market_low",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 10,
-        "valuation_attractiveness": 25,
+        "valuation_attractiveness": 0,
         "risk_penalty": 30
       },
       "candidate_score": 25
@@ -3907,11 +4984,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 198.5,
         "price_range_low": 100.0,
         "price_range_high": 221.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -3964,13 +5041,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 198.5,
+        "range_low": 100.0,
+        "range_high": 221.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 30,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 30
@@ -4006,11 +5107,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 785.0,
         "price_range_low": 283.0,
         "price_range_high": 835.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -4063,13 +5164,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 785.0,
+        "range_low": 283.0,
+        "range_high": 835.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 40,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 40
@@ -4126,6 +5251,7 @@
         "price_range_high": 5790.0,
         "basis": [
           "6669 current price was NT$4,880 on 2026-05-07; valuation data valid until 2026-05-14.",
+          "Research valuation classifies 6669 as not_cheap_enough at NT$4,880 because price is near base fair value and attractive upside mainly requires bull assumptions.",
           "Recent close price range basis: current price TWD 5790 on 2026-05-12; one-year close price range is TWD 2225-5790; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
         ],
         "sources": [
@@ -4133,6 +5259,14 @@
             "claim_id": "6669-valuation-20260507-v01",
             "source_url": "Yahoo Finance / TWSE BWIBBU",
             "source_type": "market_data",
+            "source_name": "",
+            "as_of": "2026-05-07",
+            "valid_until": "2026-05-14"
+          },
+          {
+            "claim_id": "6669-valuation-20260507-v02",
+            "source_url": "wiki/valuations/6669-tw-wiwynn-valuation-2026-05-07.md",
+            "source_type": "derived_research_model",
             "source_name": "",
             "as_of": "2026-05-07",
             "valid_until": "2026-05-14"
@@ -4197,13 +5331,36 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 5790.0,
+        "range_low": 2225.0,
+        "range_high": 5790.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間"
+        ],
+        "as_of": "2026-05-07"
+      },
       "buy_value_score": 78,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 10,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 30
       },
       "candidate_score": 78
@@ -4237,12 +5394,12 @@
       "valuation": {
         "buy_zone_low": 5.0,
         "buy_zone_high": 2026.0,
-        "valid": true,
+        "valid": false,
         "current_price": 62.1,
         "price_as_of": "2026-05-12",
         "price_range_low": 14.6,
         "price_range_high": 76.8,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -4293,13 +5450,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 62.1,
+        "range_low": 14.6,
+        "range_high": 76.8,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-10"
+      },
       "buy_value_score": 24,
       "score_confidence": "medium",
-      "price_position_snapshot": "undervalued",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 4,
-        "valuation_attractiveness": 25,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 24
@@ -4335,11 +5516,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-13",
-        "valid": true,
+        "valid": false,
         "current_price": 2781.0,
         "price_range_low": 1122.0,
         "price_range_high": 2781.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-13",
         "valid_until": "2026-05-20",
         "basis": [
@@ -4392,13 +5573,37 @@
         "retrieved_at": "2026-05-13",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 2781.0,
+        "range_low": 1122.0,
+        "range_high": 2781.0,
+        "range_start": "",
+        "range_end": "2026-05-13",
+        "price_as_of": "2026-05-13",
+        "retrieved_at": "2026-05-13",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 30,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 30
@@ -4434,11 +5639,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-13",
-        "valid": true,
+        "valid": false,
         "current_price": 3200.0,
         "price_range_low": 1008.0,
         "price_range_high": 3200.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-13",
         "valid_until": "2026-05-20",
         "basis": [
@@ -4491,13 +5696,37 @@
         "retrieved_at": "2026-05-13",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 3200.0,
+        "range_low": 1008.0,
+        "range_high": 3200.0,
+        "range_start": "",
+        "range_end": "2026-05-13",
+        "price_as_of": "2026-05-13",
+        "retrieved_at": "2026-05-13",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 30,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 30
@@ -4529,11 +5758,11 @@
         "buy_zone_low": 5.0,
         "buy_zone_high": 2026.0,
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 2725.0,
         "price_range_low": 470.0,
         "price_range_high": 2725.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -4584,13 +5813,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 2725.0,
+        "range_low": 470.0,
+        "range_high": 2725.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-11T09:41:52+08:00"
+      },
       "buy_value_score": 36,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 36
@@ -4620,7 +5873,7 @@
         "price_as_of": "2026-05-12",
         "price_range_low": 195.3,
         "price_range_high": 294.8,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -4636,7 +5889,7 @@
             "valid_until": "2026-05-20"
           }
         ],
-        "valid": true
+        "valid": false
       },
       "technical": {},
       "chip": {},
@@ -4678,13 +5931,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 294.8,
+        "range_low": 195.3,
+        "range_high": 294.8,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-08T23:05:30+08:00"
+      },
       "buy_value_score": 6,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 18
       },
       "candidate_score": 6
@@ -4715,12 +5992,12 @@
       "valuation": {
         "buy_zone_low": 5.0,
         "buy_zone_high": 2026.0,
-        "valid": true,
+        "valid": false,
         "current_price": 131.9,
         "price_as_of": "2026-05-12",
         "price_range_low": 98.59,
         "price_range_high": 137.1,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -4771,13 +6048,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 131.9,
+        "range_low": 98.59,
+        "range_high": 137.1,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-07T15:06:46+08:00"
+      },
       "buy_value_score": 46,
       "score_confidence": "medium",
-      "price_position_snapshot": "undervalued",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 4,
-        "valuation_attractiveness": 25,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 46
@@ -4807,7 +6108,7 @@
         "price_as_of": "2026-05-12",
         "price_range_low": 110.3,
         "price_range_high": 458.8,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -4823,7 +6124,7 @@
             "valid_until": "2026-05-20"
           }
         ],
-        "valid": true
+        "valid": false
       },
       "technical": {},
       "chip": {},
@@ -4859,13 +6160,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 448.3,
+        "range_low": 110.3,
+        "range_high": 458.8,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-08"
+      },
       "buy_value_score": 51,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 51
@@ -4898,11 +6223,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 142.5,
         "price_range_low": 86.25,
         "price_range_high": 177.7,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -4955,13 +6280,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_middle",
+        "current_price": 142.5,
+        "range_low": 86.25,
+        "range_high": 177.7,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 51,
       "score_confidence": "medium",
-      "price_position_snapshot": "reasonable",
+      "price_position_snapshot": "market_middle",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 14,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 51
@@ -4991,7 +6340,7 @@
         "price_as_of": "2026-05-12",
         "price_range_low": 104.6,
         "price_range_high": 237.3,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -5007,7 +6356,7 @@
             "valid_until": "2026-05-20"
           }
         ],
-        "valid": true
+        "valid": false
       },
       "technical": {},
       "chip": {},
@@ -5043,13 +6392,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 207.9,
+        "range_low": 104.6,
+        "range_high": 237.3,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-08"
+      },
       "buy_value_score": 6,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 6
@@ -5079,7 +6452,7 @@
         "price_as_of": "2026-05-12",
         "price_range_low": 228.6,
         "price_range_high": 430.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -5095,7 +6468,7 @@
             "valid_until": "2026-05-20"
           }
         ],
-        "valid": true
+        "valid": false
       },
       "technical": {},
       "chip": {},
@@ -5131,13 +6504,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 419.3,
+        "range_low": 228.6,
+        "range_high": 430.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-08"
+      },
       "buy_value_score": 51,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 51
@@ -5170,11 +6567,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 238.9,
         "price_range_low": 107.8,
         "price_range_high": 260.5,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -5227,13 +6624,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 238.9,
+        "range_low": 107.8,
+        "range_high": 260.5,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 51,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 51
@@ -5266,11 +6687,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 401.5,
         "price_range_low": 315.8,
         "price_range_high": 433.0,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -5323,13 +6744,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 401.5,
+        "range_low": 315.8,
+        "range_high": 433.0,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 46,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 46
@@ -5365,11 +6810,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 72.15,
         "price_range_low": 31.62,
         "price_range_high": 74.99,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -5422,13 +6867,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 72.15,
+        "range_low": 31.62,
+        "range_high": 74.99,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 40,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 40
@@ -5461,11 +6930,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 198.2,
         "price_range_low": 47.01,
         "price_range_high": 207.4,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -5518,13 +6987,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 198.2,
+        "range_low": 47.01,
+        "range_high": 207.4,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 36,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 36
@@ -5554,7 +7047,7 @@
         "price_as_of": "2026-05-12",
         "price_range_low": 159.5,
         "price_range_high": 400.8,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -5570,7 +7063,7 @@
             "valid_until": "2026-05-20"
           }
         ],
-        "valid": true
+        "valid": false
       },
       "technical": {},
       "chip": {},
@@ -5606,13 +7099,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 387.4,
+        "range_low": 159.5,
+        "range_high": 400.8,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-08"
+      },
       "buy_value_score": 6,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 6
@@ -5643,12 +7160,12 @@
       "valuation": {
         "buy_zone_low": 5.0,
         "buy_zone_high": 2026.0,
-        "valid": true,
+        "valid": false,
         "current_price": 107.3,
         "price_as_of": "2026-05-12",
         "price_range_low": 15.21,
         "price_range_high": 108.9,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -5699,13 +7216,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 107.3,
+        "range_low": 15.21,
+        "range_high": 108.9,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-07T15:06:46+08:00"
+      },
       "buy_value_score": 51,
       "score_confidence": "medium",
-      "price_position_snapshot": "undervalued",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 4,
-        "valuation_attractiveness": 25,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 51
@@ -5741,11 +7282,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 120.6,
         "price_range_low": 19.31,
         "price_range_high": 129.4,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -5798,13 +7339,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 120.6,
+        "range_low": 19.31,
+        "range_high": 129.4,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 45,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 45
@@ -5838,11 +7403,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 56.56,
         "price_range_low": 7.75,
         "price_range_high": 76.41,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -5899,13 +7464,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 56.56,
+        "range_low": 7.75,
+        "range_high": 76.41,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 54,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 18
       },
       "candidate_score": 54
@@ -5969,11 +7558,11 @@
           "path": "wiki/universe/candidate-universe-dashboard.md"
         }
       ],
-      "buy_value_score": 19,
+      "buy_value_score": 9,
       "score_confidence": "low",
       "price_position_snapshot": "unable_to_classify_price",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 35,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 30
@@ -6005,12 +7594,12 @@
       "valuation": {
         "buy_zone_low": 5.0,
         "buy_zone_high": 2026.0,
-        "valid": true,
+        "valid": false,
         "current_price": 114.2,
         "price_as_of": "2026-05-12",
         "price_range_low": 114.2,
         "price_range_high": 164.4,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -6061,13 +7650,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_low",
+        "current_price": 114.2,
+        "range_low": 114.2,
+        "range_high": 164.4,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-07T15:06:46+08:00"
+      },
       "buy_value_score": 36,
       "score_confidence": "medium",
-      "price_position_snapshot": "undervalued",
+      "price_position_snapshot": "market_low",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 4,
-        "valuation_attractiveness": 25,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 36
@@ -6100,11 +7713,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 164.5,
         "price_range_low": 60.11,
         "price_range_high": 172.1,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -6157,13 +7770,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 164.5,
+        "range_low": 60.11,
+        "range_high": 172.1,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 51,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 51
@@ -6193,7 +7830,7 @@
         "price_as_of": "2026-05-12",
         "price_range_low": 356.8,
         "price_range_high": 542.1,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -6209,7 +7846,7 @@
             "valid_until": "2026-05-20"
           }
         ],
-        "valid": true
+        "valid": false
       },
       "technical": {},
       "chip": {},
@@ -6251,13 +7888,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_low",
+        "current_price": 407.8,
+        "range_low": 356.8,
+        "range_high": 542.1,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-08T23:05:30+08:00"
+      },
       "buy_value_score": 51,
       "score_confidence": "medium",
-      "price_position_snapshot": "undervalued",
+      "price_position_snapshot": "market_low",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 4,
-        "valuation_attractiveness": 25,
+        "valuation_attractiveness": 0,
         "risk_penalty": 18
       },
       "candidate_score": 51
@@ -6290,11 +7951,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 766.6,
         "price_range_low": 93.37,
         "price_range_high": 795.3,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -6347,13 +8008,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 766.6,
+        "range_low": 93.37,
+        "range_high": 795.3,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 36,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 36
@@ -6389,11 +8074,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 186.8,
         "price_range_low": 150.4,
         "price_range_high": 256.8,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -6446,13 +8131,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_middle",
+        "current_price": 186.8,
+        "range_low": 150.4,
+        "range_high": 256.8,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 45,
       "score_confidence": "medium",
-      "price_position_snapshot": "reasonable",
+      "price_position_snapshot": "market_middle",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 14,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 45
@@ -6488,26 +8197,51 @@
       ],
       "risk_summary": [],
       "valuation": {
-        "current_price": 220.8,
-        "price_as_of": "2026-05-12",
+        "current_price": 215.2,
+        "price_as_of": "2026-05-08",
         "valid": true,
-        "base_low": 192.0,
-        "base_high": 270.0,
         "as_of": "2026-05-09",
         "valid_until": "2026-05-15",
+        "base_low": 192.0,
+        "base_high": 270.0,
         "buy_zone_low": 190.0,
         "buy_zone_high": 210.0,
         "price_range_low": 129.9,
         "price_range_high": 220.8,
-        "basis_type": "recent_trading_range",
+        "basis_type": "formal_valuation_model",
         "basis": [
+          "Bear case fair value range is $138-$210 using $5.50-$7.00 EPS basis and 25x-30x multiple under growth slowdown, margin pressure or export-control risk.",
           "Base case fair value range is $192-$270 using $8.00-$9.00 EPS basis and 24x-30x multiple; current price is inside the range but near 52-week high.",
-          "Preliminary buy-zone readiness uses watch $190-$210, better reset $160-$185, margin-of-safety below $150, and do-not-chase above $230 before Q1 FY2027 results unless fresh source-backed results change the valuation base.",
-          "Recent close price range basis: current price USD 220.8 on 2026-05-12; one-year close price range is USD 129.9-220.8; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
+          "Bull case fair value range is $280-$420 using $10.00-$12.00 EPS basis and 28x-35x multiple, requiring continued Data Center upside, durable margin and strong deployment economics.",
+          "NVDA is classified watch / not_cheap_enough because current price is near a 52-week high and no formal buy/sell/risk plan is complete before Q1 FY2027 results."
         ],
         "sources": [
           {
+            "claim_id": "nvda-valuation-20260509-bear-case",
+            "source_url": "wiki/valuations/nvda-valuation-2026-05-09.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-09",
+            "valid_until": "2026-05-15"
+          },
+          {
             "claim_id": "nvda-valuation-20260509-base-case",
+            "source_url": "wiki/valuations/nvda-valuation-2026-05-09.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-09",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "nvda-valuation-20260509-bull-case",
+            "source_url": "wiki/valuations/nvda-valuation-2026-05-09.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-09",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "nvda-valuation-20260509-cheapness-classification",
             "source_url": "wiki/valuations/nvda-valuation-2026-05-09.md",
             "source_type": "internal_valuation_model",
             "source_name": "",
@@ -6572,19 +8306,42 @@
         "近一年價格區間只能說明市場位置，不能替代內在價值估算或買賣建議。"
       ],
       "market_price": {
-        "price": 220.8,
+        "price": 215.2,
         "currency": "USD",
-        "price_as_of": "2026-05-12",
+        "price_as_of": "2026-05-08",
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 215.2,
+        "range_low": 129.9,
+        "range_high": 220.8,
+        "range_start": "",
+        "range_end": "2026-05-08",
+        "price_as_of": "2026-05-08",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間"
+        ],
+        "as_of": "2026-05-09"
+      },
       "buy_value_score": 51,
       "score_confidence": "medium",
-      "price_position_snapshot": "reasonable",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 14,
+        "valuation_attractiveness": 0,
         "risk_penalty": 30
       },
       "candidate_score": 51
@@ -6617,11 +8374,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 765.8,
         "price_range_low": 330.8,
         "price_range_high": 785.2,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -6674,13 +8431,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 765.8,
+        "range_low": 330.8,
+        "range_high": 785.2,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 36,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 36
@@ -6795,11 +8576,11 @@
           "path": "wiki/universe/candidate-universe-dashboard.md"
         }
       ],
-      "buy_value_score": 19,
+      "buy_value_score": 9,
       "score_confidence": "low",
       "price_position_snapshot": "unable_to_classify_price",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 35,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 30
@@ -6864,11 +8645,11 @@
           "path": "wiki/universe/candidate-universe-dashboard.md"
         }
       ],
-      "buy_value_score": 19,
+      "buy_value_score": 9,
       "score_confidence": "low",
       "price_position_snapshot": "unable_to_classify_price",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 35,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 30
@@ -6902,11 +8683,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 32.79,
         "price_range_low": 20.53,
         "price_range_high": 60.71,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -6959,13 +8740,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_low",
+        "current_price": 32.79,
+        "range_low": 20.53,
+        "range_high": 60.71,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 51,
       "score_confidence": "medium",
-      "price_position_snapshot": "undervalued",
+      "price_position_snapshot": "market_low",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 25,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 51
@@ -7029,11 +8834,11 @@
           "path": "wiki/universe/candidate-universe-dashboard.md"
         }
       ],
-      "buy_value_score": 19,
+      "buy_value_score": 9,
       "score_confidence": "low",
       "price_position_snapshot": "unable_to_classify_price",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 35,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 30
@@ -7098,11 +8903,11 @@
           "path": "wiki/universe/candidate-universe-dashboard.md"
         }
       ],
-      "buy_value_score": 19,
+      "buy_value_score": 9,
       "score_confidence": "low",
       "price_position_snapshot": "unable_to_classify_price",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 35,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 30
@@ -7167,11 +8972,11 @@
           "path": "wiki/universe/candidate-universe-dashboard.md"
         }
       ],
-      "buy_value_score": 19,
+      "buy_value_score": 9,
       "score_confidence": "low",
       "price_position_snapshot": "unable_to_classify_price",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 35,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 30
@@ -7236,11 +9041,11 @@
           "path": "wiki/universe/candidate-universe-dashboard.md"
         }
       ],
-      "buy_value_score": 19,
+      "buy_value_score": 9,
       "score_confidence": "low",
       "price_position_snapshot": "unable_to_classify_price",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 35,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 30
@@ -7328,11 +9133,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 85.57,
         "price_range_low": 25.07,
         "price_range_high": 85.57,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -7385,13 +9190,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 85.57,
+        "range_low": 25.07,
+        "range_high": 85.57,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 30,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 30
@@ -7431,7 +9260,7 @@
         "valid": true,
         "price_range_low": 103.6,
         "price_range_high": 367.9,
-        "basis_type": "recent_trading_range",
+        "basis_type": "formal_valuation_model",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "base_low": 221.0,
@@ -7439,8 +9268,9 @@
         "buy_zone_low": 270.0,
         "basis": [
           "Recent close price range basis: current price USD 367.1 on 2026-05-12; one-year close price range is USD 103.6-367.9; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation.",
+          "Bear case fair value range is $113-$176 using $4.50-$5.50 EPS basis and 25-32x multiple under multiple compression / growth disappointment assumptions.",
           "Base case fair value range is $221-$269 using FY2026 adjusted EPS guidance of $6.30-$6.40 and 35-42x multiple; current price is above base fair value midpoint.",
-          "Preliminary buy-zone readiness uses watch $270-$310, reasonable refresh $220-$260, margin-of-safety $150-$200, and do-not-chase above $320; this is not a buy plan."
+          "Bull case fair value range is $336-$450 using $8.00-$9.00 EPS basis and 42-50x multiple, requiring AI infrastructure order/backlog/margin upside to be source-backed."
         ],
         "sources": [
           {
@@ -7452,7 +9282,31 @@
             "valid_until": "2026-05-20"
           },
           {
+            "claim_id": "vrt-valuation-20260508-bear-case",
+            "source_url": "wiki/valuations/vrt-valuation-2026-05-08.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-05-15"
+          },
+          {
             "claim_id": "vrt-valuation-20260508-base-case",
+            "source_url": "wiki/valuations/vrt-valuation-2026-05-08.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "vrt-valuation-20260508-bull-case",
+            "source_url": "wiki/valuations/vrt-valuation-2026-05-08.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "vrt-valuation-20260508-cheapness-classification",
             "source_url": "wiki/valuations/vrt-valuation-2026-05-08.md",
             "source_type": "internal_valuation_model",
             "source_name": "",
@@ -7466,6 +9320,78 @@
             "source_name": "",
             "as_of": "2026-05-08",
             "valid_until": "2026-05-15"
+          },
+          {
+            "claim_id": "vrt-valuation-20260508-gap-01",
+            "source_url": "unknown",
+            "source_type": "unknown",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-06-21"
+          },
+          {
+            "claim_id": "vrt-valuation-20260508-gap-02",
+            "source_url": "unknown",
+            "source_type": "unknown",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-06-21"
+          },
+          {
+            "claim_id": "vrt-valuation-20260508-gap-03",
+            "source_url": "unknown",
+            "source_type": "unknown",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-06-21"
+          },
+          {
+            "claim_id": "vrt-valuation-20260508-gap-04",
+            "source_url": "unknown",
+            "source_type": "unknown",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-06-21"
+          },
+          {
+            "claim_id": "vrt-valuation-20260508-gap-05",
+            "source_url": "unknown",
+            "source_type": "unknown",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-06-21"
+          },
+          {
+            "claim_id": "vrt-valuation-20260508-gap-06",
+            "source_url": "unknown",
+            "source_type": "unknown",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-06-21"
+          },
+          {
+            "claim_id": "vrt-valuation-20260508-gap-07",
+            "source_url": "unknown",
+            "source_type": "unknown",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-06-21"
+          },
+          {
+            "claim_id": "vrt-valuation-20260508-orders-backlog-patch",
+            "source_url": "wiki/valuations/vrt-valuation-2026-05-08.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-06-06"
+          },
+          {
+            "claim_id": "vrt-valuation-20260508-cheapness-still-not-cheap",
+            "source_url": "wiki/valuations/vrt-valuation-2026-05-08.md",
+            "source_type": "internal_valuation_model",
+            "source_name": "",
+            "as_of": "2026-05-08",
+            "valid_until": "2026-06-06"
           }
         ]
       },
@@ -7520,13 +9446,36 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 367.1,
+        "range_low": 103.6,
+        "range_high": 367.9,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間"
+        ],
+        "as_of": "2026-05-08"
+      },
       "buy_value_score": 72,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 30
       },
       "candidate_score": 72
@@ -7561,11 +9510,11 @@
       "risk_summary": [],
       "valuation": {
         "price_as_of": "2026-05-12",
-        "valid": true,
+        "valid": false,
         "current_price": 33.63,
         "price_range_low": 11.82,
         "price_range_high": 34.83,
-        "basis_type": "recent_trading_range",
+        "basis_type": "market_position_snapshot",
         "as_of": "2026-05-12",
         "valid_until": "2026-05-20",
         "basis": [
@@ -7618,13 +9567,37 @@
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 33.63,
+        "range_low": 11.82,
+        "range_high": 34.83,
+        "range_start": "",
+        "range_end": "2026-05-12",
+        "price_as_of": "2026-05-12",
+        "retrieved_at": "2026-05-12",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": false,
+        "status": "revenue_based_valuation_unavailable",
+        "reason": "尚缺官方營收或股數資料，不能做營收基礎估價。",
+        "missing_inputs": [
+          "官方 TTM 營收或最近一季年化營收",
+          "稀釋股數或可解釋的流通股數",
+          "可解釋的 P/S 區間",
+          "官方財報、10-Q/10-K、年報、法說或公開資訊觀測站來源"
+        ],
+        "as_of": "2026-05-13"
+      },
       "buy_value_score": 30,
       "score_confidence": "medium",
-      "price_position_snapshot": "expensive",
+      "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 30
@@ -7688,11 +9661,11 @@
           "path": "wiki/universe/candidate-universe-dashboard.md"
         }
       ],
-      "buy_value_score": 19,
+      "buy_value_score": 9,
       "score_confidence": "low",
       "price_position_snapshot": "unable_to_classify_price",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 35,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 30
@@ -7757,11 +9730,11 @@
           "path": "wiki/universe/candidate-universe-dashboard.md"
         }
       ],
-      "buy_value_score": 19,
+      "buy_value_score": 9,
       "score_confidence": "low",
       "price_position_snapshot": "unable_to_classify_price",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 35,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 30
