@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-14T09:08:22+00:00",
+  "generated_at": "2026-05-14T09:10:14+00:00",
   "as_of_timezone": "Asia/Taipei",
   "point_in_time_boundary": "本看板是 point-in-time 研究快照；候選標的不等於買進清單。Yahoo chart 只支撐價格位置，營收基礎估價必須另有官方營收與股數來源。",
   "summary": {
@@ -1219,22 +1219,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `2327.TW` as `國巨` with market `Taiwan` and theme `passive components, MLCC` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `watch`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 419.5，資料日期 2026-04-30。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 156614238000.0,
         "revenue_period": "2026-04 YTD annualized",
         "revenue_method": "latest_ytd_annualized",
         "shares_used": 2071465484.0,
         "as_of": "2026-04-30",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-04-30",
         "valid_until": "2026-06-12",
         "ps_low": 2.265,
@@ -1273,14 +1269,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "2327.TW 國巨 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -1346,7 +1341,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 4,
         "risk_penalty": 0
@@ -1821,22 +1816,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `2345.TW` as `智邦` with market `Taiwan` and theme `networking` as of 2026-05-13.",
-        "Research status from candidate universe: `stub`.",
-        "Actionability from candidate universe: `needs_refresh`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 2525，資料日期 2026-05-13。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 280482964000.0,
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 561117897.0,
         "as_of": "2026-05-13",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 4.5975,
@@ -1875,14 +1866,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "2345.TW 智邦 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -1948,7 +1938,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 14,
         "risk_penalty": 0
@@ -1976,22 +1966,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `2379.TW` as `瑞昱` with market `Taiwan` and theme `consumer IC, PC / networking IC, IC design` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `watch`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 555，資料日期 2026-04-30。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 147424989000.0,
         "revenue_period": "2026-04 YTD annualized",
         "revenue_method": "latest_ytd_annualized",
         "shares_used": 515512641.0,
         "as_of": "2026-04-30",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-04-30",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
@@ -2030,14 +2016,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "2379.TW 瑞昱 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -2103,7 +2088,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 25,
         "risk_penalty": 0
@@ -2281,22 +2266,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `2401.TW` as `凌陽` with market `Taiwan` and theme `consumer IC, IC design` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `watch`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 25.95，資料日期 2026-05-13。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 6956328000.0,
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 591994919.0,
         "as_of": "2026-05-13",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
@@ -2335,14 +2316,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "2401.TW 凌陽 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -2408,7 +2388,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 25,
         "risk_penalty": 0
@@ -3147,22 +3127,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `2472.TW` as `立隆電` with market `Taiwan` and theme `passive components, aluminum capacitor` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `watch`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 223，資料日期 2026-04-30。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 12416544000.0,
         "revenue_period": "2026-04 YTD annualized",
         "revenue_method": "latest_ytd_annualized",
         "shares_used": 164735137.0,
         "as_of": "2026-04-30",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-04-30",
         "valid_until": "2026-06-12",
         "ps_low": 3.0675,
@@ -3201,14 +3177,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "2472.TW 立隆電 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -3274,7 +3249,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 25,
         "risk_penalty": 0
@@ -3301,22 +3276,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `2492.TW` as `華新科` with market `Taiwan` and theme `passive components, MLCC` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `watch`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 188.5，資料日期 2026-05-13。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 38153576000.0,
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 485804774.0,
         "as_of": "2026-05-13",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 2.265,
@@ -3355,14 +3326,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "2492.TW 華新科 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -3428,7 +3398,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 14,
         "risk_penalty": 0
@@ -5397,22 +5367,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `3711.TW` as `日月光投控` with market `Taiwan` and theme `advanced packaging` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `needs_refresh_before_decision`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 555，資料日期 2026-05-13。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 694648608000.0,
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 4460833082.0,
         "as_of": "2026-05-13",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
@@ -5451,14 +5417,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "3711.TW 日月光投控 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -5524,7 +5489,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 25,
         "risk_penalty": 0
@@ -5699,22 +5664,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `5347.TWO` as `世界先進` with market `Taiwan` and theme `mature node, semiconductor foundry, consumer / industrial / auto` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `watch`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 170，資料日期 2026-05-13。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 50126516000.0,
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 1867392355.0,
         "as_of": "2026-05-13",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
@@ -5753,14 +5714,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "5347.TWO 世界先進 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -5826,7 +5786,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 25,
         "risk_penalty": 0
@@ -6012,22 +5972,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `6449.TW` as `鈺邦` with market `Taiwan` and theme `passive components, capacitor` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `watch`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 198.5，資料日期 2026-04-30。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 4775481000.0,
         "revenue_period": "2026-04 YTD annualized",
         "revenue_method": "latest_ytd_annualized",
         "shares_used": 91898514.0,
         "as_of": "2026-04-30",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-04-30",
         "valid_until": "2026-06-12",
         "ps_low": 2.265,
@@ -6066,14 +6022,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "6449.TW 鈺邦 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -6139,7 +6094,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 4,
         "risk_penalty": 0
@@ -6167,22 +6122,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `6488.TWO` as `環球晶` with market `Taiwan` and theme `silicon wafer, mature node, semiconductor materials` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `watch`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 785，資料日期 2026-05-13。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 55939192000.0,
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 478113725.0,
         "as_of": "2026-05-13",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
@@ -6221,14 +6172,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "6488.TWO 環球晶 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -6294,7 +6244,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 25,
         "risk_penalty": 0
@@ -6672,22 +6622,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `6996.T` as `Nichicon` with market `Japan` and theme `passive components, capacitor, Japan electronics` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `watch`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 2781，資料日期 2026-05-13。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-13",
-        "valid": false,
         "revenue_value": 175751000000.0,
         "revenue_period": "FY2025",
         "revenue_method": "TTM",
         "shares_used": 67159245.0,
         "as_of": "2026-05-13",
+        "price_as_of": "2026-05-13",
         "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 2.265,
@@ -6726,14 +6672,13 @@
             "as_of": "2026-05-13",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "6996.T Nichicon 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -6799,7 +6744,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 25,
         "risk_penalty": 0
@@ -6827,22 +6772,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `6997.T` as `Nippon Chemi-Con` with market `Japan` and theme `passive components, aluminum capacitor, Japan electronics` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `watch`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 3200，資料日期 2026-05-13。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-13",
-        "valid": false,
         "revenue_value": 122684000000.0,
         "revenue_period": "FY2025",
         "revenue_method": "TTM",
         "shares_used": 21350000.0,
         "as_of": "2026-05-13",
+        "price_as_of": "2026-05-13",
         "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 2.265,
@@ -6881,14 +6822,13 @@
             "as_of": "2026-05-13",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "6997.T Nippon Chemi-Con 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -6954,7 +6894,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 25,
         "risk_penalty": 0
@@ -7112,31 +7052,37 @@
     },
     {
       "ticker": "AAPL",
-      "company_name": "Apple",
-      "source_company_name": "Apple",
+      "company_name": "Apple Inc.",
+      "source_company_name": "Apple Inc.",
       "asset_type": "stock",
       "market": "US",
       "themes": [
         "mega-cap platform, devices, services, AI edge"
       ],
       "wiki_path": "wiki/companies/AAPL-us-apple.md",
-      "as_of": "2026-05-08",
-      "data_status": "needs_review",
+      "as_of": "2026-05-13",
+      "data_status": "current",
       "decision_gate": "wait_for_buy_zone",
-      "actionability": "needs_refresh_before_decision",
-      "decision_usefulness": "universe_input_only",
+      "actionability": "watch",
+      "decision_usefulness": "research_reference_only",
       "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "近一年收盤價格區間已建立；參考價格 296.5，資料日期 2026-03-28。"
+        "[aapl-magnificent7-20260513-sec-revenue] SEC companyfacts reports revenue input of 444.74bn using `latest_quarter_annualized` from concept `RevenueFromContractWithCustomerExcludingAssessedTax` for period 2026-03-28.",
+        "[aapl-magnificent7-20260513-sec-shares] SEC companyfacts provides shares used of 14,687,356,000 from concept `EntityCommonStockSharesOutstanding` as of 2026-04-17.",
+        "[aapl-magnificent7-20260513-yahoo-price] Yahoo chart public market data shows current/reference price 296.50 USD as of 2026-05-13; this supports market position only.",
+        "[aapl-magnificent7-20260513-ps-boundary] Damodaran NYU sector benchmark for `Computers/Peripherals` is P/S 6.43; dashboard boundary uses 4.822-8.037."
       ],
       "risk_summary": [],
       "valuation": {
+        "buy_zone_low": 195.27,
+        "buy_zone_high": 296.5,
+        "price_as_of": "2026-05-13",
+        "valid": false,
         "revenue_value": 444736000000.0,
         "revenue_period": "2026-03-28",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 14687356000.0,
         "as_of": "2026-03-28",
-        "price_as_of": "2026-05-13",
         "revenue_as_of": "2026-03-28",
         "valid_until": "2026-06-12",
         "ps_low": 4.8225,
@@ -7175,21 +7121,20 @@
             "as_of": "2026-05-13",
             "valid_until": "2026-05-20"
           }
-        ],
-        "valid": false
+        ]
       },
       "technical": {},
       "chip": {},
       "data_gaps": [
-        "Latest SEC filings / earnings release / guidance refresh required.",
-        "Current valuation, technical snapshot, fund/flow context, macro sensitivity, and sell/risk review plan missing.",
-        "Buy/sell decision snapshot and actionability gate required before any real-account action language."
+        "Segment-level margin bridge should be refreshed from the latest 10-Q / earnings release before any deeper decision work.",
+        "Formal sell plan, stop-loss / time-stop, risk budget and position sizing are not part of this page.",
+        "Technical, flow, insider-transaction and options context are not refreshed here."
       ],
       "display_warnings": [],
       "deepsearch_tasks": [
-        "AAPL Apple Latest SEC filings / earnings release / guidance refresh required.",
-        "AAPL Apple Current valuation, technical snapshot, fund/flow context, macro sensitivity, and sell/risk review plan missing.",
-        "AAPL Apple Buy/sell decision snapshot and actionability gate required before any real-account action language."
+        "AAPL Apple Inc. Segment-level margin bridge should be refreshed from the latest 10-Q / earnings release before any deeper decision work.",
+        "AAPL Apple Inc. Formal sell plan, stop-loss / time-stop, risk budget and position sizing are not part of this page.",
+        "AAPL Apple Inc. Technical, flow, insider-transaction and options context are not refreshed here."
       ],
       "next_review_triggers": [],
       "linked_documents": [
@@ -7253,8 +7198,8 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
-        "freshness": 4,
+        "research_quality": 45,
+        "freshness": 20,
         "valuation_attractiveness": 4,
         "risk_penalty": 18
       },
@@ -7719,22 +7664,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `ANET` as `Arista Networks` with market `US` and theme `AI networking` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `needs_refresh_before_decision`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 142.5，資料日期 2026-03-31。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 10836000000.0,
         "revenue_period": "2026-03-31",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 1259202593.0,
         "as_of": "2026-03-31",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-03-31",
         "valid_until": "2026-06-12",
         "ps_low": 4.5975,
@@ -7773,14 +7714,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "ANET Arista Networks 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -7846,7 +7786,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_middle",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 4,
         "risk_penalty": 0
@@ -8159,22 +8099,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `DELL` as `Dell` with market `US` and theme `AI server` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `needs_refresh_before_decision`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 238.9，資料日期 2025-10-31。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 108020000000.0,
         "revenue_period": "2025-10-31",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 684000000.0,
         "as_of": "2025-10-31",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2025-10-31",
         "valid_until": "2026-06-12",
         "ps_low": 4.8225,
@@ -8213,14 +8149,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "DELL Dell 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -8286,7 +8221,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 25,
         "risk_penalty": 0
@@ -8311,22 +8246,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `ETN` as `Eaton` with market `US` and theme `power equipment` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `needs_refresh_before_decision`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 401.5，資料日期 2026-03-31。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 29804000000.0,
         "revenue_period": "2026-03-31",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 388300000.0,
         "as_of": "2026-03-31",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-03-31",
         "valid_until": "2026-06-12",
         "ps_low": 3.0675,
@@ -8365,14 +8296,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "ETN Eaton 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -8438,7 +8368,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 4,
         "risk_penalty": 0
@@ -8466,22 +8396,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `GFS` as `GlobalFoundries` with market `US` and theme `mature node, semiconductor foundry, consumer / industrial / auto` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `watch`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 72.15，資料日期 2025-09-30。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 6752000000.0,
         "revenue_period": "2025-09-30",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 555888455.0,
         "as_of": "2025-09-30",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2025-09-30",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
@@ -8520,14 +8446,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "GFS GlobalFoundries 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -8593,7 +8518,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 25,
         "risk_penalty": 0
@@ -8618,22 +8543,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `GLW` as `Corning` with market `US` and theme `fiber/optical` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `needs_refresh_before_decision`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 198.2，資料日期 2026-03-31。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 16576000000.0,
         "revenue_period": "2026-03-31",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 860637825.0,
         "as_of": "2026-03-31",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-03-31",
         "valid_until": "2026-06-12",
         "ps_low": 2.265,
@@ -8672,14 +8593,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "GLW Corning 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -8745,7 +8665,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 4,
         "risk_penalty": 0
@@ -8754,31 +8674,37 @@
     },
     {
       "ticker": "GOOGL",
-      "company_name": "Alphabet",
-      "source_company_name": "Alphabet",
+      "company_name": "Alphabet Inc.",
+      "source_company_name": "Alphabet Inc.",
       "asset_type": "stock",
       "market": "US",
       "themes": [
         "AI cloud, search, advertising platform"
       ],
       "wiki_path": "wiki/companies/GOOGL-us-alphabet.md",
-      "as_of": "2026-05-08",
-      "data_status": "needs_review",
+      "as_of": "2026-05-13",
+      "data_status": "current",
       "decision_gate": "wait_for_buy_zone",
-      "actionability": "needs_refresh_before_decision",
-      "decision_usefulness": "universe_input_only",
-      "research_summary": "US equity research stub created from weekly mention; needs official filings, valuation, technical, AI/Cloud/TPU thesis refresh.",
+      "actionability": "watch",
+      "decision_usefulness": "research_reference_only",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "近一年收盤價格區間已建立；參考價格 395.8，資料日期 2026-03-31。"
+        "[googl-magnificent7-20260513-sec-revenue] SEC companyfacts reports revenue input of 439.58bn using `latest_quarter_annualized` from concept `Revenues` for period 2026-03-31.",
+        "[googl-magnificent7-20260513-sec-shares] SEC companyfacts provides shares used of 12,238,000,000 from concept `WeightedAverageNumberOfDilutedSharesOutstanding` as of 2026-03-31.",
+        "[googl-magnificent7-20260513-yahoo-price] Yahoo chart public market data shows current/reference price 395.76 USD as of 2026-05-13; this supports market position only.",
+        "[googl-magnificent7-20260513-ps-boundary] Damodaran NYU sector benchmark for `Software (Internet)` is P/S 8.76; dashboard boundary uses 6.57-10.95."
       ],
       "risk_summary": [],
       "valuation": {
+        "buy_zone_low": 159.53,
+        "buy_zone_high": 400.8,
+        "price_as_of": "2026-05-13",
+        "valid": false,
         "revenue_value": 439584000000.0,
         "revenue_period": "2026-03-31",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 12238000000.0,
         "as_of": "2026-03-31",
-        "price_as_of": "2026-05-13",
         "revenue_as_of": "2026-03-31",
         "valid_until": "2026-06-12",
         "ps_low": 6.57,
@@ -8817,15 +8743,20 @@
             "as_of": "2026-05-13",
             "valid_until": "2026-05-20"
           }
-        ],
-        "valid": false
+        ]
       },
       "technical": {},
       "chip": {},
-      "data_gaps": [],
+      "data_gaps": [
+        "Segment-level margin bridge should be refreshed from the latest 10-Q / earnings release before any deeper decision work.",
+        "Formal sell plan, stop-loss / time-stop, risk budget and position sizing are not part of this page.",
+        "Technical, flow, insider-transaction and options context are not refreshed here."
+      ],
       "display_warnings": [],
       "deepsearch_tasks": [
-        "GOOGL Alphabet 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
+        "GOOGL Alphabet Inc. Segment-level margin bridge should be refreshed from the latest 10-Q / earnings release before any deeper decision work.",
+        "GOOGL Alphabet Inc. Formal sell plan, stop-loss / time-stop, risk budget and position sizing are not part of this page.",
+        "GOOGL Alphabet Inc. Technical, flow, insider-transaction and options context are not refreshed here."
       ],
       "next_review_triggers": [],
       "linked_documents": [
@@ -8889,10 +8820,10 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
-        "freshness": 4,
+        "research_quality": 45,
+        "freshness": 20,
         "valuation_attractiveness": 4,
-        "risk_penalty": 0
+        "risk_penalty": 18
       },
       "candidate_score": 6
     },
@@ -9056,22 +8987,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `INTC` as `Intel` with market `US` and theme `CPU, semiconductor, AI infrastructure second-order` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `needs_refresh_before_decision`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 120.6，資料日期 2026-03-28。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 54308000000.0,
         "revenue_period": "2026-03-28",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 5026000000.0,
         "as_of": "2026-03-28",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-03-28",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
@@ -9110,14 +9037,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "INTC Intel 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -9183,7 +9109,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 25,
         "risk_penalty": 0
@@ -9208,23 +9134,18 @@
       "decision_gate": "needs_refresh_before_decision",
       "actionability": "needs_refresh",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "IREN Limited 是 Nasdaq 掛牌的資料中心與 AI/HPC 基礎設施候選標的。本頁仍是公開展示用研究頁，價格位置只能說明目前研究邊界，不是買進或賣出建議。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `IREN` as `IREN Limited` with market `US` and theme `AI data center` as of 2026-05-13.",
-        "Research status from candidate universe: `event_current_company_refresh_needed`.",
-        "Actionability from candidate universe: `needs_refresh`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`.",
-        "Official investor relations site identifies the issuer as IREN and provides financial reports, stock information and investor materials; source: https://www.iren.com/investors, accessed 2026-05-13."
+        "近一年收盤價格區間已建立；參考價格 56.56，資料日期 2026-03-31。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 579180000.0,
         "revenue_period": "2026-03-31",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 357378674.0,
         "as_of": "2026-03-31",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-03-31",
         "valid_until": "2026-06-12",
         "ps_low": 0.93,
@@ -9263,7 +9184,8 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
@@ -9330,7 +9252,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 39,
+        "research_quality": 28,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 18
@@ -9721,22 +9643,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `MRVL` as `Marvell` with market `US` and theme `AI networking/ASIC` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `needs_refresh_before_decision`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 164.5，資料日期 2025-11-01。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 8298000000.0,
         "revenue_period": "2025-11-01",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 874300000.0,
         "as_of": "2025-11-01",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2025-11-01",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
@@ -9775,14 +9693,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "MRVL Marvell 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -9848,7 +9765,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 14,
         "risk_penalty": 0
@@ -9857,31 +9774,37 @@
     },
     {
       "ticker": "MSFT",
-      "company_name": "Microsoft",
-      "source_company_name": "Microsoft",
+      "company_name": "Microsoft Corporation",
+      "source_company_name": "Microsoft Corporation",
       "asset_type": "stock",
       "market": "US",
       "themes": [
         "AI cloud"
       ],
       "wiki_path": "wiki/companies/MSFT-us-microsoft.md",
-      "as_of": "2026-05-08",
-      "data_status": "not_started",
+      "as_of": "2026-05-13",
+      "data_status": "current",
       "decision_gate": "wait_for_buy_zone",
-      "actionability": "needs_refresh_before_decision",
-      "decision_usefulness": "universe_input_only",
+      "actionability": "watch",
+      "decision_usefulness": "research_reference_only",
       "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "近一年收盤價格區間已建立；參考價格 402.4，資料日期 2026-03-31。"
+        "[msft-magnificent7-20260513-sec-revenue] SEC companyfacts reports revenue input of 331.54bn using `latest_quarter_annualized` from concept `RevenueFromContractWithCustomerExcludingAssessedTax` for period 2026-03-31.",
+        "[msft-magnificent7-20260513-sec-shares] SEC companyfacts provides shares used of 7,428,434,704 from concept `EntityCommonStockSharesOutstanding` as of 2026-04-23.",
+        "[msft-magnificent7-20260513-yahoo-price] Yahoo chart public market data shows current/reference price 402.37 USD as of 2026-05-13; this supports market position only.",
+        "[msft-magnificent7-20260513-ps-boundary] Damodaran NYU sector benchmark for `Software (System & Application)` is P/S 11.01; dashboard boundary uses 8.258-13.76."
       ],
       "risk_summary": [],
       "valuation": {
+        "buy_zone_low": 356.77,
+        "buy_zone_high": 542.07,
+        "price_as_of": "2026-05-13",
+        "valid": false,
         "revenue_value": 331544000000.0,
         "revenue_period": "2026-03-31",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 7428434704.0,
         "as_of": "2026-03-31",
-        "price_as_of": "2026-05-13",
         "revenue_as_of": "2026-03-31",
         "valid_until": "2026-06-12",
         "ps_low": 8.2575,
@@ -9920,21 +9843,20 @@
             "as_of": "2026-05-13",
             "valid_until": "2026-05-20"
           }
-        ],
-        "valid": false
+        ]
       },
       "technical": {},
       "chip": {},
       "data_gaps": [
-        "Latest SEC filings / earnings release / guidance refresh required.",
-        "Current valuation, technical snapshot, fund/flow context, macro sensitivity, and sell/risk review plan missing.",
-        "Buy/sell decision snapshot and actionability gate required before any real-account action language."
+        "Segment-level margin bridge should be refreshed from the latest 10-Q / earnings release before any deeper decision work.",
+        "Formal sell plan, stop-loss / time-stop, risk budget and position sizing are not part of this page.",
+        "Technical, flow, insider-transaction and options context are not refreshed here."
       ],
       "display_warnings": [],
       "deepsearch_tasks": [
-        "MSFT Microsoft Latest SEC filings / earnings release / guidance refresh required.",
-        "MSFT Microsoft Current valuation, technical snapshot, fund/flow context, macro sensitivity, and sell/risk review plan missing.",
-        "MSFT Microsoft Buy/sell decision snapshot and actionability gate required before any real-account action language."
+        "MSFT Microsoft Corporation Segment-level margin bridge should be refreshed from the latest 10-Q / earnings release before any deeper decision work.",
+        "MSFT Microsoft Corporation Formal sell plan, stop-loss / time-stop, risk budget and position sizing are not part of this page.",
+        "MSFT Microsoft Corporation Technical, flow, insider-transaction and options context are not refreshed here."
       ],
       "next_review_triggers": [],
       "linked_documents": [
@@ -9998,8 +9920,8 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_low",
       "score_components": {
-        "research_quality": 34,
-        "freshness": 4,
+        "research_quality": 45,
+        "freshness": 20,
         "valuation_attractiveness": 14,
         "risk_penalty": 18
       },
@@ -10023,22 +9945,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `MU` as `Micron` with market `US` and theme `HBM/memory` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `needs_refresh_before_decision`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 766.6，資料日期 2026-02-26。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 95440000000.0,
         "revenue_period": "2026-02-26",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 1127734051.0,
         "as_of": "2026-02-26",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-02-26",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
@@ -10077,14 +9995,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "MU Micron 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -10150,7 +10067,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 25,
         "risk_penalty": 0
@@ -10178,22 +10095,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `NET` as `Cloudflare` with market `US` and theme `software, AI infrastructure edge, high-multiple selloff` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `watch`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 186.8，資料日期 2026-03-31。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 2559020000.0,
         "revenue_period": "2026-03-31",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 352625000.0,
         "as_of": "2026-03-31",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-03-31",
         "valid_until": "2026-06-12",
         "ps_low": 6.57,
@@ -10232,14 +10145,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "NET Cloudflare 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -10305,7 +10217,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_middle",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 4,
         "risk_penalty": 0
@@ -10541,22 +10453,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `PWR` as `Quanta Services` with market `US` and theme `grid construction` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `needs_refresh_before_decision`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 765.8，資料日期 2026-03-31。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 31499148000.0,
         "revenue_period": "2026-03-31",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 150060149.0,
         "as_of": "2026-03-31",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-03-31",
         "valid_until": "2026-06-12",
         "ps_low": 1.185,
@@ -10595,14 +10503,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "PWR Quanta Services 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -10668,7 +10575,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 4,
         "risk_penalty": 0
@@ -10888,22 +10795,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `SMCI` as `Super Micro Computer` with market `US` and theme `AI server` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `needs_refresh_before_decision`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 32.79，資料日期 2026-03-31。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 40972056000.0,
         "revenue_period": "2026-03-31",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 601418482.0,
         "as_of": "2026-03-31",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-03-31",
         "valid_until": "2026-06-12",
         "ps_low": 4.8225,
@@ -10942,14 +10845,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "SMCI Super Micro Computer 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -11015,7 +10917,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_low",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 25,
         "risk_penalty": 0
@@ -11524,22 +11426,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `VPG` as `Vishay Precision Group` with market `US` and theme `passive components adjacent, precision sensors, resistive foil technology` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `watch`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 85.57，資料日期 2026-04-04。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 337412000.0,
         "revenue_period": "2026-04-04",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 13297.0,
         "as_of": "2026-04-04",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-04-04",
         "valid_until": "2026-06-12",
         "ps_low": 2.265,
@@ -11578,14 +11476,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "VPG Vishay Precision Group 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -11651,7 +11548,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 25,
         "risk_penalty": 0
@@ -11964,22 +11861,18 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "來源摘要疑似亂碼，請開啟原始頁確認；本看板不改寫來源事實。",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "Candidate universe lists `VSH` as `Vishay Intertechnology` with market `US` and theme `passive components, resistor / capacitor / discrete components` as of 2026-05-13.",
-        "Research status from candidate universe: `not_started`.",
-        "Actionability from candidate universe: `watch`; this is not `buy_now`.",
-        "Source: `wiki/universe/stock-universe-dashboard.md`."
+        "近一年收盤價格區間已建立；參考價格 33.63，資料日期 2026-04-04。"
       ],
       "risk_summary": [],
       "valuation": {
-        "price_as_of": "2026-05-12",
-        "valid": false,
         "revenue_value": 3356968000.0,
         "revenue_period": "2026-04-04",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 137471000.0,
         "as_of": "2026-04-04",
+        "price_as_of": "2026-05-12",
         "revenue_as_of": "2026-04-04",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
@@ -12018,14 +11911,13 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ]
+        ],
+        "valid": false
       },
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [
-        "research_summary: source text may be mojibake; showing fallback label."
-      ],
+      "display_warnings": [],
       "deepsearch_tasks": [
         "VSH Vishay Intertechnology 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -12091,7 +11983,7 @@
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 34,
         "freshness": 4,
         "valuation_attractiveness": 25,
         "risk_penalty": 0
