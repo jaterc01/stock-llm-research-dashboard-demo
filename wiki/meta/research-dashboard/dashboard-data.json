@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-05-13T14:34:53+00:00",
+  "generated_at": "2026-05-14T07:53:41+00:00",
   "as_of_timezone": "Asia/Taipei",
   "point_in_time_boundary": "本看板是 point-in-time 研究快照；候選標的不等於買進清單。Yahoo chart 只支撐價格位置，營收基礎估價必須另有官方營收與股數來源。",
   "summary": {
-    "company_count": 84,
-    "stock_count": 64,
+    "company_count": 87,
+    "stock_count": 67,
     "etf_count": 20,
     "candidate_count": 84,
-    "dashboard_record_count": 84,
-    "company_file_count": 65,
-    "etf_file_count": 20,
-    "research_page_count": 85,
+    "dashboard_record_count": 87,
+    "company_file_count": 68,
+    "etf_file_count": 22,
+    "research_page_count": 90,
     "missing_candidate_page_count": 0,
     "missing_candidate_page_tickers": [],
     "needs_refresh_count": 20,
-    "market_position_count": 64,
-    "revenue_valuation_available_count": 64,
-    "revenue_valuation_unavailable_count": 0,
+    "market_position_count": 67,
+    "revenue_valuation_available_count": 65,
+    "revenue_valuation_unavailable_count": 2,
     "range_only_valuation_points_count": 0,
     "range_only_valuation_points_tickers": [],
     "unable_to_classify_price_count": 20,
@@ -30,7 +30,7 @@
       "company_name": "元大台灣50",
       "source_company_name": "元大台灣50",
       "asset_type": "ETF",
-      "market": "Taiwan",
+      "market": "TW",
       "themes": [],
       "wiki_path": "wiki/etfs/0050-tw-yuanta-taiwan-50.md",
       "as_of": "2026-05-09",
@@ -156,7 +156,7 @@
       "company_name": "富邦台50",
       "source_company_name": "富邦台50",
       "asset_type": "ETF",
-      "market": "Taiwan",
+      "market": "TW",
       "themes": [],
       "wiki_path": "wiki/etfs/006208-tw-fubon-taiwan-50.md",
       "as_of": "2026-05-09",
@@ -419,7 +419,7 @@
       "company_name": "群益台灣精選高息",
       "source_company_name": "群益台灣精選高息",
       "asset_type": "ETF",
-      "market": "Taiwan",
+      "market": "TW",
       "themes": [],
       "wiki_path": "wiki/etfs/00919-tw-capital-taiwan-select-high-dividend.md",
       "as_of": "2026-05-09",
@@ -427,9 +427,8 @@
       "decision_gate": "needs_refresh_before_decision",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "This is a holdings-linked ETF research page. It is not a buy recommendation.",
+      "research_summary": "公開版已隱去帳戶連動內容；請回私有 portfolio review 檢查。",
       "evidence_summary": [
-        "[00919-holding-20260509-account-a] Account A true Taiwan holdings list reports 10,700 shares of 群益台灣精選高息 / 00919 at average price NT$22.99 and break-even NT$23.05.",
         "[00919-twse-20260508-market] TWSE 2026-05-08 daily trading row reports 群益台灣精選高息 / 00919 close NT$25.47, volume 208,518,290 shares and turnover NT$5,321,523,748."
       ],
       "risk_summary": [],
@@ -440,7 +439,10 @@
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [],
+      "display_warnings": [
+        "research_summary: private account-linked content hidden from public dashboard.",
+        "evidence_summary: private account-linked content hidden from public dashboard."
+      ],
       "deepsearch_tasks": [
         "00919.TW 群益台灣精選高息 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -455,11 +457,11 @@
           "path": "wiki/universe/candidate-universe-dashboard.md"
         }
       ],
-      "buy_value_score": 32,
+      "buy_value_score": 28,
       "score_confidence": "low",
       "price_position_snapshot": "unable_to_classify_price",
       "score_components": {
-        "research_quality": 28,
+        "research_quality": 24,
         "freshness": 4,
         "valuation_attractiveness": 0,
         "risk_penalty": 0
@@ -539,7 +541,7 @@
       "company_name": "主動統一台股增長",
       "source_company_name": "主動統一台股增長",
       "asset_type": "ETF",
-      "market": "Taiwan",
+      "market": "TW",
       "themes": [],
       "wiki_path": "wiki/etfs/00981A-tw-upamc-taiwan-growth-active.md",
       "as_of": "2026-05-09",
@@ -599,36 +601,41 @@
       "themes": [
         "AI data center power/HVDC"
       ],
-      "wiki_path": "wiki/companies/2308-tw-delta-electronics.md",
-      "as_of": "2026-05-13",
-      "data_status": "alias",
+      "wiki_path": "wiki/companies/2308-tw-delta.md",
+      "as_of": "2026-05-08",
+      "data_status": "partial",
       "decision_gate": "wait_for_buy_zone",
-      "actionability": "alias_do_not_use_for_research",
-      "decision_usefulness": "universe_input_only",
-      "research_summary": "2308.TW 已納入公開展示看板；目前可展示的是 source-backed 的正式估值模型，用途是說明價格位置與研究邊界，不是買進清單。",
+      "actionability": "wait_for_buy_zone",
+      "decision_usefulness": "watch",
+      "research_summary": "This is the canonical company page for 2308.TW. This page is research-only and not a buy recommendation.",
       "evidence_summary": [
-        "正式估值模型已建立；參考價格 2280，資料日期 1150513。"
+        "[2308-delta-refresh-20260508-march-revenue] TWSE monthly revenue open data reports Delta 2026-03 monthly revenue at NT$59,779,988 thousand, +37.60% YoY and +19.81% MoM.",
+        "[2308-delta-refresh-20260508-q1-revenue] MOPS 115Q1 consolidated statement reports Delta 2026Q1 revenue at NT$159,352,652 thousand.",
+        "[2308-delta-refresh-20260508-q1-gpm] Delta 2026Q1 gross margin calculates to 37.0% from MOPS revenue and gross profit.",
+        "[2308-delta-refresh-20260508-q1-opm] Delta 2026Q1 operating margin calculates to 17.83% from MOPS revenue and operating income.",
+        "[2308-delta-refresh-20260508-q1-eps] MOPS 115Q1 consolidated statement reports Delta 2026Q1 basic EPS at NT$7.91."
       ],
       "risk_summary": [],
       "valuation": {
+        "current_price": 2280.0,
+        "base_low": 1350.0,
+        "base_high": 1925.0,
+        "buy_zone_low": 5.0,
+        "buy_zone_high": 2026.0,
+        "basis_type": "formal_valuation_model",
+        "valid": true,
         "revenue_value": 637410608000.0,
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 2597543329.0,
-        "as_of": "1150513",
-        "price_as_of": "1150513",
-        "revenue_as_of": "1150513",
+        "as_of": "2026-05-13",
+        "price_as_of": "2026-05-13",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 3.0675,
         "ps_high": 5.1125,
-        "current_price": 2280.0,
-        "base_low": 1350.0,
-        "base_high": 1925.0,
-        "buy_zone_low": 1600.0,
-        "buy_zone_high": 1850.0,
         "price_range_low": 363.0,
         "price_range_high": 2280.0,
-        "basis_type": "formal_valuation_model",
         "basis": [
           "TWSE/TPEX open data supports 2308.TW latest-quarter revenue and issued shares for public-dashboard revenue-based valuation. Revenue is annualized from the reported quarterly financial-statement amount; this is not a buy recommendation.",
           "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Electrical Equipment: sector P/S 4.09; display band is 0.75x-1.25x of the benchmark, or 3.0675-5.1125. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
@@ -641,7 +648,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -756,31 +763,39 @@
             "as_of": "2026-05-12",
             "valid_until": "2026-05-20"
           }
-        ],
-        "valid": true
+        ]
       },
       "technical": {},
       "chip": {},
-      "data_gaps": [],
-      "display_warnings": [
-        "同一 ticker 有多個研究頁，已保留此頁作為補充來源：wiki/companies/2308-tw-delta.md"
+      "data_gaps": [
+        "[2308-delta-refresh-20260508-gap-01] data center power / HVDC revenue contribution unknown",
+        "[2308-delta-refresh-20260508-gap-02] AI data center order / backlog unknown",
+        "[2308-delta-refresh-20260508-gap-03] customer concentration unknown",
+        "[2308-delta-refresh-20260508-gap-04] segment margin for data center power / infrastructure unknown",
+        "[2308-delta-refresh-20260508-gap-05] inventory / working capital detailed trend requires balance sheet / cash-flow deeper parsing",
+        "[2308-delta-refresh-20260508-gap-06] forward EPS source unknown / unreliable without model provenance",
+        "[2308-delta-refresh-20260508-gap-07] buy zone / sell plan incomplete",
+        "[2308-delta-refresh-20260508-gap-08] risk-budget-derived position sizing incomplete",
+        "[2308-delta-refresh-20260508-gap-09] multi-day chip / margin / short-selling trend incomplete",
+        "[2308-delta-refresh-20260508-gap-10] 2026-04 monthly revenue remains unconfirmed after 2026-05-08 recheck; TWSE open data still returns 11503 / 2026-03 as latest row"
       ],
+      "display_warnings": [],
       "deepsearch_tasks": [
-        "2308.TW 台達電 / Delta Electronics 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
+        "2308.TW 台達電 / Delta Electronics [2308-delta-refresh-20260508-gap-01] data center power / HVDC revenue contribution unknown",
+        "2308.TW 台達電 / Delta Electronics [2308-delta-refresh-20260508-gap-02] AI data center order / backlog unknown",
+        "2308.TW 台達電 / Delta Electronics [2308-delta-refresh-20260508-gap-03] customer concentration unknown",
+        "2308.TW 台達電 / Delta Electronics [2308-delta-refresh-20260508-gap-04] segment margin for data center power / infrastructure unknown",
+        "2308.TW 台達電 / Delta Electronics [2308-delta-refresh-20260508-gap-05] inventory / working capital detailed trend requires balance sheet / cash-flow deeper parsing"
       ],
       "next_review_triggers": [],
       "linked_documents": [
         {
           "label": "Company page",
-          "path": "wiki/companies/2308-tw-delta-electronics.md"
+          "path": "wiki/companies/2308-tw-delta.md"
         },
         {
           "label": "Valuation claims",
           "path": "claims/valuations"
-        },
-        {
-          "label": "Duplicate research page",
-          "path": "wiki/companies/2308-tw-delta.md"
         },
         {
           "label": "Candidate universe source",
@@ -795,7 +810,7 @@
       "market_price": {
         "price": 2280.0,
         "currency": "TWD",
-        "price_as_of": "1150513",
+        "price_as_of": "2026-05-13",
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart"
       },
@@ -805,8 +820,8 @@
         "range_low": 363.0,
         "range_high": 2280.0,
         "range_start": "",
-        "range_end": "1150513",
-        "price_as_of": "1150513",
+        "range_end": "2026-05-13",
+        "price_as_of": "2026-05-13",
         "retrieved_at": "2026-05-12",
         "source": "public_market_data - yahoo chart",
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
@@ -828,16 +843,16 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 72,
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 45,
         "freshness": 4,
         "valuation_attractiveness": 4,
-        "risk_penalty": 0
+        "risk_penalty": 30
       },
       "candidate_score": 72
     },
@@ -1350,7 +1365,6 @@
         "taiwan-stock",
         "semiconductor",
         "foundry",
-        "holdings-linked",
         "semiconductor foundry"
       ],
       "wiki_path": "wiki/companies/2330-tw-tsmc.md",
@@ -1359,7 +1373,7 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "watch",
-      "research_summary": "2026-05-10 upgraded from stub. Official Q1 and April revenue data are now captured at summary level, but this is still not a buy decision page. Holdings-linked status only means it needs maintenance; it is not a buy recommendation.",
+      "research_summary": "公開版已隱去帳戶連動內容；請回私有 portfolio review 檢查。",
       "evidence_summary": [
         "[2330-tsmc-20260510-c001] TSMC reported 2026Q1 consolidated revenue of NT$1,134.10bn.",
         "[2330-tsmc-20260510-c002] TSMC reported 2026Q1 net income of NT$572.48bn.",
@@ -1419,7 +1433,10 @@
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [],
+      "display_warnings": [
+        "research_summary: private account-linked content hidden from public dashboard.",
+        "themes: private account-linked content hidden from public dashboard."
+      ],
       "deepsearch_tasks": [
         "2330.TW 台積電 / Taiwan Semiconductor Manufacturing Company 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -1512,7 +1529,7 @@
       "decision_usefulness": "watch",
       "research_summary": "Auto stub from Daily Radar backlink. This page is not current/actionable until company-level sources are added.",
       "evidence_summary": [
-        "近一年收盤價格區間已建立；參考價格 153，資料日期 1150513。"
+        "近一年收盤價格區間已建立；參考價格 153，資料日期 2026-05-13。"
       ],
       "risk_summary": [],
       "valuation": {
@@ -1520,9 +1537,9 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 1931082818.0,
-        "as_of": "1150513",
+        "as_of": "2026-05-13",
         "price_as_of": "2026-05-12",
-        "revenue_as_of": "1150513",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
         "ps_high": 19.325,
@@ -1541,7 +1558,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -1626,7 +1643,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 36,
       "score_confidence": "medium",
@@ -1659,7 +1676,7 @@
       "decision_usefulness": "watch",
       "research_summary": "Auto stub from Daily Radar backlink. This page is not current/actionable until company-level sources are added.",
       "evidence_summary": [
-        "近一年收盤價格區間已建立；參考價格 121.5，資料日期 1150513。"
+        "近一年收盤價格區間已建立；參考價格 121.5，資料日期 2026-05-13。"
       ],
       "risk_summary": [],
       "valuation": {
@@ -1667,9 +1684,9 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 4500000193.0,
-        "as_of": "1150513",
+        "as_of": "2026-05-13",
         "price_as_of": "2026-05-12",
-        "revenue_as_of": "1150513",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
         "ps_high": 19.325,
@@ -1688,7 +1705,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -1773,7 +1790,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 36,
       "score_confidence": "medium",
@@ -1819,8 +1836,8 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 561117897.0,
-        "as_of": "1150513",
-        "revenue_as_of": "1150513",
+        "as_of": "2026-05-13",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 4.5975,
         "ps_high": 7.6625,
@@ -1839,7 +1856,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -1925,7 +1942,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 36,
       "score_confidence": "medium",
@@ -2279,8 +2296,8 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 591994919.0,
-        "as_of": "1150513",
-        "revenue_as_of": "1150513",
+        "as_of": "2026-05-13",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
         "ps_high": 19.325,
@@ -2299,7 +2316,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -2385,7 +2402,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 29,
       "score_confidence": "medium",
@@ -2418,7 +2435,7 @@
       "decision_usefulness": "watch",
       "research_summary": "Auto stub from Daily Radar backlink. This page is not current/actionable until company-level sources are added.",
       "evidence_summary": [
-        "近一年收盤價格區間已建立；參考價格 321，資料日期 1150513。"
+        "近一年收盤價格區間已建立；參考價格 321，資料日期 2026-05-13。"
       ],
       "risk_summary": [],
       "valuation": {
@@ -2426,9 +2443,9 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 3450205894.0,
-        "as_of": "1150513",
+        "as_of": "2026-05-13",
         "price_as_of": "2026-05-12",
-        "revenue_as_of": "1150513",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
         "ps_high": 19.325,
@@ -2447,7 +2464,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -2532,7 +2549,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 36,
       "score_confidence": "medium",
@@ -2577,8 +2594,8 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 7757446545.0,
-        "as_of": "1150513",
-        "revenue_as_of": "1150513",
+        "as_of": "2026-05-13",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 1.0425,
         "ps_high": 1.7375,
@@ -2599,7 +2616,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -2771,7 +2788,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 19,
       "score_confidence": "medium",
@@ -2799,7 +2816,7 @@
         "thermal/fan"
       ],
       "wiki_path": "wiki/companies/2421-tw-sunonwealth.md",
-      "as_of": "2026-05-07T12:48:00+08:00",
+      "as_of": "2026-05-07",
       "data_status": "stale",
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh",
@@ -2825,9 +2842,9 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 286943669.0,
-        "as_of": "1150513",
+        "as_of": "2026-05-13",
         "price_as_of": "2026-05-12",
-        "revenue_as_of": "1150513",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 3.0675,
         "ps_high": 5.1125,
@@ -2846,7 +2863,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -2930,7 +2947,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 36,
       "score_confidence": "medium",
@@ -3299,8 +3316,8 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 485804774.0,
-        "as_of": "1150513",
-        "revenue_as_of": "1150513",
+        "as_of": "2026-05-13",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 2.265,
         "ps_high": 3.775,
@@ -3319,7 +3336,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -3405,7 +3422,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 30,
       "score_confidence": "medium",
@@ -3433,7 +3450,7 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "universe_input_only",
-      "research_summary": "Company research stub created from weekly mention; Account A sold out on 2026-05-05; Account B simulation mention only.",
+      "research_summary": "公開版已隱去帳戶連動內容；請回私有 portfolio review 檢查。",
       "evidence_summary": [
         "近一年收盤價格區間已建立；參考價格 123.5，資料日期 2026-05-05。"
       ],
@@ -3445,8 +3462,8 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 319718697.0,
-        "as_of": "1150513",
-        "revenue_as_of": "1150513",
+        "as_of": "2026-05-13",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 0.8025,
         "ps_high": 1.3375,
@@ -3465,7 +3482,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -3489,7 +3506,9 @@
       "technical": {},
       "chip": {},
       "data_gaps": [],
-      "display_warnings": [],
+      "display_warnings": [
+        "research_summary: private account-linked content hidden from public dashboard."
+      ],
       "deepsearch_tasks": [
         "2548.TW 華固 複查最新官方公告、財報、估值區間、價格基準日、停損/賣出計畫與正式決策檢查"
       ],
@@ -3549,7 +3568,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 6,
       "score_confidence": "medium",
@@ -3567,7 +3586,7 @@
       "company_name": "富邦金融控股股份有限公司",
       "source_company_name": "富邦金融控股股份有限公司",
       "asset_type": "stock",
-      "market": "Taiwan",
+      "market": "TW",
       "themes": [
         "financials, insurance, banking"
       ],
@@ -3639,7 +3658,7 @@
       "chip": {},
       "data_gaps": [
         "[2881-20260510-g009]: 尚未取得金融控股業適用格式的最新正式 2026Q1 財報細項（壽險/銀行/證券子公司獲利、淨利、ROE、RBC/資本適足率、避險成本與投資損益拆分），不可用 market snapshot 或月營收替代正式財報。",
-        "[2881-20260510-g010]: 尚未建立 PB-ROE / 內含價值或壽險資產負債敏感度 / 股利折現情境估值模型，因此不能判定目前 96.70 TWD 是否便宜；PB 約 1.40 只代表相對估值線索。",
+        "[2881-20260510-g010]: 尚未建立 PB-ROE / 內含價值或壽險資產負債敏感度 / 股利折現情境估值模型，因此不能判定目前 96.70 TWD 是否估值是否偏低尚待確認；PB 約 1.40 只代表相對估值線索。",
         "[2881-20260510-g011]: 尚未建立買進區間、do-not-chase 價格、停損、停利與 thesis invalidation sell plan。",
         "[2881-20260510-g012]: TWSE T86/TWT93U 目前只有單日快照；雖然當日外資與三大法人合計大幅買超，但投信明顯賣超，尚未形成 5/20 日籌碼趨勢。",
         "[2881-20260510-g013]: 富邦金含壽險權重，仍需補利率、匯率、避險成本、台股/海外債券評價、NIM、授信品質、股利政策與同業 PB-ROE 比較。"
@@ -3647,7 +3666,7 @@
       "display_warnings": [],
       "deepsearch_tasks": [
         "2881.TW 富邦金融控股股份有限公司 [2881-20260510-g009]: 尚未取得金融控股業適用格式的最新正式 2026Q1 財報細項（壽險/銀行/證券子公司獲利、淨利、ROE、RBC/資本適足率、避險成本與投資損益拆分），不可用 market snapshot 或月營收替代正式財報。",
-        "2881.TW 富邦金融控股股份有限公司 [2881-20260510-g010]: 尚未建立 PB-ROE / 內含價值或壽險資產負債敏感度 / 股利折現情境估值模型，因此不能判定目前 96.70 TWD 是否便宜；PB 約 1.40 只代表相對估值線索。",
+        "2881.TW 富邦金融控股股份有限公司 [2881-20260510-g010]: 尚未建立 PB-ROE / 內含價值或壽險資產負債敏感度 / 股利折現情境估值模型，因此不能判定目前 96.70 TWD 是否估值是否偏低尚待確認；PB 約 1.40 只代表相對估值線索。",
         "2881.TW 富邦金融控股股份有限公司 [2881-20260510-g011]: 尚未建立買進區間、do-not-chase 價格、停損、停利與 thesis invalidation sell plan。",
         "2881.TW 富邦金融控股股份有限公司 [2881-20260510-g012]: TWSE T86/TWT93U 目前只有單日快照；雖然當日外資與三大法人合計大幅買超，但投信明顯賣超，尚未形成 5/20 日籌碼趨勢。",
         "2881.TW 富邦金融控股股份有限公司 [2881-20260510-g013]: 富邦金含壽險權重，仍需補利率、匯率、避險成本、台股/海外債券評價、NIM、授信品質、股利政策與同業 PB-ROE 比較。"
@@ -3726,7 +3745,7 @@
       "company_name": "國泰金融控股股份有限公司",
       "source_company_name": "國泰金融控股股份有限公司",
       "asset_type": "stock",
-      "market": "Taiwan",
+      "market": "TW",
       "themes": [
         "financials, insurance, banking"
       ],
@@ -3798,7 +3817,7 @@
       "chip": {},
       "data_gaps": [
         "[2882-20260510-g009]: 尚未取得金融控股業適用格式的最新正式 2026Q1 財報細項（壽險/銀行/證券子公司獲利、淨利、ROE、RBC/資本適足率、避險成本與投資損益拆分），不可用 market snapshot 或月營收替代正式財報。",
-        "[2882-20260510-g010]: 尚未建立 PB-ROE / 內含價值或壽險資產負債敏感度 / 股利折現情境估值模型，因此不能判定目前 80.00 TWD 是否便宜；PB 約 1.29 只代表相對估值線索。",
+        "[2882-20260510-g010]: 尚未建立 PB-ROE / 內含價值或壽險資產負債敏感度 / 股利折現情境估值模型，因此不能判定目前 80.00 TWD 是否估值是否偏低尚待確認；PB 約 1.29 只代表相對估值線索。",
         "[2882-20260510-g011]: 尚未建立買進區間、do-not-chase 價格、停損、停利與 thesis invalidation sell plan。",
         "[2882-20260510-g012]: TWSE T86/TWT93U 目前只有單日快照；雖然當日外資與三大法人合計買超，但投信明顯賣超，尚未形成 5/20 日籌碼趨勢。",
         "[2882-20260510-g013]: 國泰金含壽險權重，仍需補利率、匯率、避險成本、台股/海外債券評價、NIM、授信品質、股利政策與同業 PB-ROE 比較。"
@@ -3806,7 +3825,7 @@
       "display_warnings": [],
       "deepsearch_tasks": [
         "2882.TW 國泰金融控股股份有限公司 [2882-20260510-g009]: 尚未取得金融控股業適用格式的最新正式 2026Q1 財報細項（壽險/銀行/證券子公司獲利、淨利、ROE、RBC/資本適足率、避險成本與投資損益拆分），不可用 market snapshot 或月營收替代正式財報。",
-        "2882.TW 國泰金融控股股份有限公司 [2882-20260510-g010]: 尚未建立 PB-ROE / 內含價值或壽險資產負債敏感度 / 股利折現情境估值模型，因此不能判定目前 80.00 TWD 是否便宜；PB 約 1.29 只代表相對估值線索。",
+        "2882.TW 國泰金融控股股份有限公司 [2882-20260510-g010]: 尚未建立 PB-ROE / 內含價值或壽險資產負債敏感度 / 股利折現情境估值模型，因此不能判定目前 80.00 TWD 是否估值是否偏低尚待確認；PB 約 1.29 只代表相對估值線索。",
         "2882.TW 國泰金融控股股份有限公司 [2882-20260510-g011]: 尚未建立買進區間、do-not-chase 價格、停損、停利與 thesis invalidation sell plan。",
         "2882.TW 國泰金融控股股份有限公司 [2882-20260510-g012]: TWSE T86/TWT93U 目前只有單日快照；雖然當日外資與三大法人合計買超，但投信明顯賣超，尚未形成 5/20 日籌碼趨勢。",
         "2882.TW 國泰金融控股股份有限公司 [2882-20260510-g013]: 國泰金含壽險權重，仍需補利率、匯率、避險成本、台股/海外債券評價、NIM、授信品質、股利政策與同業 PB-ROE 比較。"
@@ -3885,7 +3904,7 @@
       "company_name": "玉山金融控股股份有限公司",
       "source_company_name": "玉山金融控股股份有限公司",
       "asset_type": "stock",
-      "market": "Taiwan",
+      "market": "TW",
       "themes": [
         "financials, banking"
       ],
@@ -3895,7 +3914,7 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "watch",
-      "research_summary": "玉山金在金融股清單中屬於「品質但等拉回」：市場通常給比較好的品質敘事與 PB，但 Stock-LLM 不能把品質敘事等同於便宜。這裡只完成 company-level refresh，不升級 actionability。",
+      "research_summary": "玉山金在金融股清單中屬於「品質但等拉回」：市場通常給比較好的品質敘事與 PB，但 Stock-LLM 不能把品質敘事等同於估值偏低已確認。這裡只完成 company-level refresh，不升級 actionability。",
       "evidence_summary": [
         "[2884-20260510-c001]: 玉山金融控股股份有限公司（2884.TW）為 TWSE 上市金融保險業公司，英文網站為 esunfhc.com，上市日期 2002-01-28。",
         "[2884-20260510-c002]: TWSE 公司基本資料顯示玉山金董事長為黃男州、總經理為陳茂欽、發言人為林俊佑，實收資本額為 NT$161,740,000,000。",
@@ -3957,7 +3976,7 @@
       "chip": {},
       "data_gaps": [
         "[2884-20260510-g009]: 尚未取得金融控股業適用格式的最新正式 2026Q1 財報細項（淨利、ROE、資本適足率、銀行/證券/創投子公司獲利拆分），不可用 market snapshot 替代正式財報。",
-        "[2884-20260510-g010]: 尚未建立 PB-ROE / 股利折現 / 情境估值模型，因此不能判定目前 32.5 TWD 是否便宜；PB 約 1.93 尤其需要 ROE 支撐。",
+        "[2884-20260510-g010]: 尚未建立 PB-ROE / 股利折現 / 情境估值模型，因此不能判定目前 32.5 TWD 是否估值是否偏低尚待確認；PB 約 1.93 尤其需要 ROE 支撐。",
         "[2884-20260510-g011]: 尚未建立買進區間、do-not-chase 價格、停損、停利與 thesis invalidation sell plan。",
         "[2884-20260510-g012]: TWSE T86/TWT93U 目前只有單日快照，且外資買超但投信大賣，尚未形成 5/20 日籌碼趨勢。",
         "[2884-20260510-g013]: 玉山金偏高品質銀行敘事，但仍需補利率、匯率、NIM、授信品質、手續費收入、股利政策敏感度與同業 PB-ROE 比較。"
@@ -3965,7 +3984,7 @@
       "display_warnings": [],
       "deepsearch_tasks": [
         "2884.TW 玉山金融控股股份有限公司 [2884-20260510-g009]: 尚未取得金融控股業適用格式的最新正式 2026Q1 財報細項（淨利、ROE、資本適足率、銀行/證券/創投子公司獲利拆分），不可用 market snapshot 替代正式財報。",
-        "2884.TW 玉山金融控股股份有限公司 [2884-20260510-g010]: 尚未建立 PB-ROE / 股利折現 / 情境估值模型，因此不能判定目前 32.5 TWD 是否便宜；PB 約 1.93 尤其需要 ROE 支撐。",
+        "2884.TW 玉山金融控股股份有限公司 [2884-20260510-g010]: 尚未建立 PB-ROE / 股利折現 / 情境估值模型，因此不能判定目前 32.5 TWD 是否估值是否偏低尚待確認；PB 約 1.93 尤其需要 ROE 支撐。",
         "2884.TW 玉山金融控股股份有限公司 [2884-20260510-g011]: 尚未建立買進區間、do-not-chase 價格、停損、停利與 thesis invalidation sell plan。",
         "2884.TW 玉山金融控股股份有限公司 [2884-20260510-g012]: TWSE T86/TWT93U 目前只有單日快照，且外資買超但投信大賣，尚未形成 5/20 日籌碼趨勢。",
         "2884.TW 玉山金融控股股份有限公司 [2884-20260510-g013]: 玉山金偏高品質銀行敘事，但仍需補利率、匯率、NIM、授信品質、手續費收入、股利政策敏感度與同業 PB-ROE 比較。"
@@ -4044,7 +4063,7 @@
       "company_name": "元大金融控股股份有限公司",
       "source_company_name": "元大金融控股股份有限公司",
       "asset_type": "stock",
-      "market": "Taiwan",
+      "market": "TW",
       "themes": [
         "financials, securities, banking"
       ],
@@ -4116,7 +4135,7 @@
       "chip": {},
       "data_gaps": [
         "[2885-20260510-g009]: 尚未取得金融控股業適用格式的最新正式 2026Q1 財報細項（證券/投信/銀行/期貨/保險等子公司獲利、淨利、ROE、資本適足率、手續費率與交易量敏感度），不可用 market snapshot 或月營收替代正式財報。",
-        "[2885-20260510-g010]: 尚未建立 PB-ROE / 券商景氣循環 / 股利折現情境估值模型，因此不能判定目前 56.50 TWD 是否便宜；PB 約 2.21 只代表高評價線索。",
+        "[2885-20260510-g010]: 尚未建立 PB-ROE / 券商景氣循環 / 股利折現情境估值模型，因此不能判定目前 56.50 TWD 是否估值是否偏低尚待確認；PB 約 2.21 只代表高評價線索。",
         "[2885-20260510-g011]: 尚未建立買進區間、do-not-chase 價格、停損、停利與 thesis invalidation sell plan。",
         "[2885-20260510-g012]: TWSE T86/TWT93U 目前只有單日快照；雖然當日三大法人全數買超，但尚未形成 5/20 日籌碼趨勢。",
         "[2885-20260510-g013]: 元大金需補市場成交量、ETF/投信資產規模、手續費率、券商景氣循環、利率/匯率與同業 PB-ROE 比較。"
@@ -4124,7 +4143,7 @@
       "display_warnings": [],
       "deepsearch_tasks": [
         "2885.TW 元大金融控股股份有限公司 [2885-20260510-g009]: 尚未取得金融控股業適用格式的最新正式 2026Q1 財報細項（證券/投信/銀行/期貨/保險等子公司獲利、淨利、ROE、資本適足率、手續費率與交易量敏感度），不可用 market snapshot 或月營收替代正式財報。",
-        "2885.TW 元大金融控股股份有限公司 [2885-20260510-g010]: 尚未建立 PB-ROE / 券商景氣循環 / 股利折現情境估值模型，因此不能判定目前 56.50 TWD 是否便宜；PB 約 2.21 只代表高評價線索。",
+        "2885.TW 元大金融控股股份有限公司 [2885-20260510-g010]: 尚未建立 PB-ROE / 券商景氣循環 / 股利折現情境估值模型，因此不能判定目前 56.50 TWD 是否估值是否偏低尚待確認；PB 約 2.21 只代表高評價線索。",
         "2885.TW 元大金融控股股份有限公司 [2885-20260510-g011]: 尚未建立買進區間、do-not-chase 價格、停損、停利與 thesis invalidation sell plan。",
         "2885.TW 元大金融控股股份有限公司 [2885-20260510-g012]: TWSE T86/TWT93U 目前只有單日快照；雖然當日三大法人全數買超，但尚未形成 5/20 日籌碼趨勢。",
         "2885.TW 元大金融控股股份有限公司 [2885-20260510-g013]: 元大金需補市場成交量、ETF/投信資產規模、手續費率、券商景氣循環、利率/匯率與同業 PB-ROE 比較。"
@@ -4203,7 +4222,7 @@
       "company_name": "兆豐金融控股股份有限公司",
       "source_company_name": "兆豐金融控股股份有限公司",
       "asset_type": "stock",
-      "market": "Taiwan",
+      "market": "TW",
       "themes": [
         "financials, banking"
       ],
@@ -4213,7 +4232,7 @@
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "watch",
-      "research_summary": "兆豐金目前被放在金融股防守觀察名單，不是因為它已經被證明便宜，而是因為相對高位的壽險/券商 beta 金融股之外，兆豐金的價格位置與銀行屬性比較適合先做 company-level refresh。這個 sector selection 不會自動升級 actionability。",
+      "research_summary": "兆豐金目前被放在金融股防守觀察名單，不是因為它已經被證明估值偏低，而是因為相對高位的壽險/券商 beta 金融股之外，兆豐金的價格位置與銀行屬性比較適合先做 company-level refresh。這個 sector selection 不會自動升級 actionability。",
       "evidence_summary": [
         "[2886-20260510-c001]: 兆豐金融控股股份有限公司（2886.TW）為 TWSE 上市金融保險業公司，英文簡稱 MEGA FHC，上市日期 2002-02-04。",
         "[2886-20260510-c002]: TWSE 公司基本資料顯示兆豐金實收資本額為 NT$148,333,782,820，已發行普通股數為 14,833,378,282 股。",
@@ -4275,7 +4294,7 @@
       "chip": {},
       "data_gaps": [
         "[2886-20260510-g009]: 尚未取得金融控股業適用格式的最新正式 2026Q1 財報細項（淨利、ROE、資本適足率、子公司獲利拆分），不可用 market snapshot 替代正式財報。",
-        "[2886-20260510-g010]: 尚未建立 PB-ROE / 股利折現 / 情境估值模型，因此不能判定目前 40.2 TWD 是否便宜。",
+        "[2886-20260510-g010]: 尚未建立 PB-ROE / 股利折現 / 情境估值模型，因此不能判定目前 40.2 TWD 是否估值是否偏低尚待確認。",
         "[2886-20260510-g011]: 尚未建立買進區間、do-not-chase 價格、停損、停利與 thesis invalidation sell plan。",
         "[2886-20260510-g012]: TWSE T86/TWT93U 目前只有單日快照，尚未形成 5/20 日籌碼趨勢。",
         "[2886-20260510-g013]: 金融股需補利率、匯率、壽險資產評價、銀行 NIM、授信品質與股利政策敏感度；兆豐金雖偏銀行防守，但仍需正式 macro/sector overlay。"
@@ -4283,7 +4302,7 @@
       "display_warnings": [],
       "deepsearch_tasks": [
         "2886.TW 兆豐金融控股股份有限公司 [2886-20260510-g009]: 尚未取得金融控股業適用格式的最新正式 2026Q1 財報細項（淨利、ROE、資本適足率、子公司獲利拆分），不可用 market snapshot 替代正式財報。",
-        "2886.TW 兆豐金融控股股份有限公司 [2886-20260510-g010]: 尚未建立 PB-ROE / 股利折現 / 情境估值模型，因此不能判定目前 40.2 TWD 是否便宜。",
+        "2886.TW 兆豐金融控股股份有限公司 [2886-20260510-g010]: 尚未建立 PB-ROE / 股利折現 / 情境估值模型，因此不能判定目前 40.2 TWD 是否估值是否偏低尚待確認。",
         "2886.TW 兆豐金融控股股份有限公司 [2886-20260510-g011]: 尚未建立買進區間、do-not-chase 價格、停損、停利與 thesis invalidation sell plan。",
         "2886.TW 兆豐金融控股股份有限公司 [2886-20260510-g012]: TWSE T86/TWT93U 目前只有單日快照，尚未形成 5/20 日籌碼趨勢。",
         "2886.TW 兆豐金融控股股份有限公司 [2886-20260510-g013]: 金融股需補利率、匯率、壽險資產評價、銀行 NIM、授信品質與股利政策敏感度；兆豐金雖偏銀行防守，但仍需正式 macro/sector overlay。"
@@ -4362,7 +4381,7 @@
       "company_name": "中國信託金融控股股份有限公司",
       "source_company_name": "中國信託金融控股股份有限公司",
       "asset_type": "stock",
-      "market": "Taiwan",
+      "market": "TW",
       "themes": [
         "financials, banking, insurance"
       ],
@@ -4434,7 +4453,7 @@
       "chip": {},
       "data_gaps": [
         "[2891-20260510-g009]: 尚未取得金融控股業適用格式的最新正式 2026Q1 財報細項（銀行/壽險/證券子公司獲利、淨利、ROE、資本適足率、授信品質、避險成本與投資損益拆分），不可用 market snapshot 或月營收替代正式財報。",
-        "[2891-20260510-g010]: 尚未建立 PB-ROE / 銀行 ROE 與壽險敏感度 / 股利折現情境估值模型，因此不能判定目前 56.40 TWD 是否便宜；PB 約 2.27 只代表高評價線索。",
+        "[2891-20260510-g010]: 尚未建立 PB-ROE / 銀行 ROE 與壽險敏感度 / 股利折現情境估值模型，因此不能判定目前 56.40 TWD 是否估值是否偏低尚待確認；PB 約 2.27 只代表高評價線索。",
         "[2891-20260510-g011]: 尚未建立買進區間、do-not-chase 價格、停損、停利與 thesis invalidation sell plan。",
         "[2891-20260510-g012]: TWSE T86/TWT93U 目前只有單日快照；雖然當日外資與三大法人合計買超，但投信與自營商賣超，尚未形成 5/20 日籌碼趨勢。",
         "[2891-20260510-g013]: 中信金需補利率、匯率、NIM、授信品質、信用卡/消金循環、壽險評價、股利政策與同業 PB-ROE 比較。"
@@ -4442,7 +4461,7 @@
       "display_warnings": [],
       "deepsearch_tasks": [
         "2891.TW 中國信託金融控股股份有限公司 [2891-20260510-g009]: 尚未取得金融控股業適用格式的最新正式 2026Q1 財報細項（銀行/壽險/證券子公司獲利、淨利、ROE、資本適足率、授信品質、避險成本與投資損益拆分），不可用 market snapshot 或月營收替代正式財報。",
-        "2891.TW 中國信託金融控股股份有限公司 [2891-20260510-g010]: 尚未建立 PB-ROE / 銀行 ROE 與壽險敏感度 / 股利折現情境估值模型，因此不能判定目前 56.40 TWD 是否便宜；PB 約 2.27 只代表高評價線索。",
+        "2891.TW 中國信託金融控股股份有限公司 [2891-20260510-g010]: 尚未建立 PB-ROE / 銀行 ROE 與壽險敏感度 / 股利折現情境估值模型，因此不能判定目前 56.40 TWD 是否估值是否偏低尚待確認；PB 約 2.27 只代表高評價線索。",
         "2891.TW 中國信託金融控股股份有限公司 [2891-20260510-g011]: 尚未建立買進區間、do-not-chase 價格、停損、停利與 thesis invalidation sell plan。",
         "2891.TW 中國信託金融控股股份有限公司 [2891-20260510-g012]: TWSE T86/TWT93U 目前只有單日快照；雖然當日外資與三大法人合計買超，但投信與自營商賣超，尚未形成 5/20 日籌碼趨勢。",
         "2891.TW 中國信託金融控股股份有限公司 [2891-20260510-g013]: 中信金需補利率、匯率、NIM、授信品質、信用卡/消金循環、壽險評價、股利政策與同業 PB-ROE 比較。"
@@ -4854,7 +4873,7 @@
       "decision_usefulness": "watch",
       "research_summary": "Auto stub from Daily Radar backlink. This page is not current/actionable until company-level sources are added.",
       "evidence_summary": [
-        "近一年收盤價格區間已建立；參考價格 141.5，資料日期 1150513。"
+        "近一年收盤價格區間已建立；參考價格 141.5，資料日期 2026-05-13。"
       ],
       "risk_summary": [],
       "valuation": {
@@ -4862,9 +4881,9 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 3180412250.0,
-        "as_of": "1150513",
+        "as_of": "2026-05-13",
         "price_as_of": "2026-05-12",
-        "revenue_as_of": "1150513",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 4.8225,
         "ps_high": 8.0375,
@@ -4883,7 +4902,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -4968,7 +4987,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 51,
       "score_confidence": "medium",
@@ -5001,7 +5020,7 @@
       "decision_usefulness": "watch",
       "research_summary": "Auto stub from Daily Radar backlink. This page is not current/actionable until company-level sources are added.",
       "evidence_summary": [
-        "近一年收盤價格區間已建立；參考價格 445.5，資料日期 1150513。"
+        "近一年收盤價格區間已建立；參考價格 445.5，資料日期 2026-05-13。"
       ],
       "risk_summary": [],
       "valuation": {
@@ -5009,9 +5028,9 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 325744048.0,
-        "as_of": "1150513",
+        "as_of": "2026-05-13",
         "price_as_of": "2026-05-12",
-        "revenue_as_of": "1150513",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 4.8225,
         "ps_high": 8.0375,
@@ -5030,7 +5049,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -5115,7 +5134,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 36,
       "score_confidence": "medium",
@@ -5162,8 +5181,8 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 93074795.0,
-        "as_of": "1150513",
-        "revenue_as_of": "1150513",
+        "as_of": "2026-05-13",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 2.265,
         "ps_high": 3.775,
@@ -5182,7 +5201,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -5347,7 +5366,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 67,
       "score_confidence": "medium",
@@ -5393,8 +5412,8 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 4460833082.0,
-        "as_of": "1150513",
-        "revenue_as_of": "1150513",
+        "as_of": "2026-05-13",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
         "ps_high": 19.325,
@@ -5413,7 +5432,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -5499,7 +5518,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 36,
       "score_confidence": "medium",
@@ -5532,7 +5551,7 @@
       "decision_usefulness": "watch",
       "research_summary": "Auto stub from Daily Radar backlink. This page is not current/actionable until company-level sources are added.",
       "evidence_summary": [
-        "近一年收盤價格區間已建立；參考價格 285.5，資料日期 1150513。"
+        "近一年收盤價格區間已建立；參考價格 285.5，資料日期 2026-05-13。"
       ],
       "risk_summary": [],
       "valuation": {
@@ -5540,9 +5559,9 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 84963288.0,
-        "as_of": "1150513",
+        "as_of": "2026-05-13",
         "price_as_of": "2026-05-12",
-        "revenue_as_of": "1150513",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 4.8225,
         "ps_high": 8.0375,
@@ -5561,7 +5580,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -5646,7 +5665,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 30,
       "score_confidence": "medium",
@@ -5695,8 +5714,8 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 1867392355.0,
-        "as_of": "1150513",
-        "revenue_as_of": "1150513",
+        "as_of": "2026-05-13",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
         "ps_high": 19.325,
@@ -5715,7 +5734,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -5801,7 +5820,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 40,
       "score_confidence": "medium",
@@ -5819,7 +5838,7 @@
       "company_name": "合作金庫金融控股股份有限公司",
       "source_company_name": "合作金庫金融控股股份有限公司",
       "asset_type": "stock",
-      "market": "Taiwan",
+      "market": "TW",
       "themes": [
         "financials, banking"
       ],
@@ -5891,7 +5910,7 @@
       "chip": {},
       "data_gaps": [
         "[5880-20260510-g009]: 尚未取得金融控股業適用格式的最新正式 2026Q1 財報細項（淨利、ROE、資本適足率、銀行/證券/保險等子公司獲利拆分），不可用 market snapshot 替代正式財報。",
-        "[5880-20260510-g010]: 尚未建立 PB-ROE / 股利折現 / 情境估值模型，因此不能判定目前 23.05 TWD 是否便宜；PB 約 1.29 只代表相對低估值線索。",
+        "[5880-20260510-g010]: 尚未建立 PB-ROE / 股利折現 / 情境估值模型，因此不能判定目前 23.05 TWD 是否估值是否偏低尚待確認；PB 約 1.29 只代表相對低估值線索。",
         "[5880-20260510-g011]: 尚未建立買進區間、do-not-chase 價格、停損、停利與 thesis invalidation sell plan。",
         "[5880-20260510-g012]: TWSE T86/TWT93U 目前只有單日快照，且當日三大法人合計賣超，尚未形成 5/20 日籌碼趨勢。",
         "[5880-20260510-g013]: 合庫金偏防守/官股銀行敘事，但仍需補利率、匯率、NIM、授信品質、股利政策、官股特性與同業 PB-ROE 比較。"
@@ -5899,7 +5918,7 @@
       "display_warnings": [],
       "deepsearch_tasks": [
         "5880.TW 合作金庫金融控股股份有限公司 [5880-20260510-g009]: 尚未取得金融控股業適用格式的最新正式 2026Q1 財報細項（淨利、ROE、資本適足率、銀行/證券/保險等子公司獲利拆分），不可用 market snapshot 替代正式財報。",
-        "5880.TW 合作金庫金融控股股份有限公司 [5880-20260510-g010]: 尚未建立 PB-ROE / 股利折現 / 情境估值模型，因此不能判定目前 23.05 TWD 是否便宜；PB 約 1.29 只代表相對低估值線索。",
+        "5880.TW 合作金庫金融控股股份有限公司 [5880-20260510-g010]: 尚未建立 PB-ROE / 股利折現 / 情境估值模型，因此不能判定目前 23.05 TWD 是否估值是否偏低尚待確認；PB 約 1.29 只代表相對低估值線索。",
         "5880.TW 合作金庫金融控股股份有限公司 [5880-20260510-g011]: 尚未建立買進區間、do-not-chase 價格、停損、停利與 thesis invalidation sell plan。",
         "5880.TW 合作金庫金融控股股份有限公司 [5880-20260510-g012]: TWSE T86/TWT93U 目前只有單日快照，且當日三大法人合計賣超，尚未形成 5/20 日籌碼趨勢。",
         "5880.TW 合作金庫金融控股股份有限公司 [5880-20260510-g013]: 合庫金偏防守/官股銀行敘事，但仍需補利率、匯率、NIM、授信品質、股利政策、官股特性與同業 PB-ROE 比較。"
@@ -6163,8 +6182,8 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 478113725.0,
-        "as_of": "1150513",
-        "revenue_as_of": "1150513",
+        "as_of": "2026-05-13",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
         "ps_high": 19.325,
@@ -6183,7 +6202,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -6269,7 +6288,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 40,
       "score_confidence": "medium",
@@ -6333,8 +6352,8 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 185840791.0,
-        "as_of": "1150513",
-        "revenue_as_of": "1150513",
+        "as_of": "2026-05-13",
+        "revenue_as_of": "2026-05-13",
         "ps_low": 4.8225,
         "ps_high": 8.0375,
         "price_range_low": 2225.0,
@@ -6351,7 +6370,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -6467,7 +6486,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 78,
       "score_confidence": "medium",
@@ -6503,7 +6522,7 @@
       "decision_usefulness": "watch",
       "research_summary": "新建公司頁。2026Q1 MOPS official cross-check 已補上，但 2026-04 月營收、價格循環與產能利用率仍未完成官方交叉驗證。這頁目前只能支撐「需要更新 / watch」，不能支撐買進。",
       "evidence_summary": [
-        "近一年收盤價格區間已建立；參考價格 62.1，資料日期 1150513。"
+        "近一年收盤價格區間已建立；參考價格 62.1，資料日期 2026-05-13。"
       ],
       "risk_summary": [],
       "valuation": {
@@ -6514,9 +6533,9 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 4243803715.0,
-        "as_of": "1150513",
+        "as_of": "2026-05-13",
         "price_as_of": "2026-05-12",
-        "revenue_as_of": "1150513",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
         "ps_high": 19.325,
@@ -6535,7 +6554,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -6619,7 +6638,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 24,
       "score_confidence": "medium",
@@ -6955,7 +6974,7 @@
         "NAND controller"
       ],
       "wiki_path": "wiki/companies/8299-tw-phison.md",
-      "as_of": "2026-05-11T09:41:52+08:00",
+      "as_of": "2026-05-11",
       "data_status": "official_event_found_financial_rows_need_backfill",
       "decision_gate": "wait_for_buy_zone",
       "actionability": "watch",
@@ -6974,8 +6993,8 @@
         "revenue_period": "ROC 115 Q1",
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 217834373.0,
-        "as_of": "1150513",
-        "revenue_as_of": "1150513",
+        "as_of": "2026-05-13",
+        "revenue_as_of": "2026-05-13",
         "valid_until": "2026-06-12",
         "ps_low": 11.595,
         "ps_high": 19.325,
@@ -6994,7 +7013,7 @@
             "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
             "source_type": "official_exchange_open_data",
             "source_name": "TWSE/TPEX financial statement open data",
-            "as_of": "1150513",
+            "as_of": "2026-05-13",
             "valid_until": "2026-06-12"
           },
           {
@@ -7078,7 +7097,7 @@
         "currency": "TWD",
         "source_url": "https://openapi.twse.com.tw/v1/opendata/t187ap06_L_ci",
         "source_type": "official_exchange_open_data",
-        "as_of": "1150513"
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 36,
       "score_confidence": "medium",
@@ -7101,14 +7120,14 @@
         "mega-cap platform, devices, services, AI edge"
       ],
       "wiki_path": "wiki/companies/AAPL-us-apple.md",
-      "as_of": "2026-05-08T23:05:30+08:00",
+      "as_of": "2026-05-08",
       "data_status": "needs_review",
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "universe_input_only",
       "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "近一年收盤價格區間已建立；參考價格 294.8，資料日期 2026-03-28。"
+        "近一年收盤價格區間已建立；參考價格 296.5，資料日期 2026-03-28。"
       ],
       "risk_summary": [],
       "valuation": {
@@ -7117,19 +7136,19 @@
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 14687356000.0,
         "as_of": "2026-03-28",
-        "price_as_of": "2026-05-12",
+        "price_as_of": "2026-05-13",
         "revenue_as_of": "2026-03-28",
         "valid_until": "2026-06-12",
         "ps_low": 4.8225,
         "ps_high": 8.0375,
-        "current_price": 294.8,
+        "current_price": 296.5,
         "price_range_low": 195.3,
-        "price_range_high": 294.8,
+        "price_range_high": 296.5,
         "basis_type": "market_position_snapshot",
         "basis": [
           "SEC companyfacts supports AAPL revenue and shares for public-dashboard revenue-based valuation. Revenue method is latest_quarter_annualized; this is not a buy recommendation.",
           "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Computers/Peripherals: sector P/S 6.43; display band is 0.75x-1.25x of the benchmark, or 4.8225-8.0375. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
-          "Recent close price range basis: current price USD 294.8 on 2026-05-12; one-year close price range is USD 195.3-294.8; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
+          "Recent close price range basis: current price USD 296.5 on 2026-05-13; one-year close price range is USD 195.3-296.5; price position is high_in_recent_range. This is public market-data position only, not a buy or sell recommendation."
         ],
         "sources": [
           {
@@ -7153,7 +7172,7 @@
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/AAPL?range=1y&interval=1d",
             "source_type": "public_market_data",
             "source_name": "Yahoo Finance chart",
-            "as_of": "2026-05-12",
+            "as_of": "2026-05-13",
             "valid_until": "2026-05-20"
           }
         ],
@@ -7193,21 +7212,21 @@
         "近一年價格區間只能說明市場位置，不能替代內在價值估算或買賣建議。"
       ],
       "market_price": {
-        "price": 294.8,
+        "price": 296.5,
         "currency": "USD",
-        "price_as_of": "2026-05-12",
-        "retrieved_at": "2026-05-12",
+        "price_as_of": "2026-05-13",
+        "retrieved_at": "2026-05-13",
         "source": "public_market_data - yahoo chart"
       },
       "market_position_snapshot": {
         "position": "market_high",
-        "current_price": 294.8,
+        "current_price": 296.5,
         "range_low": 195.3,
-        "range_high": 294.8,
+        "range_high": 296.5,
         "range_start": "",
-        "range_end": "2026-05-12",
-        "price_as_of": "2026-05-12",
-        "retrieved_at": "2026-05-12",
+        "range_end": "2026-05-13",
+        "price_as_of": "2026-05-13",
+        "retrieved_at": "2026-05-13",
         "source": "public_market_data - yahoo chart",
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
@@ -7219,8 +7238,8 @@
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 14687356000.0,
         "revenue_per_share": 30.28019474710084,
-        "current_price": 294.8,
-        "price_to_sales": 9.735736591595913,
+        "current_price": 296.5,
+        "price_to_sales": 9.791878898942294,
         "ps_low": 4.8225,
         "ps_high": 8.0375,
         "fair_value_low": 146.0262391678938,
@@ -7254,7 +7273,7 @@
         "power/grid"
       ],
       "wiki_path": "wiki/companies/aep.md",
-      "as_of": "2026-05-07T15:06:46+08:00",
+      "as_of": "2026-05-07",
       "data_status": "stale",
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh",
@@ -7533,6 +7552,154 @@
         "risk_penalty": 0
       },
       "candidate_score": 51
+    },
+    {
+      "ticker": "AMZN",
+      "company_name": "Amazon.com, Inc.",
+      "source_company_name": "Amazon.com, Inc.",
+      "asset_type": "stock",
+      "market": "US",
+      "themes": [],
+      "wiki_path": "wiki/companies/AMZN-us-amazon.md",
+      "as_of": "2026-05-13",
+      "data_status": "current",
+      "decision_gate": "wait_for_buy_zone",
+      "actionability": "watch",
+      "decision_usefulness": "research_reference_only",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
+      "evidence_summary": [
+        "[amzn-magnificent7-20260513-sec-revenue] SEC companyfacts reports revenue input of 726.08bn using `latest_quarter_annualized` from concept `RevenueFromContractWithCustomerExcludingAssessedTax` for period 2026-03-31.",
+        "[amzn-magnificent7-20260513-sec-shares] SEC companyfacts provides shares used of 10,757,109,436 from concept `EntityCommonStockSharesOutstanding` as of 2026-04-22.",
+        "[amzn-magnificent7-20260513-yahoo-price] Yahoo chart public market data shows current/reference price 265.61 USD as of 2026-05-13; this supports market position only.",
+        "[amzn-magnificent7-20260513-ps-boundary] Damodaran NYU sector benchmark for `Retail (General)` is P/S 2.01; dashboard boundary uses 1.508-2.513."
+      ],
+      "risk_summary": [],
+      "valuation": {
+        "buy_zone_low": 198.79,
+        "buy_zone_high": 274.99,
+        "price_as_of": "2026-05-13",
+        "valid": false,
+        "revenue_value": 726076000000.0,
+        "revenue_period": "2026-03-31",
+        "revenue_method": "latest_quarter_annualized",
+        "shares_used": 10757109436.0,
+        "as_of": "2026-03-31",
+        "revenue_as_of": "2026-03-31",
+        "valid_until": "2026-06-12",
+        "ps_low": 1.5075,
+        "ps_high": 2.5125,
+        "current_price": 265.6,
+        "price_range_low": 198.8,
+        "price_range_high": 275.0,
+        "basis_type": "market_position_snapshot",
+        "basis": [
+          "SEC companyfacts supports AMZN revenue and shares for public-dashboard revenue-based valuation. Revenue method is latest_quarter_annualized; this is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Retail (General): sector P/S 2.01; display band is 0.75x-1.25x of the benchmark, or 1.5075-2.5125. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
+          "Recent close price range basis: current price USD 265.6 on 2026-05-13; one-year close price range is USD 198.8-275; price position is high_in_recent_range. This is public market-data position only, not a buy or sell recommendation."
+        ],
+        "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-amzn-sec-revenue-shares",
+            "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+            "source_type": "sec_companyfacts",
+            "source_name": "SEC EDGAR companyfacts",
+            "as_of": "2026-03-31",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-amzn-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-price-range-20260513-amzn",
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/AMZN?range=1y&interval=1d",
+            "source_type": "public_market_data",
+            "source_name": "Yahoo Finance chart",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-05-20"
+          }
+        ]
+      },
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "Segment-level margin bridge should be refreshed from the latest 10-Q / earnings release before any deeper decision work.",
+        "Formal sell plan, stop-loss / time-stop, risk budget and position sizing are not part of this page.",
+        "Technical, flow, insider-transaction and options context are not refreshed here."
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "AMZN Amazon.com, Inc. Segment-level margin bridge should be refreshed from the latest 10-Q / earnings release before any deeper decision work.",
+        "AMZN Amazon.com, Inc. Formal sell plan, stop-loss / time-stop, risk budget and position sizing are not part of this page.",
+        "AMZN Amazon.com, Inc. Technical, flow, insider-transaction and options context are not refreshed here."
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Company page",
+          "path": "wiki/companies/AMZN-us-amazon.md"
+        },
+        {
+          "label": "Valuation claims",
+          "path": "claims/valuations"
+        }
+      ],
+      "decision_boundary": [
+        "公開版只顯示研究快照與價格位置；候選標的不等於買進清單。",
+        "正式投資使用前仍需重新刷新官方財報、估值假設、風險預算、停損/賣出計畫與 buy-decision linter。",
+        "近一年價格區間只能說明市場位置，不能替代內在價值估算或買賣建議。"
+      ],
+      "market_price": {
+        "price": 265.6,
+        "currency": "USD",
+        "price_as_of": "2026-05-13",
+        "retrieved_at": "2026-05-13",
+        "source": "public_market_data - yahoo chart"
+      },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 265.6,
+        "range_low": 198.8,
+        "range_high": 275.0,
+        "range_start": "",
+        "range_end": "2026-05-13",
+        "price_as_of": "2026-05-13",
+        "retrieved_at": "2026-05-13",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": true,
+        "status": "available",
+        "revenue_value": 726076000000.0,
+        "revenue_period": "2026-03-31",
+        "revenue_method": "latest_quarter_annualized",
+        "shares_used": 10757109436.0,
+        "revenue_per_share": 67.4973146196781,
+        "current_price": 265.6,
+        "price_to_sales": 3.934971361402388,
+        "ps_low": 1.5075,
+        "ps_high": 2.5125,
+        "fair_value_low": 101.75220178916473,
+        "fair_value_high": 169.58700298194123,
+        "currency": "USD",
+        "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+        "source_type": "sec_companyfacts",
+        "as_of": "2026-03-31"
+      },
+      "buy_value_score": 51,
+      "score_confidence": "medium",
+      "price_position_snapshot": "market_high",
+      "score_components": {
+        "research_quality": 45,
+        "freshness": 20,
+        "valuation_attractiveness": 4,
+        "risk_penalty": 18
+      }
     },
     {
       "ticker": "ANET",
@@ -8602,7 +8769,7 @@
       "decision_usefulness": "universe_input_only",
       "research_summary": "US equity research stub created from weekly mention; needs official filings, valuation, technical, AI/Cloud/TPU thesis refresh.",
       "evidence_summary": [
-        "近一年收盤價格區間已建立；參考價格 387.4，資料日期 2026-03-31。"
+        "近一年收盤價格區間已建立；參考價格 395.8，資料日期 2026-03-31。"
       ],
       "risk_summary": [],
       "valuation": {
@@ -8611,19 +8778,19 @@
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 12238000000.0,
         "as_of": "2026-03-31",
-        "price_as_of": "2026-05-12",
+        "price_as_of": "2026-05-13",
         "revenue_as_of": "2026-03-31",
         "valid_until": "2026-06-12",
         "ps_low": 6.57,
         "ps_high": 10.95,
-        "current_price": 387.4,
+        "current_price": 395.8,
         "price_range_low": 159.5,
         "price_range_high": 400.8,
         "basis_type": "market_position_snapshot",
         "basis": [
           "SEC companyfacts supports GOOGL revenue and shares for public-dashboard revenue-based valuation. Revenue method is latest_quarter_annualized; this is not a buy recommendation.",
           "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Software (Internet): sector P/S 8.76; display band is 0.75x-1.25x of the benchmark, or 6.57-10.95. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
-          "Recent close price range basis: current price USD 387.4 on 2026-05-12; one-year close price range is USD 159.5-400.8; price position is high_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
+          "Recent close price range basis: current price USD 395.8 on 2026-05-13; one-year close price range is USD 159.5-400.8; price position is high_in_recent_range. This is public market-data position only, not a buy or sell recommendation."
         ],
         "sources": [
           {
@@ -8647,7 +8814,7 @@
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/GOOGL?range=1y&interval=1d",
             "source_type": "public_market_data",
             "source_name": "Yahoo Finance chart",
-            "as_of": "2026-05-12",
+            "as_of": "2026-05-13",
             "valid_until": "2026-05-20"
           }
         ],
@@ -8681,21 +8848,21 @@
         "近一年價格區間只能說明市場位置，不能替代內在價值估算或買賣建議。"
       ],
       "market_price": {
-        "price": 387.4,
+        "price": 395.8,
         "currency": "USD",
-        "price_as_of": "2026-05-12",
-        "retrieved_at": "2026-05-12",
+        "price_as_of": "2026-05-13",
+        "retrieved_at": "2026-05-13",
         "source": "public_market_data - yahoo chart"
       },
       "market_position_snapshot": {
         "position": "market_high",
-        "current_price": 387.4,
+        "current_price": 395.8,
         "range_low": 159.5,
         "range_high": 400.8,
         "range_start": "",
-        "range_end": "2026-05-12",
-        "price_as_of": "2026-05-12",
-        "retrieved_at": "2026-05-12",
+        "range_end": "2026-05-13",
+        "price_as_of": "2026-05-13",
+        "retrieved_at": "2026-05-13",
         "source": "public_market_data - yahoo chart",
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
@@ -8707,8 +8874,8 @@
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 12238000000.0,
         "revenue_per_share": 35.91959470501716,
-        "current_price": 387.4,
-        "price_to_sales": 10.785199643299118,
+        "current_price": 395.8,
+        "price_to_sales": 11.01905528863653,
         "ps_low": 6.57,
         "ps_high": 10.95,
         "fair_value_low": 235.99173721196277,
@@ -8724,7 +8891,7 @@
       "score_components": {
         "research_quality": 34,
         "freshness": 4,
-        "valuation_attractiveness": 14,
+        "valuation_attractiveness": 4,
         "risk_penalty": 0
       },
       "candidate_score": 6
@@ -8742,9 +8909,9 @@
         "AI data center"
       ],
       "wiki_path": "wiki/companies/hut.md",
-      "as_of": "2026-05-07T15:06:46+08:00",
+      "as_of": "2026-05-07",
       "data_status": "stale",
-      "decision_gate": "wait_for_buy_zone",
+      "decision_gate": "needs_refresh_before_decision",
       "actionability": "needs_refresh",
       "decision_usefulness": "universe_input_only",
       "research_summary": "Stub created only for event backlink. Do not use as completed company research.",
@@ -8849,31 +9016,21 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": true,
-        "status": "available",
-        "revenue_value": 284068000.0,
-        "revenue_period": "2026-03-31",
-        "revenue_method": "latest_quarter_annualized",
-        "shares_used": 112594112.0,
-        "revenue_per_share": 2.522938322032328,
-        "current_price": 107.3,
-        "price_to_sales": 42.52977532703437,
-        "ps_low": 0.93,
-        "ps_high": 1.55,
-        "fair_value_low": 2.346332639490065,
-        "fair_value_high": 3.9105543991501084,
-        "currency": "USD",
-        "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001964789.json",
-        "source_type": "sec_companyfacts",
-        "as_of": "2026-03-31"
+        "available": false,
+        "status": "ps_boundary_not_applicable",
+        "reason": "Hut 8 同時帶有 crypto mining / AI infrastructure 特性，通用產業 P/S peer group 不足以支撐公開估價區間。",
+        "missing_inputs": [
+          "需要 crypto mining / AI infrastructure peer group 或公司專屬估價框架"
+        ],
+        "as_of": "2026-05-07"
       },
       "buy_value_score": 51,
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 34,
+        "research_quality": 28,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 0
       },
       "candidate_score": 51
@@ -9048,7 +9205,7 @@
       "wiki_path": "wiki/companies/iren-iren.md",
       "as_of": "2026-05-13",
       "data_status": "event_current_company_refresh_needed",
-      "decision_gate": "wait_for_buy_zone",
+      "decision_gate": "needs_refresh_before_decision",
       "actionability": "needs_refresh",
       "decision_usefulness": "universe_input_only",
       "research_summary": "IREN Limited 是 Nasdaq 掛牌的資料中心與 AI/HPC 基礎設施候選標的。本頁仍是公開展示用研究頁，價格位置只能說明目前研究邊界，不是買進或賣出建議。",
@@ -9161,31 +9318,21 @@
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
       "revenue_based_valuation": {
-        "available": true,
-        "status": "available",
-        "revenue_value": 579180000.0,
-        "revenue_period": "2026-03-31",
-        "revenue_method": "latest_quarter_annualized",
-        "shares_used": 357378674.0,
-        "revenue_per_share": 1.6206339161692676,
-        "current_price": 56.56,
-        "price_to_sales": 34.8999236876964,
-        "ps_low": 0.93,
-        "ps_high": 1.55,
-        "fair_value_low": 1.5071895420374188,
-        "fair_value_high": 2.5119825700623646,
-        "currency": "USD",
-        "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001878848.json",
-        "source_type": "sec_companyfacts",
-        "as_of": "2026-03-31"
+        "available": false,
+        "status": "ps_boundary_not_applicable",
+        "reason": "IREN 同時帶有 crypto mining / AI infrastructure 特性，通用產業 P/S peer group 不足以支撐公開估價區間。",
+        "missing_inputs": [
+          "需要 crypto mining / AI infrastructure peer group 或公司專屬估價框架"
+        ],
+        "as_of": "2026-05-13"
       },
       "buy_value_score": 54,
       "score_confidence": "medium",
       "price_position_snapshot": "market_high",
       "score_components": {
-        "research_quality": 45,
+        "research_quality": 39,
         "freshness": 4,
-        "valuation_attractiveness": 4,
+        "valuation_attractiveness": 0,
         "risk_penalty": 18
       },
       "candidate_score": 54
@@ -9272,7 +9419,7 @@
         "data center EPCM"
       ],
       "wiki_path": "wiki/companies/j.md",
-      "as_of": "2026-05-07T15:06:46+08:00",
+      "as_of": "2026-05-07",
       "data_status": "stale",
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh",
@@ -9407,6 +9554,154 @@
         "risk_penalty": 0
       },
       "candidate_score": 36
+    },
+    {
+      "ticker": "META",
+      "company_name": "Platforms, Inc.",
+      "source_company_name": "Meta Platforms, Inc.",
+      "asset_type": "stock",
+      "market": "US",
+      "themes": [],
+      "wiki_path": "wiki/companies/META-us-meta-platforms.md",
+      "as_of": "2026-05-13",
+      "data_status": "current",
+      "decision_gate": "wait_for_buy_zone",
+      "actionability": "watch",
+      "decision_usefulness": "research_reference_only",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
+      "evidence_summary": [
+        "[meta-magnificent7-20260513-sec-revenue] SEC companyfacts reports revenue input of 225.24bn using `latest_quarter_annualized` from concept `RevenueFromContractWithCustomerExcludingAssessedTax` for period 2026-03-31.",
+        "[meta-magnificent7-20260513-sec-shares] SEC companyfacts provides shares used of 2,564,000,000 from concept `WeightedAverageNumberOfDilutedSharesOutstanding` as of 2026-03-31.",
+        "[meta-magnificent7-20260513-yahoo-price] Yahoo chart public market data shows current/reference price 605.41 USD as of 2026-05-13; this supports market position only.",
+        "[meta-magnificent7-20260513-ps-boundary] Damodaran NYU sector benchmark for `Software (Internet)` is P/S 8.76; dashboard boundary uses 6.57-10.95."
+      ],
+      "risk_summary": [],
+      "valuation": {
+        "buy_zone_low": 525.72,
+        "buy_zone_high": 790.0,
+        "price_as_of": "2026-05-13",
+        "valid": false,
+        "revenue_value": 225244000000.0,
+        "revenue_period": "2026-03-31",
+        "revenue_method": "latest_quarter_annualized",
+        "shares_used": 2564000000.0,
+        "as_of": "2026-03-31",
+        "revenue_as_of": "2026-03-31",
+        "valid_until": "2026-06-12",
+        "ps_low": 6.57,
+        "ps_high": 10.95,
+        "current_price": 605.4,
+        "price_range_low": 525.7,
+        "price_range_high": 790.0,
+        "basis_type": "market_position_snapshot",
+        "basis": [
+          "SEC companyfacts supports META revenue and shares for public-dashboard revenue-based valuation. Revenue method is latest_quarter_annualized; this is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Software (Internet): sector P/S 8.76; display band is 0.75x-1.25x of the benchmark, or 6.57-10.95. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
+          "Recent close price range basis: current price USD 605.4 on 2026-05-13; one-year close price range is USD 525.7-790; price position is low_in_recent_range. This is public market-data position only, not a buy or sell recommendation."
+        ],
+        "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-meta-sec-revenue-shares",
+            "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
+            "source_type": "sec_companyfacts",
+            "source_name": "SEC EDGAR companyfacts",
+            "as_of": "2026-03-31",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-meta-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-price-range-20260513-meta",
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/META?range=1y&interval=1d",
+            "source_type": "public_market_data",
+            "source_name": "Yahoo Finance chart",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-05-20"
+          }
+        ]
+      },
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "Segment-level margin bridge should be refreshed from the latest 10-Q / earnings release before any deeper decision work.",
+        "Formal sell plan, stop-loss / time-stop, risk budget and position sizing are not part of this page.",
+        "Technical, flow, insider-transaction and options context are not refreshed here."
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "META Platforms, Inc. Segment-level margin bridge should be refreshed from the latest 10-Q / earnings release before any deeper decision work.",
+        "META Platforms, Inc. Formal sell plan, stop-loss / time-stop, risk budget and position sizing are not part of this page.",
+        "META Platforms, Inc. Technical, flow, insider-transaction and options context are not refreshed here."
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Company page",
+          "path": "wiki/companies/META-us-meta-platforms.md"
+        },
+        {
+          "label": "Valuation claims",
+          "path": "claims/valuations"
+        }
+      ],
+      "decision_boundary": [
+        "公開版只顯示研究快照與價格位置；候選標的不等於買進清單。",
+        "正式投資使用前仍需重新刷新官方財報、估值假設、風險預算、停損/賣出計畫與 buy-decision linter。",
+        "近一年價格區間只能說明市場位置，不能替代內在價值估算或買賣建議。"
+      ],
+      "market_price": {
+        "price": 605.4,
+        "currency": "USD",
+        "price_as_of": "2026-05-13",
+        "retrieved_at": "2026-05-13",
+        "source": "public_market_data - yahoo chart"
+      },
+      "market_position_snapshot": {
+        "position": "market_low",
+        "current_price": 605.4,
+        "range_low": 525.7,
+        "range_high": 790.0,
+        "range_start": "",
+        "range_end": "2026-05-13",
+        "price_as_of": "2026-05-13",
+        "retrieved_at": "2026-05-13",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": true,
+        "status": "available",
+        "revenue_value": 225244000000.0,
+        "revenue_period": "2026-03-31",
+        "revenue_method": "latest_quarter_annualized",
+        "shares_used": 2564000000.0,
+        "revenue_per_share": 87.84867394695787,
+        "current_price": 605.4,
+        "price_to_sales": 6.891395997229671,
+        "ps_low": 6.57,
+        "ps_high": 10.95,
+        "fair_value_low": 577.1657878315133,
+        "fair_value_high": 961.9429797191887,
+        "currency": "USD",
+        "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
+        "source_type": "sec_companyfacts",
+        "as_of": "2026-03-31"
+      },
+      "buy_value_score": 61,
+      "score_confidence": "medium",
+      "price_position_snapshot": "market_low",
+      "score_components": {
+        "research_quality": 45,
+        "freshness": 20,
+        "valuation_attractiveness": 14,
+        "risk_penalty": 18
+      }
     },
     {
       "ticker": "MRVL",
@@ -9570,14 +9865,14 @@
         "AI cloud"
       ],
       "wiki_path": "wiki/companies/MSFT-us-microsoft.md",
-      "as_of": "2026-05-08T23:05:30+08:00",
+      "as_of": "2026-05-08",
       "data_status": "not_started",
       "decision_gate": "wait_for_buy_zone",
       "actionability": "needs_refresh_before_decision",
       "decision_usefulness": "universe_input_only",
       "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
       "evidence_summary": [
-        "近一年收盤價格區間已建立；參考價格 407.8，資料日期 2026-03-31。"
+        "近一年收盤價格區間已建立；參考價格 402.4，資料日期 2026-03-31。"
       ],
       "risk_summary": [],
       "valuation": {
@@ -9586,19 +9881,19 @@
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 7428434704.0,
         "as_of": "2026-03-31",
-        "price_as_of": "2026-05-12",
+        "price_as_of": "2026-05-13",
         "revenue_as_of": "2026-03-31",
         "valid_until": "2026-06-12",
         "ps_low": 8.2575,
         "ps_high": 13.7625,
-        "current_price": 407.8,
+        "current_price": 402.4,
         "price_range_low": 356.8,
         "price_range_high": 542.1,
         "basis_type": "market_position_snapshot",
         "basis": [
           "SEC companyfacts supports MSFT revenue and shares for public-dashboard revenue-based valuation. Revenue method is latest_quarter_annualized; this is not a buy recommendation.",
           "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Software (System & Application): sector P/S 11.01; display band is 0.75x-1.25x of the benchmark, or 8.2575-13.7625. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
-          "Recent close price range basis: current price USD 407.8 on 2026-05-12; one-year close price range is USD 356.8-542.1; price position is low_in_recent_range. This is a public market-data position snapshot only, not a buy or sell recommendation."
+          "Recent close price range basis: current price USD 402.4 on 2026-05-13; one-year close price range is USD 356.8-542.1; price position is low_in_recent_range. This is public market-data position only, not a buy or sell recommendation."
         ],
         "sources": [
           {
@@ -9622,7 +9917,7 @@
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/MSFT?range=1y&interval=1d",
             "source_type": "public_market_data",
             "source_name": "Yahoo Finance chart",
-            "as_of": "2026-05-12",
+            "as_of": "2026-05-13",
             "valid_until": "2026-05-20"
           }
         ],
@@ -9662,21 +9957,21 @@
         "近一年價格區間只能說明市場位置，不能替代內在價值估算或買賣建議。"
       ],
       "market_price": {
-        "price": 407.8,
+        "price": 402.4,
         "currency": "USD",
-        "price_as_of": "2026-05-12",
-        "retrieved_at": "2026-05-12",
+        "price_as_of": "2026-05-13",
+        "retrieved_at": "2026-05-13",
         "source": "public_market_data - yahoo chart"
       },
       "market_position_snapshot": {
         "position": "market_low",
-        "current_price": 407.8,
+        "current_price": 402.4,
         "range_low": 356.8,
         "range_high": 542.1,
         "range_start": "",
-        "range_end": "2026-05-12",
-        "price_as_of": "2026-05-12",
-        "retrieved_at": "2026-05-12",
+        "range_end": "2026-05-13",
+        "price_as_of": "2026-05-13",
+        "retrieved_at": "2026-05-13",
         "source": "public_market_data - yahoo chart",
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
@@ -9688,8 +9983,8 @@
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 7428434704.0,
         "revenue_per_share": 44.631744534480866,
-        "current_price": 407.8,
-        "price_to_sales": 9.13699440282798,
+        "current_price": 402.4,
+        "price_to_sales": 9.016004285674299,
         "ps_low": 8.2575,
         "ps_high": 13.7625,
         "fair_value_low": 368.5466304934758,
@@ -10048,8 +10343,7 @@
       ],
       "risk_summary": [],
       "valuation": {
-        "current_price": 215.2,
-        "price_as_of": "2026-05-08",
+        "price_as_of": "2026-05-13",
         "valid": true,
         "revenue_value": 228024000000.0,
         "revenue_period": "2025-10-26",
@@ -10064,8 +10358,9 @@
         "base_high": 270.0,
         "buy_zone_low": 190.0,
         "buy_zone_high": 210.0,
+        "current_price": 225.1,
         "price_range_low": 129.9,
-        "price_range_high": 220.8,
+        "price_range_high": 225.1,
         "basis_type": "formal_valuation_model",
         "basis": [
           "SEC companyfacts supports NVDA revenue and shares for public-dashboard revenue-based valuation. Revenue method is latest_quarter_annualized; this is not a buy recommendation.",
@@ -10135,7 +10430,7 @@
             "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=1y&interval=1d",
             "source_type": "public_market_data",
             "source_name": "Yahoo Finance chart",
-            "as_of": "2026-05-12",
+            "as_of": "2026-05-13",
             "valid_until": "2026-05-20"
           }
         ]
@@ -10180,21 +10475,21 @@
         "近一年價格區間只能說明市場位置，不能替代內在價值估算或買賣建議。"
       ],
       "market_price": {
-        "price": 215.2,
+        "price": 225.1,
         "currency": "USD",
-        "price_as_of": "2026-05-08",
-        "retrieved_at": "2026-05-12",
+        "price_as_of": "2026-05-13",
+        "retrieved_at": "2026-05-13",
         "source": "public_market_data - yahoo chart"
       },
       "market_position_snapshot": {
         "position": "market_high",
-        "current_price": 215.2,
+        "current_price": 225.1,
         "range_low": 129.9,
-        "range_high": 220.8,
+        "range_high": 225.1,
         "range_start": "",
-        "range_end": "2026-05-08",
-        "price_as_of": "2026-05-08",
-        "retrieved_at": "2026-05-12",
+        "range_end": "2026-05-13",
+        "price_as_of": "2026-05-13",
+        "retrieved_at": "2026-05-13",
         "source": "public_market_data - yahoo chart",
         "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
       },
@@ -10206,8 +10501,8 @@
         "revenue_method": "latest_quarter_annualized",
         "shares_used": 24300000000.0,
         "revenue_per_share": 9.383703703703704,
-        "current_price": 215.2,
-        "price_to_sales": 22.933375434164823,
+        "current_price": 225.1,
+        "price_to_sales": 23.988395958320176,
         "ps_low": 11.595,
         "ps_high": 19.325,
         "fair_value_low": 108.80404444444446,
@@ -10404,7 +10699,9 @@
         "Current price / valuation / premium-discount / holdings / technical snapshot / risk budget missing as applicable.",
         "Macro overlay and buy decision linter required before any buy decision."
       ],
-      "display_warnings": [],
+      "display_warnings": [
+        "同一 ticker 有多個研究頁，已保留此頁作為補充來源：wiki/etfs/qqq-us-etf.md"
+      ],
       "deepsearch_tasks": [
         "QQQ Invesco QQQ Trust Official issuer/company source refresh required.",
         "QQQ Invesco QQQ Trust Current price / valuation / premium-discount / holdings / technical snapshot / risk budget missing as applicable.",
@@ -10415,6 +10712,10 @@
         {
           "label": "ETF page",
           "path": "wiki/etfs/QQQ-us-invesco-nasdaq-100.md"
+        },
+        {
+          "label": "Duplicate research page",
+          "path": "wiki/etfs/qqq-us-etf.md"
         },
         {
           "label": "Candidate universe source",
@@ -10929,6 +11230,154 @@
       }
     },
     {
+      "ticker": "TSLA",
+      "company_name": "Tesla, Inc.",
+      "source_company_name": "Tesla, Inc.",
+      "asset_type": "stock",
+      "market": "US",
+      "themes": [],
+      "wiki_path": "wiki/companies/TSLA-us-tesla.md",
+      "as_of": "2026-05-13",
+      "data_status": "current",
+      "decision_gate": "wait_for_buy_zone",
+      "actionability": "watch",
+      "decision_usefulness": "research_reference_only",
+      "research_summary": "來源摘要不足，需回到原始公司頁或補充官方資料。",
+      "evidence_summary": [
+        "[tsla-magnificent7-20260513-sec-revenue] SEC companyfacts reports revenue input of 89.55bn using `latest_quarter_annualized` from concept `Revenues` for period 2026-03-31.",
+        "[tsla-magnificent7-20260513-sec-shares] SEC companyfacts provides shares used of 3,752,431,984 from concept `EntityCommonStockSharesOutstanding` as of 2026-01-23.",
+        "[tsla-magnificent7-20260513-yahoo-price] Yahoo chart public market data shows current/reference price 445.95 USD as of 2026-05-13; this supports market position only.",
+        "[tsla-magnificent7-20260513-ps-boundary] Damodaran NYU sector benchmark for `Auto & Truck` is P/S 3.34; dashboard boundary uses 2.505-4.175."
+      ],
+      "risk_summary": [],
+      "valuation": {
+        "buy_zone_low": 284.7,
+        "buy_zone_high": 489.88,
+        "price_as_of": "2026-05-13",
+        "valid": false,
+        "revenue_value": 89548000000.0,
+        "revenue_period": "2026-03-31",
+        "revenue_method": "latest_quarter_annualized",
+        "shares_used": 3752431984.0,
+        "as_of": "2026-03-31",
+        "revenue_as_of": "2026-03-31",
+        "valid_until": "2026-06-12",
+        "ps_low": 2.505,
+        "ps_high": 4.175,
+        "current_price": 445.9,
+        "price_range_low": 284.7,
+        "price_range_high": 489.9,
+        "basis_type": "market_position_snapshot",
+        "basis": [
+          "SEC companyfacts supports TSLA revenue and shares for public-dashboard revenue-based valuation. Revenue method is latest_quarter_annualized; this is not a buy recommendation.",
+          "Public dashboard P/S boundary uses Damodaran NYU sector Price/Sales benchmark for Auto & Truck: sector P/S 3.34; display band is 0.75x-1.25x of the benchmark, or 2.505-4.175. This is a comparison boundary, not a buy zone, sell zone, or recommendation.",
+          "Recent close price range basis: current price USD 445.9 on 2026-05-13; one-year close price range is USD 284.7-489.9; price position is high_in_recent_range. This is public market-data position only, not a buy or sell recommendation."
+        ],
+        "sources": [
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-tsla-sec-revenue-shares",
+            "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001318605.json",
+            "source_type": "sec_companyfacts",
+            "source_name": "SEC EDGAR companyfacts",
+            "as_of": "2026-03-31",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-revenue-valuation-20260513-tsla-ps-boundary",
+            "source_url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/psdata.html",
+            "source_type": "public_sector_valuation_benchmark",
+            "source_name": "Aswath Damodaran / NYU Stern Price to Sales Ratios",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-06-12"
+          },
+          {
+            "claim_id": "research-dashboard-price-range-20260513-tsla",
+            "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/TSLA?range=1y&interval=1d",
+            "source_type": "public_market_data",
+            "source_name": "Yahoo Finance chart",
+            "as_of": "2026-05-13",
+            "valid_until": "2026-05-20"
+          }
+        ]
+      },
+      "technical": {},
+      "chip": {},
+      "data_gaps": [
+        "Segment-level margin bridge should be refreshed from the latest 10-Q / earnings release before any deeper decision work.",
+        "Formal sell plan, stop-loss / time-stop, risk budget and position sizing are not part of this page.",
+        "Technical, flow, insider-transaction and options context are not refreshed here."
+      ],
+      "display_warnings": [],
+      "deepsearch_tasks": [
+        "TSLA Tesla, Inc. Segment-level margin bridge should be refreshed from the latest 10-Q / earnings release before any deeper decision work.",
+        "TSLA Tesla, Inc. Formal sell plan, stop-loss / time-stop, risk budget and position sizing are not part of this page.",
+        "TSLA Tesla, Inc. Technical, flow, insider-transaction and options context are not refreshed here."
+      ],
+      "next_review_triggers": [],
+      "linked_documents": [
+        {
+          "label": "Company page",
+          "path": "wiki/companies/TSLA-us-tesla.md"
+        },
+        {
+          "label": "Valuation claims",
+          "path": "claims/valuations"
+        }
+      ],
+      "decision_boundary": [
+        "公開版只顯示研究快照與價格位置；候選標的不等於買進清單。",
+        "正式投資使用前仍需重新刷新官方財報、估值假設、風險預算、停損/賣出計畫與 buy-decision linter。",
+        "近一年價格區間只能說明市場位置，不能替代內在價值估算或買賣建議。"
+      ],
+      "market_price": {
+        "price": 445.9,
+        "currency": "USD",
+        "price_as_of": "2026-05-13",
+        "retrieved_at": "2026-05-13",
+        "source": "public_market_data - yahoo chart"
+      },
+      "market_position_snapshot": {
+        "position": "market_high",
+        "current_price": 445.9,
+        "range_low": 284.7,
+        "range_high": 489.9,
+        "range_start": "",
+        "range_end": "2026-05-13",
+        "price_as_of": "2026-05-13",
+        "retrieved_at": "2026-05-13",
+        "source": "public_market_data - yahoo chart",
+        "meaning": "Yahoo chart public market snapshot only; this is not valuation and not a buy signal."
+      },
+      "revenue_based_valuation": {
+        "available": true,
+        "status": "available",
+        "revenue_value": 89548000000.0,
+        "revenue_period": "2026-03-31",
+        "revenue_method": "latest_quarter_annualized",
+        "shares_used": 3752431984.0,
+        "revenue_per_share": 23.863990175391276,
+        "current_price": 445.9,
+        "price_to_sales": 18.685056301264126,
+        "ps_low": 2.505,
+        "ps_high": 4.175,
+        "fair_value_low": 59.77929538935514,
+        "fair_value_high": 99.63215898225857,
+        "currency": "USD",
+        "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001318605.json",
+        "source_type": "sec_companyfacts",
+        "as_of": "2026-03-31"
+      },
+      "buy_value_score": 51,
+      "score_confidence": "medium",
+      "price_position_snapshot": "market_high",
+      "score_components": {
+        "research_quality": 45,
+        "freshness": 20,
+        "valuation_attractiveness": 4,
+        "risk_penalty": 18
+      }
+    },
+    {
       "ticker": "VGT",
       "company_name": "Vanguard Information Technology ETF",
       "source_company_name": "Vanguard Information Technology ETF",
@@ -11021,7 +11470,9 @@
         "Current price / valuation / premium-discount / holdings / technical snapshot / risk budget missing as applicable.",
         "Macro overlay and buy decision linter required before any buy decision."
       ],
-      "display_warnings": [],
+      "display_warnings": [
+        "同一 ticker 有多個研究頁，已保留此頁作為補充來源：wiki/etfs/voo-us-etf.md"
+      ],
       "deepsearch_tasks": [
         "VOO Vanguard S&P 500 ETF Official issuer/company source refresh required.",
         "VOO Vanguard S&P 500 ETF Current price / valuation / premium-discount / holdings / technical snapshot / risk budget missing as applicable.",
@@ -11032,6 +11483,10 @@
         {
           "label": "ETF page",
           "path": "wiki/etfs/VOO-us-vanguard-sp500.md"
+        },
+        {
+          "label": "Duplicate research page",
+          "path": "wiki/etfs/voo-us-etf.md"
         },
         {
           "label": "Candidate universe source",
